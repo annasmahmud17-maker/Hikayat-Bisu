@@ -22,9 +22,9 @@
   "difficulty": "Tier",
   "bench": "Bench · Save",
   "bayang": "Shadow · Recover Kata",
-  "locked": "Locked",
+  "locked": "Ranged attack is not available yet",
   "controls": "Drag a button; tap to select and resize",
-  "help": "Move left · attack right · touch bench to save",
+  "help": "Move left · jump on the right · land on enemies from above",
   "fell": "Your letters scattered. Find Bayang.",
   "kata": "Kata",
   "inkLabel": "Ink",
@@ -37,7 +37,7 @@
   "heroLook": "Look",
   "language": "Language",
   "boy": "Boy",
-  "girlA": "Girl A · headscarf",
+  "girlA": "Girl · headscarf",
   "girlB": "Girl B · tanjak",
   "mudah": "Easy",
   "biasa": "Normal",
@@ -60,5 +60,6 @@
   "dayang": "Dayang",
   "hidden": "Hidden Friend",
   "portraitHint": "Rotate your phone to landscape to play.",
-  "sampleValidator": "Validate content"
+  "sampleValidator": "Validate content",
+  "attack": "Attack"
 }
