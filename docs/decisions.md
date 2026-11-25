@@ -19,3 +19,4 @@
 - Four pointer slots are configured in Phaser; a simultaneous three-finger touch opens the diagnostic panel. Debug unlocks are saved for future phases and do not turn the locked Phase 1 moves into finished progression content.
 - The two content entries are draft validator samples, not a stage word bank. Content wording awaits Malay editorial review.
 - The web manifest uses a CSS named colour because JSON cannot import palette tokens. The page applies palette tokens at startup. No external images, sound or fonts are included.
+- Existing phones can retain Phase 1 modules under a cache-first service worker while receiving Phase 0 scenes. All local module and JSON import URLs now share a version token, including the palette and save defaults. Each release refreshes that token and the service worker cache name together. Startup errors report the actual exception without assuming an internet fault.

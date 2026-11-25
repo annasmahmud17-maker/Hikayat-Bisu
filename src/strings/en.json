@@ -30,7 +30,7 @@
   "inkLabel": "Ink",
   "health": "Semangat",
   "loading": "Loading Hikayat Bisu…",
-  "loadError": "Arena could not load. Check your connection and reload.",
+  "loadError": "The game could not open. Reload; if this continues, report this error: ",
   "gameTitle": "Hikayat Bisu",
   "titlePrompt": "Create your scribe of Alam Lisan",
   "heroName": "Hero name",
