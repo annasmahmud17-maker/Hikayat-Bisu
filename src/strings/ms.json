@@ -30,7 +30,7 @@
   "inkLabel": "Dakwat",
   "health": "Semangat",
   "loading": "Memuatkan Hikayat Bisu…",
-  "loadError": "Arena gagal dimuatkan. Semak sambungan internet dan muat semula.",
+  "loadError": "Permainan tidak dapat dibuka. Muat semula; jika masalah berulang, laporkan mesej ralat ini: ",
   "gameTitle": "Hikayat Bisu",
   "titlePrompt": "Cipta jurutulis Alam Lisan",
   "heroName": "Nama wira",
