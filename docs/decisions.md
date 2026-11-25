@@ -9,3 +9,5 @@
 - Settings and checkpoint share one versioned localStorage record. Private browsing or quota denial means settings remain in memory for that session.
 - Sound is synthetic WebAudio. The sound class is the later /audio replacement hook.
 - The Phase 1 combat HUD places a large Libas action at the lower right and Teman/Tukar below Semangat. Existing saved layouts migrate these three controls once; other custom positions stay intact. Reset restores the new defaults.
+- The action label is Tetak. Phase 1 uses a large lower-right Tetak button with a separated arc of jump, dodge, parry, heal, Ink and Pledge actions. Saved layouts migrate once to the new arrangement.
+- The grey-box wall is short enough to clear with the starting jump. Wall-jump, dash and glide remain progression-locked. Platforms and the wall are configured in combat.json so the whole test route is traversable.
