@@ -20,3 +20,11 @@
 - The two content entries are draft validator samples, not a stage word bank. Content wording awaits Malay editorial review.
 - The web manifest uses a CSS named colour because JSON cannot import palette tokens. The page applies palette tokens at startup. No external images, sound or fonts are included.
 - Existing phones can retain Phase 1 modules under a cache-first service worker while receiving Phase 0 scenes. All local module and JSON import URLs now share a version token, including the palette and save defaults. Each release refreshes that token and the service worker cache name together. Startup errors report the actual exception without assuming an internet fault.
+
+# Phase 1 control simplification
+
+- The boy and the headscarf girl are the only selectable hero looks. Old Girl B saves migrate to the girl without erasing the player's name, Kata or other settings.
+- Enemies are defeated with a descending top contact and a bounce. Side or underside contact damages the hero. Enemy proximity attacks and melee buttons are removed from this arena revision; enemies still dissolve into collectible letters.
+- A second Jump press within 500 ms of takeoff makes a double jump. Jump while touching a wall makes a wall jump. Both are available from the start so the test route works without ability unlocks.
+- The future ranged attack has a reserved position diagonally above Jump, but is hidden until its ability and implementation both exist. The layout editor now migrates only Jump and this reserved position once.
+- The play camera zooms slightly and follows the hero; a separate UI camera keeps thumb controls at fixed screen positions. Ink remains saved internally but is hidden from the simplified HUD.

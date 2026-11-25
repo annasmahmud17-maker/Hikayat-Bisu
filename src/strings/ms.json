@@ -22,9 +22,9 @@
   "difficulty": "Tahap",
   "bench": "Pondok · Simpan",
   "bayang": "Bayang · Ambil Kata",
-  "locked": "Belum terbuka",
+  "locked": "Serangan jarak jauh belum tersedia",
   "controls": "Seret butang; sentuh untuk pilih dan ubah saiz",
-  "help": "Gerak kiri · serang kanan · tekan pondok untuk simpan",
+  "help": "Gerak kiri · lompat di kanan · pijak musuh dari atas",
   "fell": "Hurufmu berselerak. Cari Bayang.",
   "kata": "Kata",
   "inkLabel": "Dakwat",
@@ -37,7 +37,7 @@
   "heroLook": "Rupa",
   "language": "Bahasa",
   "boy": "Lelaki",
-  "girlA": "Perempuan A · tudung",
+  "girlA": "Perempuan · tudung",
   "girlB": "Perempuan B · tanjak",
   "mudah": "Mudah",
   "biasa": "Biasa",
@@ -60,5 +60,6 @@
   "dayang": "Dayang",
   "hidden": "Sahabat Tersembunyi",
   "portraitHint": "Putar telefon anda ke landskap untuk bermain.",
-  "sampleValidator": "Semak kandungan"
+  "sampleValidator": "Semak kandungan",
+  "attack": "Serang"
 }

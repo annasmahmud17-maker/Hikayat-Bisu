@@ -1,6 +1,6 @@
 export const palette={
   background:'#0d1030',floor:'#232b42',platform:'#425071',pit:'#05050a',
-  hero:{boy:{cloth:'#2a3270',shade:'#1c2252',rim:'#9aa6ee',outline:'#0d1030'},girlA:{cloth:'#1f7a5c',shade:'#14513d',rim:'#9be3c4',outline:'#0b2a20'},girlB:{cloth:'#1f7a5c',shade:'#14513d',rim:'#9be3c4',outline:'#0b2a20'}},
+  hero:{boy:{cloth:'#2a3270',shade:'#1c2252',rim:'#9aa6ee',outline:'#0d1030'},girlA:{cloth:'#1f7a5c',shade:'#14513d',rim:'#9be3c4',outline:'#0b2a20'}},
   skin:['#d09865','#b8754e','#9b5f3e','#e5b18b'],hair:'#1d1a2e',gold:'#e0a93b',goldShade:'#b07d1f',blade:'#dfe4f0',inkDots:'#1a1f4a',
   parchment:'#ece7d6',inkText:'#1a1f4a',button:'#2a3270',buttonText:'#f4e3a1',disabled:'#8a8f9e',inkFill:'#9aa6ee',inkBack:'#3b4690',kata:'#f4e3a1',correct:'#7fe0a0',ember:'#ff6b4a',white:'#ffffff',enemy:'#727d88',bayang:'#14102a',
   dim:'#000000',blank:'#f4f1e6',silence:'#05050a',tendrils:'#14102a',
