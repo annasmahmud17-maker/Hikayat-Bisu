@@ -28,3 +28,4 @@
 - A second Jump press within 500 ms of takeoff makes a double jump. Jump while touching a wall makes a wall jump. Both are available from the start so the test route works without ability unlocks.
 - The future ranged attack has a reserved position diagonally above Jump, but is hidden until its ability and implementation both exist. The layout editor now migrates only Jump and this reserved position once.
 - The play camera zooms slightly and follows the hero; a separate UI camera keeps thumb controls at fixed screen positions. Ink remains saved internally but is hidden from the simplified HUD.
+- Live play showed the first enemy under a raised platform. The test enemies now occupy open ground, spaced from the starting bench and pit, so top-down stomps can be practiced without a platform intercepting the fall.

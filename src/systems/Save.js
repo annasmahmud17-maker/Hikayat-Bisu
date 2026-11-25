@@ -1,4 +1,4 @@
-import defaults from '../config/settings.json?v=13' with {type:'json'};
+import defaults from '../config/settings.json?v=14' with {type:'json'};
 const KEY='hikayat-bisu-phase1';
 let memory=structuredClone(defaults);
 function migrate(record){if(!record||typeof record!=='object')return structuredClone(defaults);if(record.schema===1||record.schema===2)return {...structuredClone(defaults),...record,look:record.look==='girlB'?'girlA':record.look,schema:2,abilities:{...defaults.abilities,...record.abilities,wallJump:true,doubleJump:true},companions:{...record.companions}};return structuredClone(defaults)}

@@ -1,5 +1,5 @@
-import cfg from '../config/combat.json?v=13' with {type:'json'};
-import {heroFrames} from './HeroArt.js?v=13';
+import cfg from '../config/combat.json?v=14' with {type:'json'};
+import {heroFrames} from './HeroArt.js?v=14';
 export class Hero{
   constructor(scene,x,y,look,skin){this.scene=scene;this.key=heroFrames(scene,look,skin);this.sprite=scene.physics.add.sprite(x,y,`${this.key}-idle-0`).setDepth(8);this.sprite.body.setSize(24,39).setOffset(23,17).setMaxVelocity(500,700);this.hp=cfg.hero.health;this.ink=0;this.facing=1;this.lastGround=-Infinity;this.jumpQueued=-Infinity;this.lastJumpPress=-Infinity;this.jumpsUsed=0;this.invincible=0;this.action='idle';this.actionUntil=0;this.dead=false;this.flags={wallJump:scene.settings.abilities.wallJump,doubleJump:scene.settings.abilities.doubleJump,dash:false,glide:false}}
   update(dt,axis,aim,now){if(this.dead)return;const b=this.sprite.body,ground=b.blocked.down||b.touching.down;if(ground){this.lastGround=now;this.jumpsUsed=0}if(Math.abs(axis)>cfg.input.deadzone)this.facing=Math.sign(axis);this.sprite.setFlipX(this.facing<0);b.setVelocityX(axis*cfg.movement.run);
