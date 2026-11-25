@@ -4,7 +4,7 @@ import {palette} from './theme/palette.js';
 import {Boot} from './scenes/Boot.js';
 import {Title} from './scenes/Title.js';
 import {Camp} from './scenes/Camp.js';
-import {Debug} from './scenes/Debug.js';
+import {Debug} from './scenes/Debug.js?v=11';
 import {Arena} from './scenes/Arena.js?v=10';
 import {Save} from './systems/Save.js';
 const game=new Phaser.Game({type:Phaser.AUTO,parent:'game',width:combat.resolution.width,height:combat.resolution.height,backgroundColor:palette.background,scale:{mode:Phaser.Scale.FIT,autoCenter:Phaser.Scale.CENTER_BOTH},dom:{createContainer:true},input:{activePointers:combat.input.pointers,gamepad:true},physics:{default:'arcade',arcade:{gravity:{y:combat.movement.gravity},debug:false}},fps:{target:combat.performance.normalFps,forceSetTimeOut:false},scene:[Boot,Title,Camp,Arena,Debug]});
