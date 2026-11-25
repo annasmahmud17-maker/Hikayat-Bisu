@@ -8,3 +8,4 @@
 - JSON modules with import attributes require a current browser engine. Test in current Chrome or Firefox on Android.
 - Settings and checkpoint share one versioned localStorage record. Private browsing or quota denial means settings remain in memory for that session.
 - Sound is synthetic WebAudio. The sound class is the later /audio replacement hook.
+- The Phase 1 combat HUD places a large Libas action at the lower right and Teman/Tukar below Semangat. Existing saved layouts migrate these three controls once; other custom positions stay intact. Reset restores the new defaults.
