@@ -6,4 +6,4 @@ window.addEventListener('error',event=>{panel.textContent=`${stringsFor('ms').lo
 window.addEventListener('unhandledrejection',event=>{panel.textContent=`${stringsFor('ms').loadError} ${event.reason?.message||''}`});
 document.addEventListener('hikayat-ready',()=>panel.remove(),{once:true});
 const landscape=document.getElementById('landscape');landscape.textContent=stringsFor('ms').portraitHint;landscape.style.backgroundColor=palette.camp.far;landscape.style.color=palette.parchment;
-try{await import('../main.js?v=10')}catch(error){panel.textContent=`${stringsFor('ms').loadError} ${error.message||''}`}
+try{await import('../main.js?v=11')}catch(error){panel.textContent=`${stringsFor('ms').loadError} ${error.message||''}`}
