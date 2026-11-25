@@ -1,6 +1,6 @@
-const CACHE='hikayat-phase1-v9';
+const CACHE='hikayat-phase0-v10';
 const ENGINE='https://cdn.jsdelivr.net/npm/phaser@3.90.0/dist/phaser.esm.js';
-const CORE=['./','./index.html','./manifest.webmanifest','./src/boot/startup.js?v=9','./src/main.js?v=9'];
-self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(async cache=>{await cache.addAll(CORE);await cache.add(ENGINE).catch(()=>{});await self.skipWaiting()})));
+const CORE=['./','./index.html','./manifest.webmanifest','./src/boot/startup.js?v=10','./src/main.js?v=10','./src/scenes/Boot.js','./src/scenes/Title.js','./src/scenes/Camp.js','./src/scenes/Debug.js','./src/scenes/Arena.js?v=10','./src/entities/HeroArt.js','./src/entities/Hero.js','./src/entities/Enemy.js','./src/ui/Controls.js','./src/ui/Hud.js','./src/systems/Sound.js','./src/theme/palette.js','./src/systems/Save.js','./src/systems/Settings.js','./src/systems/Strings.js','./src/systems/Content.js','./src/config/settings.json','./src/config/foundation.json','./src/config/combat.json','./src/strings/ms.json','./src/strings/en.json','./content/sentences.json','./content/antonyms.json','./tools/validate.html'];
+self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(async cache=>{await cache.addAll(CORE);await cache.add(ENGINE);await self.skipWaiting()})));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',event=>{if(event.request.method!=='GET')return;event.respondWith(caches.match(event.request).then(hit=>hit||fetch(event.request).then(response=>{if(response.ok&&(new URL(event.request.url).origin===self.location.origin||event.request.url===ENGINE)){const copy=response.clone();caches.open(CACHE).then(cache=>cache.put(event.request,copy))}return response})))})

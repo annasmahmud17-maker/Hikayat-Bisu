@@ -1,1 +1,13 @@
-import * as Phaser from 'https://cdn.jsdelivr.net/npm/phaser@3.90.0/dist/phaser.esm.js';import cfg from './config/combat.json?v=8' with {type:'json'};import {Arena} from './scenes/Arena.js?v=9';const game=new Phaser.Game({type:Phaser.AUTO,parent:'game',width:cfg.resolution.width,height:cfg.resolution.height,backgroundColor:'#0d1030',scale:{mode:Phaser.Scale.FIT,autoCenter:Phaser.Scale.CENTER_BOTH},input:{activePointers:cfg.input.pointers,gamepad:true},physics:{default:'arcade',arcade:{gravity:{y:cfg.movement.gravity},debug:false}},fps:{target:cfg.performance.normalFps,forceSetTimeOut:false},scene:[Arena]});if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));export default game;
+import * as Phaser from 'https://cdn.jsdelivr.net/npm/phaser@3.90.0/dist/phaser.esm.js';
+import combat from './config/combat.json' with {type:'json'};
+import {palette} from './theme/palette.js';
+import {Boot} from './scenes/Boot.js';
+import {Title} from './scenes/Title.js';
+import {Camp} from './scenes/Camp.js';
+import {Debug} from './scenes/Debug.js';
+import {Arena} from './scenes/Arena.js?v=10';
+import {Save} from './systems/Save.js';
+const game=new Phaser.Game({type:Phaser.AUTO,parent:'game',width:combat.resolution.width,height:combat.resolution.height,backgroundColor:palette.background,scale:{mode:Phaser.Scale.FIT,autoCenter:Phaser.Scale.CENTER_BOTH},dom:{createContainer:true},input:{activePointers:combat.input.pointers,gamepad:true},physics:{default:'arcade',arcade:{gravity:{y:combat.movement.gravity},debug:false}},fps:{target:combat.performance.normalFps,forceSetTimeOut:false},scene:[Boot,Title,Camp,Arena,Debug]});
+document.addEventListener('visibilitychange',()=>{if(document.hidden&&game.settings)Save.write(game.settings,game.settings.checkpoint)});
+if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
+export default game;
