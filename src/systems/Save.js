@@ -1,0 +1,2 @@
+import defaults from '../config/settings.json' with {type:'json'};
+const KEY='hikayat-bisu-phase1';export class Save{static load(){try{const parsed=JSON.parse(localStorage.getItem(KEY));return parsed?.schema===1?{...defaults,...parsed}:structuredClone(defaults)}catch{return structuredClone(defaults)}}static write(settings,checkpoint){try{localStorage.setItem(KEY,JSON.stringify({schema:1,...settings,checkpoint})) ;return true}catch{return false}}}
