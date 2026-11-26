@@ -2,7 +2,7 @@ import economy from '../config/economy.json' with {type:'json'};
 export const companionIds=['kancil','lang','rimau','dayang','hidden'];
 export const charmIds=['laju','kebal'];
 export const bossIds=['beringin','dalang','naga','garuda','kelembai','hantuRaya','sangBisu'];
-export function initialCompanions(){return Object.fromEntries(companionIds.map(id=>[id,{unlocked:id==='kancil',setia:false,quest:{attempts:0,replaysUsed:0,closed:false,active:false,step:0,mistakes:0}}]))}
+export function initialCompanions(){return Object.fromEntries(companionIds.map(id=>[id,{unlocked:false,setia:false,quest:{attempts:0,replaysUsed:0,closed:false,active:false,step:0,mistakes:0}}]))}
 export function ensurePhase3(settings){
  const defaults=initialCompanions(),old=settings.companions||{};
  settings.companions=Object.fromEntries(companionIds.map(id=>{const item=old[id],source=typeof item==='object'&&item!==null?item:{unlocked:item===true||defaults[id].unlocked};return [id,{...defaults[id],...source,quest:{...defaults[id].quest,...source.quest}}]}));

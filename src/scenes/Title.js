@@ -1,9 +1,9 @@
 import * as Phaser from 'https://cdn.jsdelivr.net/npm/phaser@3.90.0/dist/phaser.esm.js';
-import {palette as p,color} from '../theme/palette.js?v=18';
-import {heroFrames} from '../entities/HeroArt.js?v=18';
-import {stringsFor} from '../systems/Strings.js?v=18';
-import {Save} from '../systems/Save.js?v=18';
-import foundation from '../config/foundation.json?v=18' with {type:'json'};
+import {palette as p,color} from '../theme/palette.js?v=21';
+import {heroFrames} from '../entities/HeroArt.js?v=21';
+import {stringsFor} from '../systems/Strings.js?v=21';
+import {Save} from '../systems/Save.js?v=21';
+import foundation from '../config/foundation.json?v=21' with {type:'json'};
 export class Title extends Phaser.Scene{
   constructor(){super('title')}
   create(){const s=this.game.settings,t=stringsFor(s.language);this.cameras.main.setBackgroundColor(p.camp.far);this.add.rectangle(480,270,920,500,color(p.camp.mid)).setStrokeStyle(4,color(p.gold));this.add.text(480,foundation.titleY,t.gameTitle,{font:'40px serif',color:p.buttonText}).setOrigin(.5);this.add.text(480,90,t.titlePrompt,{font:'19px sans-serif',color:p.parchment}).setOrigin(.5);

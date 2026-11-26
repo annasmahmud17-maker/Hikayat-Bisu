@@ -23,3 +23,11 @@ To use in a stage, load `WordBanks`, construct one `PuzzleOverlay(scene, banks)`
 ### Phase 3 camp test
 
 Enter a hero name and open **Balai Cerita**. Use Pasukan to choose one or two companions (unlock a second through the three-finger debug panel), Setia for Kancil's three riddle chains, Azimat for the two-notch samples, and Peribahasa for collected boss sayings. The debug panel can add each draft peribahasa and toggle an ad-free test flag. Earn Kata by stomping enemies in the arena; discover the far Pondok to use fast travel from the camp map. A free Setia replay shows an opt-in five-second mock ad; the ad-free test flag skips it but still charges Kata. Reload to check persistence. The seven proverb meanings remain drafts pending Malay editorial review.
+
+## Phase 4 — Rimba Aksara
+
+From camp select **Jelajah Rimba Aksara** / **Explore Rimba Aksara**. The twelve-room stage has three Pondok checkpoints, three syntax doors, a syntax chest, leaf/beetle enemies, Root Guard and wall-jump chest, Kancil recruitment, two optional companion chests, and Beringin Sunyi. Rest restores Semangat/Ink and saves. Use the mini-map's Map button for discovered Pondok travel; travel is disabled during encounters.
+
+Touch: left stick, Jump, Slash, Read/Use, dodge, parry, heal and ink buttons. Keyboard: A/D or arrows, Space jump, J slash, E interact, M map, K parry, L dodge, H heal, I ink. Kancil's command and Setia-only Pledge use the existing companion buttons. Hear his bonding scene in camp's Setia tab after recruitment.
+
+Run `node --test tests/*.test.mjs`. For live engine verification open `tests/stage1-browser.html` on a local preview; it creates an isolated test campaign in that preview origin, drives the real Phaser scene and writes a visible report. It does not measure human playthrough pacing. See `docs/phase-4-qa.md` for the complete phone checklist and verification limits.

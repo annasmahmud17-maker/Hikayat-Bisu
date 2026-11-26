@@ -1,11 +1,11 @@
-import cfg from '../config/combat.json?v=18' with {type:'json'};
+import cfg from '../config/combat.json?v=21' with {type:'json'};
 import {consumeCharm} from '../systems/CompanionState.js';
 import economy from '../config/economy.json' with {type:'json'};
-import {heroFrames} from './HeroArt.js?v=18';
+import {heroFrames} from './HeroArt.js?v=21';
 export class Hero{
   constructor(scene,x,y,look,skin){this.scene=scene;this.key=heroFrames(scene,look,skin);this.sprite=scene.physics.add.sprite(x,y,`${this.key}-idle-0`).setDepth(8);this.sprite.body.setSize(24,39).setOffset(23,17).setMaxVelocity(500,700);this.hp=cfg.hero.health;this.ink=0;this.facing=1;this.lastGround=-Infinity;this.jumpQueued=-Infinity;this.lastJumpPress=-Infinity;this.jumpsUsed=0;this.invincible=0;this.action='idle';this.actionUntil=0;this.dead=false;this.flags={wallJump:scene.settings.abilities.wallJump,doubleJump:scene.settings.abilities.doubleJump,dash:false,glide:false}}
-  update(dt,axis,aim,now){if(this.dead)return;const b=this.sprite.body,ground=b.blocked.down||b.touching.down;if(ground){this.lastGround=now;this.jumpsUsed=0}if(Math.abs(axis)>cfg.input.deadzone)this.facing=Math.sign(axis);this.sprite.setFlipX(this.facing<0);b.setVelocityX(axis*cfg.movement.run*(this.scene.lajuUntil>now?economy.charms.laju.speedMultiplier:1));
-    if(this.jumpQueued+cfg.movement.bufferMs>=now){const wall=!ground&&(b.blocked.left||b.blocked.right||b.touching.left||b.touching.right);if(wall&&this.flags.wallJump){const direction=b.blocked.left||b.touching.left?1:-1;b.setVelocity(direction*cfg.movement.wallJumpX,-cfg.movement.wallJumpY);this.facing=direction;this.jumpsUsed=1;this.jumpQueued=-Infinity;this.scene.soundFx.play('jump')}
+  update(dt,axis,aim,now){if(this.dead)return;const b=this.sprite.body,ground=b.blocked.down||b.touching.down;if(ground){this.lastGround=now;this.jumpsUsed=0}if(Math.abs(axis)>cfg.input.deadzone)this.facing=Math.sign(axis);this.sprite.setFlipX(this.facing<0);if(now>=(this.wallPushUntil||0))b.setVelocityX(axis*cfg.movement.run*(this.scene.lajuUntil>now?economy.charms.laju.speedMultiplier:1));
+    if(this.jumpQueued+cfg.movement.bufferMs>=now){const wall=!ground&&(b.blocked.left||b.blocked.right||b.touching.left||b.touching.right);if(wall&&this.flags.wallJump){const direction=b.blocked.left||b.touching.left?1:-1;b.setVelocity(direction*cfg.movement.wallJumpX,-cfg.movement.wallJumpY);this.wallPushUntil=now+cfg.movement.wallPushMs;this.facing=direction;this.jumpsUsed=1;this.jumpQueued=-Infinity;this.scene.soundFx.play('jump')}
       else if(ground||now-this.lastGround<cfg.movement.coyoteMs){b.setVelocityY(-cfg.movement.jump);this.jumpsUsed=1;this.jumpQueued=-Infinity;this.scene.soundFx.play('jump')}
       else if(this.flags.doubleJump&&this.jumpsUsed===1&&now-this.lastJumpPress<=cfg.movement.jumpTapWindowMs){b.setVelocityY(-cfg.movement.doubleJumpVelocity);this.jumpsUsed=2;this.jumpQueued=-Infinity;this.scene.soundFx.play('jump')}}
     if(!ground&&(b.blocked.left||b.blocked.right)&&b.velocity.y>cfg.movement.wallSlideSpeed)b.setVelocityY(cfg.movement.wallSlideSpeed);

@@ -1,8 +1,8 @@
 import * as Phaser from 'https://cdn.jsdelivr.net/npm/phaser@3.90.0/dist/phaser.esm.js';
-import {palette as p} from '../theme/palette.js?v=18';
-import {stringsFor} from '../systems/Strings.js?v=18';
-import {Save} from '../systems/Save.js?v=18';
-import foundation from '../config/foundation.json?v=18' with {type:'json'};
+import {palette as p} from '../theme/palette.js?v=21';
+import {stringsFor} from '../systems/Strings.js?v=21';
+import {Save} from '../systems/Save.js?v=21';
+import foundation from '../config/foundation.json?v=21' with {type:'json'};
 import {recordBoss} from '../systems/CompanionState.js';
 import repository from '../../content/boss_peribahasa.json' with {type:'json'};
 export class Debug extends Phaser.Scene{
