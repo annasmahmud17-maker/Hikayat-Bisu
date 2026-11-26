@@ -1,0 +1,35 @@
+<!doctype html><html><head><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="../src/ui/puzzles.css?v=17"><style>body{margin:0}#game{position:fixed;inset:0}#run,#report{position:fixed;z-index:20000;top:0;left:0;background:white;color:black}#report{top:30px;max-height:55px;overflow:auto;white-space:pre-wrap;font-size:12px}</style></head><body><div id="game"></div><button id="run">Run Phase 2 QA</button><output id="report">Ready</output><script type="module">
+import game from '../src/main.js?v=17';
+import cfg from '../src/config/puzzles.json?v=17' with {type:'json'};
+const report=document.querySelector('#report');
+const wait=ms=>new Promise(r=>setTimeout(r,ms));
+async function until(fn){for(let i=0;i<100;i++){if(fn())return;await wait(30)}throw Error('timed out')}
+function assert(v,msg){if(!v)throw Error(msg)}
+function click(root,text){const b=[...root.querySelectorAll('button')].find(b=>b.textContent.toLowerCase()===text.toLowerCase()&&!b.disabled);assert(b,'Missing button '+text);b.click()}
+async function solve(o){const m=o.model;let body=()=>o.dialog.querySelector('.puzzle-body');
+ if(m.mode==='order'){for(const token of m.acceptedAnswers[0].split(' ')){const b=[...body().querySelectorAll('.puzzle-words:not(.puzzle-answer) button')].find(b=>b.textContent===token);assert(b,'Token missing '+token);b.click()}click(body(),o.t.check)}
+ if(m.mode==='choice')click(body(),o.label(m.acceptedAnswers[0]));
+ if(m.mode==='chain')for(const step of m.steps)click(body(),step.acceptedAnswers[0]);
+ if(m.mode==='sort'){for(const word of m.words){click(body(),word.word);click(body(),o.t.classes[word.wordClass])}click(body(),o.t.check)}
+ if(m.mode==='pairs'){for(const p of m.pairs){click(body(),p.left);click(body(),p.right)}}
+ if(m.mode==='word')click(body(),m.acceptedAnswers[0]);
+ if(m.mode==='detect'||m.mode==='repair'){body().querySelector('.puzzle-words').children[m.wrongIndex].click();if(m.mode==='repair')click(body(),m.replacement)}
+ assert(o.result===true,'Did not solve '+m.variant+' '+m.tier);
+ await o.close(true);
+}
+document.querySelector('#run').onclick=async()=>{document.querySelector('#run').disabled=true;let count=0;try{
+ await until(()=>game.settings);game.scene.stop('title');game.scene.start('puzzle-room');const room=game.scene.getScene('puzzle-room');await until(()=>room.overlay);const o=room.overlay;
+ for(const tier of cfg.tiers)for(const variant of cfg.variants)for(const direction of ['ms-en','en-ms']){
+  report.textContent=`Testing ${++count}: ${variant} ${tier} ${direction}`;
+  await o.open(variant,{tier,direction,wallet:room.wallet,kancil:true});
+  await until(()=>room.scene.isPaused());assert(room.scene.isPaused(),'Scene not paused');assert(room.physics.world.isPaused,'Physics not paused');assert(!room.input.enabled,'Input not paused');const pulse=room.pulses;await wait(35);assert(room.pulses===pulse,'Action pulse advanced');
+  for(const b of o.dialog.querySelectorAll('button')){const r=b.getBoundingClientRect();assert(r.width>=55.9&&r.height>=55.9,'Small button '+b.textContent+' '+r.width+' '+r.height)}
+  assert(o.dialog.scrollWidth<=o.dialog.clientWidth+1,'Horizontal overflow');
+  await solve(o);await until(()=>!room.scene.isPaused());assert(!room.scene.isPaused(),'Scene did not resume');assert(!room.physics.world.isPaused,'Physics did not resume');assert(room.input.enabled,'Input did not resume');
+ }
+ for(const variant of cfg.variants){let correct=0,wrong=0;const wallet={hp:5,kata:200};await o.open(variant,{tier:'mudah',wallet,boss:true,onCorrect:()=>correct++,onWrong:()=>wrong++});await solve(o);assert(correct===1&&wrong===0,'Boss success callback');await o.open(variant,{tier:'mudah',wallet,boss:true,onWrong:()=>wrong++});o.submit('INCORRECT', ['CORRECT']);await until(()=>!o.active);assert(wrong===1,'Boss failure callback');assert(wallet.hp===5&&wallet.kata===200,'Boss charged health or kata')}
+ await o.open('1a',{tier:'mudah',wallet:room.wallet,kancil:true});for(let i=0;i<8;i++)click(o.dialog,o.t.check);assert(room.wallet.hp===1,'Wrong answer floor');assert(room.wallet.kata===200,'Wrong answer Kata');click(o.dialog,o.t.kancilHint);assert(o.removed.size===1,'Kancil removal');for(const price of cfg.hintCosts)click(o.dialog,o.t.hint+' · '+price+' '+o.t.kata);assert(room.wallet.kata===60,'Hint prices');await solve(o);
+ let closedCorrect=0;await o.open('3b',{tier:'mudah',wallet:room.wallet,boss:true,onCorrect:()=>closedCorrect++});o.submit(o.model.acceptedAnswers[0]);click(o.dialog,o.t.close);await until(()=>!o.active);assert(closedCorrect===1,'Closing a solved puzzle lost success');
+ report.textContent=`PASS: ${count} variant/tier/direction UI solves; 32 boss outcomes; pause/input/physics restoration; 56px buttons in 740×360; hint costs and no lock.`;
+ }catch(error){report.textContent='FAIL: '+error.stack;console.error(error)}finally{document.querySelector('#run').disabled=false}};
+</script></body></html>

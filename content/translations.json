@@ -1,0 +1,502 @@
+[
+  {
+    "id": "translation-01",
+    "tier": "mudah",
+    "topic": "translation",
+    "stage": 4,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Saya minum air",
+      "I drink water"
+    ],
+    "hint": "Mulakan dengan pelaku.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "ms": "Saya minum air",
+    "en": "I drink water",
+    "alternatives": {
+      "ms": [
+        "Saya minum air"
+      ],
+      "en": [
+        "I drink water"
+      ]
+    }
+  },
+  {
+    "id": "translation-02",
+    "tier": "mudah",
+    "topic": "translation",
+    "stage": 4,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Ibu membaca buku",
+      "Mother reads a book"
+    ],
+    "hint": "Mulakan dengan pelaku.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "ms": "Ibu membaca buku",
+    "en": "Mother reads a book",
+    "alternatives": {
+      "ms": [
+        "Ibu membaca buku"
+      ],
+      "en": [
+        "Mother reads a book"
+      ]
+    }
+  },
+  {
+    "id": "translation-03",
+    "tier": "mudah",
+    "topic": "translation",
+    "stage": 4,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Pintu itu terbuka",
+      "The door is open"
+    ],
+    "hint": "Mulakan dengan pelaku.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "ms": "Pintu itu terbuka",
+    "en": "The door is open",
+    "alternatives": {
+      "ms": [
+        "Pintu itu terbuka"
+      ],
+      "en": [
+        "The door is open"
+      ]
+    }
+  },
+  {
+    "id": "translation-04",
+    "tier": "mudah",
+    "topic": "translation",
+    "stage": 4,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Burung itu terbang",
+      "The bird flies"
+    ],
+    "hint": "Mulakan dengan pelaku.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "ms": "Burung itu terbang",
+    "en": "The bird flies",
+    "alternatives": {
+      "ms": [
+        "Burung itu terbang"
+      ],
+      "en": [
+        "The bird flies"
+      ]
+    }
+  },
+  {
+    "id": "translation-05",
+    "tier": "mudah",
+    "topic": "translation",
+    "stage": 4,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Kami pulang bersama",
+      "We return together"
+    ],
+    "hint": "Mulakan dengan pelaku.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "ms": "Kami pulang bersama",
+    "en": "We return together",
+    "alternatives": {
+      "ms": [
+        "Kami pulang bersama"
+      ],
+      "en": [
+        "We return together"
+      ]
+    }
+  },
+  {
+    "id": "translation-06",
+    "tier": "mudah",
+    "topic": "translation",
+    "stage": 4,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Adik makan nasi",
+      "My sibling eats rice"
+    ],
+    "hint": "Mulakan dengan pelaku.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "ms": "Adik makan nasi",
+    "en": "My sibling eats rice",
+    "alternatives": {
+      "ms": [
+        "Adik makan nasi"
+      ],
+      "en": [
+        "My sibling eats rice"
+      ]
+    }
+  },
+  {
+    "id": "translation-07",
+    "tier": "mudah",
+    "topic": "translation",
+    "stage": 4,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Ayah membawa beg",
+      "Father carries a bag"
+    ],
+    "hint": "Mulakan dengan pelaku.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "ms": "Ayah membawa beg",
+    "en": "Father carries a bag",
+    "alternatives": {
+      "ms": [
+        "Ayah membawa beg"
+      ],
+      "en": [
+        "Father carries a bag"
+      ]
+    }
+  },
+  {
+    "id": "translation-08",
+    "tier": "biasa",
+    "topic": "translation",
+    "stage": 4,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Bunga itu merah",
+      "The flower is red"
+    ],
+    "hint": "Mulakan dengan pelaku.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "ms": "Bunga itu merah",
+    "en": "The flower is red",
+    "alternatives": {
+      "ms": [
+        "Bunga itu merah"
+      ],
+      "en": [
+        "The flower is red"
+      ]
+    }
+  },
+  {
+    "id": "translation-09",
+    "tier": "biasa",
+    "topic": "translation",
+    "stage": 4,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Kancil menjaga hutan",
+      "Kancil protects the forest"
+    ],
+    "hint": "Mulakan dengan pelaku.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "ms": "Kancil menjaga hutan",
+    "en": "Kancil protects the forest",
+    "alternatives": {
+      "ms": [
+        "Kancil menjaga hutan"
+      ],
+      "en": [
+        "Kancil protects the forest"
+      ]
+    }
+  },
+  {
+    "id": "translation-10",
+    "tier": "biasa",
+    "topic": "translation",
+    "stage": 4,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Lang melihat awan",
+      "Lang sees the clouds"
+    ],
+    "hint": "Mulakan dengan pelaku.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "ms": "Lang melihat awan",
+    "en": "Lang sees the clouds",
+    "alternatives": {
+      "ms": [
+        "Lang melihat awan"
+      ],
+      "en": [
+        "Lang sees the clouds"
+      ]
+    }
+  },
+  {
+    "id": "translation-11",
+    "tier": "biasa",
+    "topic": "translation",
+    "stage": 4,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Dayang membuka gerbang",
+      "Dayang opens the gate"
+    ],
+    "hint": "Mulakan dengan pelaku.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "ms": "Dayang membuka gerbang",
+    "en": "Dayang opens the gate",
+    "alternatives": {
+      "ms": [
+        "Dayang membuka gerbang"
+      ],
+      "en": [
+        "Dayang opens the gate"
+      ]
+    }
+  },
+  {
+    "id": "translation-12",
+    "tier": "biasa",
+    "topic": "translation",
+    "stage": 4,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Rimau mencari jalan",
+      "Rimau finds a path"
+    ],
+    "hint": "Mulakan dengan pelaku.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "ms": "Rimau mencari jalan",
+    "en": "Rimau finds a path",
+    "alternatives": {
+      "ms": [
+        "Rimau mencari jalan"
+      ],
+      "en": [
+        "Rimau finds a path"
+      ]
+    }
+  },
+  {
+    "id": "translation-13",
+    "tier": "biasa",
+    "topic": "translation",
+    "stage": 4,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Pelita menerangi bilik",
+      "The lamp lights the room"
+    ],
+    "hint": "Mulakan dengan pelaku.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "ms": "Pelita menerangi bilik",
+    "en": "The lamp lights the room",
+    "alternatives": {
+      "ms": [
+        "Pelita menerangi bilik"
+      ],
+      "en": [
+        "The lamp lights the room"
+      ]
+    }
+  },
+  {
+    "id": "translation-14",
+    "tier": "biasa",
+    "topic": "translation",
+    "stage": 4,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Hujan membasahi tanah",
+      "Rain wets the ground"
+    ],
+    "hint": "Mulakan dengan pelaku.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "ms": "Hujan membasahi tanah",
+    "en": "Rain wets the ground",
+    "alternatives": {
+      "ms": [
+        "Hujan membasahi tanah"
+      ],
+      "en": [
+        "Rain wets the ground"
+      ]
+    }
+  },
+  {
+    "id": "translation-15",
+    "tier": "mahir",
+    "topic": "translation",
+    "stage": 4,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Pengembara itu berehat",
+      "The traveller rests"
+    ],
+    "hint": "Mulakan dengan pelaku.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "ms": "Pengembara itu berehat",
+    "en": "The traveller rests",
+    "alternatives": {
+      "ms": [
+        "Pengembara itu berehat"
+      ],
+      "en": [
+        "The traveller rests"
+      ]
+    }
+  },
+  {
+    "id": "translation-16",
+    "tier": "mahir",
+    "topic": "translation",
+    "stage": 4,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Mereka memelihara warisan bahasa",
+      "They preserve linguistic heritage"
+    ],
+    "hint": "Mulakan dengan pelaku.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "ms": "Mereka memelihara warisan bahasa",
+    "en": "They preserve linguistic heritage",
+    "alternatives": {
+      "ms": [
+        "Mereka memelihara warisan bahasa"
+      ],
+      "en": [
+        "They preserve linguistic heritage"
+      ]
+    }
+  },
+  {
+    "id": "translation-17",
+    "tier": "mahir",
+    "topic": "translation",
+    "stage": 4,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Jurutulis meneliti naskhah purba",
+      "The scribe examines an ancient manuscript"
+    ],
+    "hint": "Mulakan dengan pelaku.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "ms": "Jurutulis meneliti naskhah purba",
+    "en": "The scribe examines an ancient manuscript",
+    "alternatives": {
+      "ms": [
+        "Jurutulis meneliti naskhah purba"
+      ],
+      "en": [
+        "The scribe examines an ancient manuscript"
+      ]
+    }
+  },
+  {
+    "id": "translation-18",
+    "tier": "mahir",
+    "topic": "translation",
+    "stage": 4,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Kami menyeberangi jambatan usang",
+      "We cross the old bridge"
+    ],
+    "hint": "Mulakan dengan pelaku.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "ms": "Kami menyeberangi jambatan usang",
+    "en": "We cross the old bridge",
+    "alternatives": {
+      "ms": [
+        "Kami menyeberangi jambatan usang"
+      ],
+      "en": [
+        "We cross the old bridge"
+      ]
+    }
+  },
+  {
+    "id": "translation-19",
+    "tier": "mahir",
+    "topic": "translation",
+    "stage": 4,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Cahaya menyinari perpustakaan sunyi",
+      "Light illuminates the silent library"
+    ],
+    "hint": "Mulakan dengan pelaku.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "ms": "Cahaya menyinari perpustakaan sunyi",
+    "en": "Light illuminates the silent library",
+    "alternatives": {
+      "ms": [
+        "Cahaya menyinari perpustakaan sunyi"
+      ],
+      "en": [
+        "Light illuminates the silent library"
+      ]
+    }
+  },
+  {
+    "id": "translation-20",
+    "tier": "mahir",
+    "topic": "translation",
+    "stage": 4,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Sahabatnya mempertahankan khazanah itu",
+      "Her friend defends the treasure"
+    ],
+    "hint": "Mulakan dengan pelaku.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "ms": "Sahabatnya mempertahankan khazanah itu",
+    "en": "Her friend defends the treasure",
+    "alternatives": {
+      "ms": [
+        "Sahabatnya mempertahankan khazanah itu"
+      ],
+      "en": [
+        "Her friend defends the treasure"
+      ]
+    }
+  }
+]

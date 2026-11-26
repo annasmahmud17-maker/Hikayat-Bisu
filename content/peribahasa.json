@@ -1,0 +1,262 @@
+[
+  {
+    "id": "peribahasa-01",
+    "tier": "mudah",
+    "topic": "peribahasa",
+    "stage": 1,
+    "domain": "riddle",
+    "acceptedAnswers": [
+      "Pelawaan yang dibuat tanpa kesungguhan"
+    ],
+    "hint": "Fikirkan maksud kiasan.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Ungkapan tradisional daripada senarai pengguna; maksud diolah semula dan masih draf.",
+    "text": "Ajak-ajak ayam",
+    "kind": "simpulan bahasa",
+    "meaning": {
+      "ms": "Pelawaan yang dibuat tanpa kesungguhan",
+      "en": "An insincere invitation"
+    },
+    "theme": "persahabatan",
+    "linkedBoss": "",
+    "source": {
+      "title": "KriptograMelayu_127_Peribahasa_Diluluskan.md",
+      "id": "km-08-r4-1"
+    }
+  },
+  {
+    "id": "peribahasa-02",
+    "tier": "mudah",
+    "topic": "peribahasa",
+    "stage": 1,
+    "domain": "riddle",
+    "acceptedAnswers": [
+      "Anak yang dibesarkan oleh keluarga selain ibu bapa kandungnya"
+    ],
+    "hint": "Fikirkan maksud kiasan.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Ungkapan tradisional daripada senarai pengguna; maksud diolah semula dan masih draf.",
+    "text": "Anak angkat",
+    "kind": "simpulan bahasa",
+    "meaning": {
+      "ms": "Anak yang dibesarkan oleh keluarga selain ibu bapa kandungnya",
+      "en": "An adopted child"
+    },
+    "theme": "persahabatan",
+    "linkedBoss": "",
+    "source": {
+      "title": "KriptograMelayu_127_Peribahasa_Diluluskan.md",
+      "id": "km-08-r7-1"
+    }
+  },
+  {
+    "id": "peribahasa-03",
+    "tier": "mudah",
+    "topic": "peribahasa",
+    "stage": 1,
+    "domain": "riddle",
+    "acceptedAnswers": [
+      "Usaha yang tidak membawa hasil"
+    ],
+    "hint": "Fikirkan maksud kiasan.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Ungkapan tradisional daripada senarai pengguna; maksud diolah semula dan masih draf.",
+    "text": "Bagai mencencang air",
+    "kind": "perumpamaan",
+    "meaning": {
+      "ms": "Usaha yang tidak membawa hasil",
+      "en": "A futile effort"
+    },
+    "theme": "persahabatan",
+    "linkedBoss": "",
+    "source": {
+      "title": "KriptograMelayu_127_Peribahasa_Diluluskan.md",
+      "id": "km-01-13-1"
+    }
+  },
+  {
+    "id": "peribahasa-04",
+    "tier": "mudah",
+    "topic": "peribahasa",
+    "stage": 1,
+    "domain": "riddle",
+    "acceptedAnswers": [
+      "Orang yang diharapkan membawa kejayaan kepada pasukan"
+    ],
+    "hint": "Fikirkan maksud kiasan.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Ungkapan tradisional daripada senarai pengguna; maksud diolah semula dan masih draf.",
+    "text": "Ayam tambatan",
+    "kind": "simpulan bahasa",
+    "meaning": {
+      "ms": "Orang yang diharapkan membawa kejayaan kepada pasukan",
+      "en": "A team’s main hope"
+    },
+    "theme": "persahabatan",
+    "linkedBoss": "",
+    "source": {
+      "title": "KriptograMelayu_127_Peribahasa_Diluluskan.md",
+      "id": "km-08-r14-1"
+    }
+  },
+  {
+    "id": "peribahasa-05",
+    "tier": "biasa",
+    "topic": "peribahasa",
+    "stage": 1,
+    "domain": "riddle",
+    "acceptedAnswers": [
+      "Hubungan saudara yang tidak rapat"
+    ],
+    "hint": "Fikirkan maksud kiasan.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Ungkapan tradisional daripada senarai pengguna; maksud diolah semula dan masih draf.",
+    "text": "Bau-bau bacang",
+    "kind": "simpulan bahasa",
+    "meaning": {
+      "ms": "Hubungan saudara yang tidak rapat",
+      "en": "A distant family relationship"
+    },
+    "theme": "persahabatan",
+    "linkedBoss": "",
+    "source": {
+      "title": "KriptograMelayu_127_Peribahasa_Diluluskan.md",
+      "id": "km-08-r19-1"
+    }
+  },
+  {
+    "id": "peribahasa-06",
+    "tier": "biasa",
+    "topic": "peribahasa",
+    "stage": 1,
+    "domain": "riddle",
+    "acceptedAnswers": [
+      "Saling membantu dan menyokong"
+    ],
+    "hint": "Fikirkan maksud kiasan.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Ungkapan tradisional daripada senarai pengguna; maksud diolah semula dan masih draf.",
+    "text": "Bagai aur dengan tebing",
+    "kind": "perumpamaan",
+    "meaning": {
+      "ms": "Saling membantu dan menyokong",
+      "en": "Mutual support"
+    },
+    "theme": "persahabatan",
+    "linkedBoss": "",
+    "source": {
+      "title": "KriptograMelayu_127_Peribahasa_Diluluskan.md",
+      "id": "km-01-01-1"
+    }
+  },
+  {
+    "id": "peribahasa-07",
+    "tier": "biasa",
+    "topic": "peribahasa",
+    "stage": 1,
+    "domain": "riddle",
+    "acceptedAnswers": [
+      "Tulisan yang sukar dibaca kerana tidak kemas"
+    ],
+    "hint": "Fikirkan maksud kiasan.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Ungkapan tradisional daripada senarai pengguna; maksud diolah semula dan masih draf.",
+    "text": "Cakar ayam",
+    "kind": "simpulan bahasa",
+    "meaning": {
+      "ms": "Tulisan yang sukar dibaca kerana tidak kemas",
+      "en": "Untidy handwriting"
+    },
+    "theme": "persahabatan",
+    "linkedBoss": "",
+    "source": {
+      "title": "KriptograMelayu_127_Peribahasa_Diluluskan.md",
+      "id": "km-07-r21-1"
+    }
+  },
+  {
+    "id": "peribahasa-08",
+    "tier": "biasa",
+    "topic": "peribahasa",
+    "stage": 1,
+    "domain": "riddle",
+    "acceptedAnswers": [
+      "Hubungan persahabatan yang amat rapat"
+    ],
+    "hint": "Fikirkan maksud kiasan.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Ungkapan tradisional daripada senarai pengguna; maksud diolah semula dan masih draf.",
+    "text": "Bagai isi dengan kuku",
+    "kind": "perumpamaan",
+    "meaning": {
+      "ms": "Hubungan persahabatan yang amat rapat",
+      "en": "A very close friendship"
+    },
+    "theme": "persahabatan",
+    "linkedBoss": "",
+    "source": {
+      "title": "KriptograMelayu_127_Peribahasa_Diluluskan.md",
+      "id": "km-01-08-1"
+    }
+  },
+  {
+    "id": "peribahasa-09",
+    "tier": "mahir",
+    "topic": "peribahasa",
+    "stage": 1,
+    "domain": "riddle",
+    "acceptedAnswers": [
+      "Pemberian yang dibawa untuk orang yang dikunjungi"
+    ],
+    "hint": "Fikirkan maksud kiasan.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Ungkapan tradisional daripada senarai pengguna; maksud diolah semula dan masih draf.",
+    "text": "Buah tangan",
+    "kind": "simpulan bahasa",
+    "meaning": {
+      "ms": "Pemberian yang dibawa untuk orang yang dikunjungi",
+      "en": "A gift brought on a visit"
+    },
+    "theme": "persahabatan",
+    "linkedBoss": "",
+    "source": {
+      "title": "KriptograMelayu_127_Peribahasa_Diluluskan.md",
+      "id": "km-07-r16-1"
+    }
+  },
+  {
+    "id": "peribahasa-10",
+    "tier": "mahir",
+    "topic": "peribahasa",
+    "stage": 1,
+    "domain": "riddle",
+    "acceptedAnswers": [
+      "Tidak memilih untuk menyokong mana-mana pihak"
+    ],
+    "hint": "Fikirkan maksud kiasan.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Ungkapan tradisional daripada senarai pengguna; maksud diolah semula dan masih draf.",
+    "text": "Atas pagar",
+    "kind": "simpulan bahasa",
+    "meaning": {
+      "ms": "Tidak memilih untuk menyokong mana-mana pihak",
+      "en": "Remaining neutral"
+    },
+    "theme": "persahabatan",
+    "linkedBoss": "",
+    "source": {
+      "title": "KriptograMelayu_127_Peribahasa_Diluluskan.md",
+      "id": "km-08-r13-1"
+    }
+  }
+]

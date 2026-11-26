@@ -11,3 +11,11 @@ In repository Settings → Pages select **Deploy from a branch**, branch **main*
 Move with the floating left stick. Jump with the large right button; press again quickly in the air for a double jump. Jump while touching a wall to leap away. Land on enemies from above to defeat them and bounce. Touching their sides or underside costs Semangat. A future ranged Attack button is reserved diagonally above Jump and remains hidden until that ability is implemented. On a keyboard, A/D or arrows move and Space jumps; a controller's left stick and south button also work.
 
 The top-right **Susun Butang** control opens the layout editor to move and resize the Jump button. Three fingers toggle debug information and future ability flags. The two sample puzzle entries can be checked at `/tools/validate.html`. Stages and puzzle gameplay are reserved for later phases. Visuals and audio are procedural.
+
+## Phase 2 puzzles
+
+Balai Cerita → **Bilik Ujian Teka-teki** opens the isolated puzzle test room. All active variants work by touch; Jawi and dialect are disabled future stubs. Validation is at [`tools/validate.html`](tools/validate.html), including a broken-entry test.
+
+Run engine/content checks with `node --test tests/puzzles.test.mjs` (Node 24+). See [`docs/phase-2-qa.md`](docs/phase-2-qa.md) for phone checks and remaining editorial/device review.
+
+To use in a stage, load `WordBanks`, construct one `PuzzleOverlay(scene, banks)`, then call `overlay.open('1a', {tier, onCorrect, onClose})`. It defaults to `scene.hero.hp`, `scene.kata` and the saved Kancil party flag. A custom `wallet: {hp, kata}` can be supplied. Import `kataKunci` and call `kataKunci(overlay, '3b', {boss: {stun(){…}, buff(){…}}})` for a boss. Callbacks run after the closing transition and action restoration. Keep the overlay instance per scene to prevent concurrent modals.

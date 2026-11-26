@@ -1,0 +1,462 @@
+[
+  {
+    "id": "affix-01",
+    "tier": "mudah",
+    "topic": "affix",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "menulis"
+    ],
+    "hint": "Bentuk yang betul bermula dengan men.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "root": "tulis",
+    "affix": "meN-",
+    "correctForm": "menulis",
+    "wrongForms": [
+      "tulis",
+      "tulisi",
+      "tulisnya"
+    ],
+    "ruleNote": "meN- + tulis → menulis"
+  },
+  {
+    "id": "affix-02",
+    "tier": "mudah",
+    "topic": "affix",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "membaca"
+    ],
+    "hint": "Bentuk yang betul bermula dengan mem.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "root": "baca",
+    "affix": "meN-",
+    "correctForm": "membaca",
+    "wrongForms": [
+      "baca",
+      "bacai",
+      "bacanya"
+    ],
+    "ruleNote": "meN- + baca → membaca"
+  },
+  {
+    "id": "affix-03",
+    "tier": "mudah",
+    "topic": "affix",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "berjalan"
+    ],
+    "hint": "Bentuk yang betul bermula dengan ber.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "root": "jalan",
+    "affix": "ber-",
+    "correctForm": "berjalan",
+    "wrongForms": [
+      "jalan",
+      "jalani",
+      "jalannya"
+    ],
+    "ruleNote": "ber- + jalan → berjalan"
+  },
+  {
+    "id": "affix-04",
+    "tier": "mudah",
+    "topic": "affix",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "dibuka"
+    ],
+    "hint": "Bentuk yang betul bermula dengan dib.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "root": "buka",
+    "affix": "di-",
+    "correctForm": "dibuka",
+    "wrongForms": [
+      "buka",
+      "bukai",
+      "bukanya"
+    ],
+    "ruleNote": "di- + buka → dibuka"
+  },
+  {
+    "id": "affix-05",
+    "tier": "mudah",
+    "topic": "affix",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "terjatuh"
+    ],
+    "hint": "Bentuk yang betul bermula dengan ter.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "root": "jatuh",
+    "affix": "ter-",
+    "correctForm": "terjatuh",
+    "wrongForms": [
+      "jatuh",
+      "jatuhi",
+      "jatuhnya"
+    ],
+    "ruleNote": "ter- + jatuh → terjatuh"
+  },
+  {
+    "id": "affix-06",
+    "tier": "mudah",
+    "topic": "affix",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "pelajar"
+    ],
+    "hint": "Bentuk yang betul bermula dengan pel.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "root": "ajar",
+    "affix": "pe-",
+    "correctForm": "pelajar",
+    "wrongForms": [
+      "ajar",
+      "ajari",
+      "ajarnya"
+    ],
+    "ruleNote": "pe- + ajar → pelajar"
+  },
+  {
+    "id": "affix-07",
+    "tier": "mudah",
+    "topic": "affix",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "makanan"
+    ],
+    "hint": "Bentuk yang betul bermula dengan mak.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "root": "makan",
+    "affix": "-an",
+    "correctForm": "makanan",
+    "wrongForms": [
+      "makan",
+      "makani",
+      "makannya"
+    ],
+    "ruleNote": "-an + makan → makanan"
+  },
+  {
+    "id": "affix-08",
+    "tier": "biasa",
+    "topic": "affix",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "menyapu"
+    ],
+    "hint": "Bentuk yang betul bermula dengan men.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "root": "sapu",
+    "affix": "meN-",
+    "correctForm": "menyapu",
+    "wrongForms": [
+      "sapu",
+      "sapui",
+      "sapunya"
+    ],
+    "ruleNote": "meN- + sapu → menyapu"
+  },
+  {
+    "id": "affix-09",
+    "tier": "biasa",
+    "topic": "affix",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "memukul"
+    ],
+    "hint": "Bentuk yang betul bermula dengan mem.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "root": "pukul",
+    "affix": "meN-",
+    "correctForm": "memukul",
+    "wrongForms": [
+      "pukul",
+      "pukuli",
+      "pukulnya"
+    ],
+    "ruleNote": "meN- + pukul → memukul"
+  },
+  {
+    "id": "affix-10",
+    "tier": "biasa",
+    "topic": "affix",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "mengira"
+    ],
+    "hint": "Bentuk yang betul bermula dengan men.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "root": "kira",
+    "affix": "meN-",
+    "correctForm": "mengira",
+    "wrongForms": [
+      "kira",
+      "kirai",
+      "kiranya"
+    ],
+    "ruleNote": "meN- + kira → mengira"
+  },
+  {
+    "id": "affix-11",
+    "tier": "biasa",
+    "topic": "affix",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "hantarkan"
+    ],
+    "hint": "Bentuk yang betul bermula dengan han.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "root": "hantar",
+    "affix": "-kan",
+    "correctForm": "hantarkan",
+    "wrongForms": [
+      "hantar",
+      "hantari",
+      "hantarnya"
+    ],
+    "ruleNote": "-kan + hantar → hantarkan"
+  },
+  {
+    "id": "affix-12",
+    "tier": "biasa",
+    "topic": "affix",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "bacaan"
+    ],
+    "hint": "Bentuk yang betul bermula dengan bac.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "root": "baca",
+    "affix": "-an",
+    "correctForm": "bacaan",
+    "wrongForms": [
+      "baca",
+      "bacai",
+      "bacanya"
+    ],
+    "ruleNote": "-an + baca → bacaan"
+  },
+  {
+    "id": "affix-13",
+    "tier": "biasa",
+    "topic": "affix",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "keindahan"
+    ],
+    "hint": "Bentuk yang betul bermula dengan kei.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "root": "indah",
+    "affix": "ke-an",
+    "correctForm": "keindahan",
+    "wrongForms": [
+      "indah",
+      "indahi",
+      "indahnya"
+    ],
+    "ruleNote": "ke-an + indah → keindahan"
+  },
+  {
+    "id": "affix-14",
+    "tier": "biasa",
+    "topic": "affix",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kekecilan"
+    ],
+    "hint": "Bentuk yang betul bermula dengan kek.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "root": "kecil",
+    "affix": "ke-an",
+    "correctForm": "kekecilan",
+    "wrongForms": [
+      "kecil",
+      "kecili",
+      "kecilnya"
+    ],
+    "ruleNote": "ke-an + kecil → kekecilan"
+  },
+  {
+    "id": "affix-15",
+    "tier": "mahir",
+    "topic": "affix",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "menterjemah"
+    ],
+    "hint": "Bentuk yang betul bermula dengan men.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "root": "terjemah",
+    "affix": "meN-",
+    "correctForm": "menterjemah",
+    "wrongForms": [
+      "terjemah",
+      "terjemahi",
+      "terjemahnya"
+    ],
+    "ruleNote": "meN- + terjemah → menterjemah"
+  },
+  {
+    "id": "affix-16",
+    "tier": "mahir",
+    "topic": "affix",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "perancang"
+    ],
+    "hint": "Bentuk yang betul bermula dengan per.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "root": "rancang",
+    "affix": "pe-",
+    "correctForm": "perancang",
+    "wrongForms": [
+      "rancang",
+      "rancangi",
+      "rancangnya"
+    ],
+    "ruleNote": "pe- + rancang → perancang"
+  },
+  {
+    "id": "affix-17",
+    "tier": "mahir",
+    "topic": "affix",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "bersatu"
+    ],
+    "hint": "Bentuk yang betul bermula dengan ber.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "root": "satu",
+    "affix": "ber-",
+    "correctForm": "bersatu",
+    "wrongForms": [
+      "satu",
+      "satui",
+      "satunya"
+    ],
+    "ruleNote": "ber- + satu → bersatu"
+  },
+  {
+    "id": "affix-18",
+    "tier": "mahir",
+    "topic": "affix",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "diletak"
+    ],
+    "hint": "Bentuk yang betul bermula dengan dil.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "root": "letak",
+    "affix": "di-",
+    "correctForm": "diletak",
+    "wrongForms": [
+      "letak",
+      "letaki",
+      "letaknya"
+    ],
+    "ruleNote": "di- + letak → diletak"
+  },
+  {
+    "id": "affix-19",
+    "tier": "mahir",
+    "topic": "affix",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "terlaksana"
+    ],
+    "hint": "Bentuk yang betul bermula dengan ter.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "root": "laksana",
+    "affix": "ter-",
+    "correctForm": "terlaksana",
+    "wrongForms": [
+      "laksana",
+      "laksanai",
+      "laksananya"
+    ],
+    "ruleNote": "ter- + laksana → terlaksana"
+  },
+  {
+    "id": "affix-20",
+    "tier": "mahir",
+    "topic": "affix",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kesihatan"
+    ],
+    "hint": "Bentuk yang betul bermula dengan kes.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "root": "sihat",
+    "affix": "ke-an",
+    "correctForm": "kesihatan",
+    "wrongForms": [
+      "sihat",
+      "sihati",
+      "sihatnya"
+    ],
+    "ruleNote": "ke-an + sihat → kesihatan"
+  }
+]

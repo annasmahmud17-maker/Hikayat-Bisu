@@ -1,13 +1,13 @@
 import * as Phaser from 'https://cdn.jsdelivr.net/npm/phaser@3.90.0/dist/phaser.esm.js';
-import cfg from '../config/combat.json?v=14' with {type:'json'};
-import {stringsFor} from '../systems/Strings.js?v=14';
-import {palette as p,color} from '../theme/palette.js?v=14';
-import {Hero} from '../entities/Hero.js?v=14';
-import {Enemy} from '../entities/Enemy.js?v=14';
-import {Controls} from '../ui/Controls.js?v=14';
-import {Hud} from '../ui/Hud.js?v=14';
-import {Save} from '../systems/Save.js?v=14';
-import {Sound} from '../systems/Sound.js?v=14';
+import cfg from '../config/combat.json?v=17' with {type:'json'};
+import {stringsFor} from '../systems/Strings.js?v=17';
+import {palette as p,color} from '../theme/palette.js?v=17';
+import {Hero} from '../entities/Hero.js?v=17';
+import {Enemy} from '../entities/Enemy.js?v=17';
+import {Controls} from '../ui/Controls.js?v=17';
+import {Hud} from '../ui/Hud.js?v=17';
+import {Save} from '../systems/Save.js?v=17';
+import {Sound} from '../systems/Sound.js?v=17';
 export class Arena extends Phaser.Scene{
   constructor(){super('arena')}
   create(){this.settings=this.game.settings;this.strings=stringsFor(this.settings.language);this.difficulty=this.settings.difficulty;this.soundFx=new Sound(this.settings);this.kata=this.settings.checkpoint?.kata||0;this.bayang=null;this.enemies=[];this.drops=[];this.rangedAttackReady=false;this.physics.world.setBounds(0,0,cfg.arena.worldWidth,600);this.cameras.main.setBounds(0,0,cfg.arena.worldWidth,540).setBackgroundColor(p.background).setZoom(cfg.camera.zoom);this.makeArena();this.createHero(cfg.arena.spawnX,cfg.arena.spawnY);this.cameras.main.startFollow(this.hero.sprite,true,cfg.camera.followLerp,cfg.camera.followLerp);this.cameras.main.setDeadzone(cfg.camera.deadzoneWidth,cfg.camera.deadzoneHeight);this.spawnEnemies();this.uiCamera=this.cameras.add(0,0,cfg.resolution.width,cfg.resolution.height);this.uiCamera.ignore(this.children.list.slice());this.controls=new Controls(this,this.strings,this.settings);this.hud=new Hud(this,this.strings);this.buildSettings();this.cameras.main.ignore([this.controls.graphics,this.controls.stickGraphics,...Object.values(this.controls.buttons).map(b=>b.label),this.hud.g,this.hud.text,this.hud.hint,...this.menu]);this.keys=this.input.keyboard.addKeys('A,D,LEFT,RIGHT,SPACE,J');this.input.on('gameout',()=>this.save());const onHide=()=>{if(document.hidden)this.save()};document.addEventListener('visibilitychange',onHide);this.events.once('shutdown',()=>{document.removeEventListener('visibilitychange',onHide);this.save()})}

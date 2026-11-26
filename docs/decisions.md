@@ -29,3 +29,15 @@
 - The future ranged attack has a reserved position diagonally above Jump, but is hidden until its ability and implementation both exist. The layout editor now migrates only Jump and this reserved position once.
 - The play camera zooms slightly and follows the hero; a separate UI camera keeps thumb controls at fixed screen positions. Ink remains saved internally but is hidden from the simplified HUD.
 - Live play showed the first enemy under a raised platform. The test enemies now occupy open ground, spaced from the starting bench and pit, so top-down stomps can be practiced without a platform intercepting the fall.
+
+## Phase 2 (2026-11-26)
+
+- Add a native DOM dialog above Phaser so 56px targets are measured in physical CSS pixels rather than shrinking with a 960×540 canvas. Touch tapping is the primary interaction for all variants; the page stays fixed and short panels scroll internally.
+- Pause the calling scene, physics and input before opening. Call SceneManager pause/resume directly so chained puzzle callbacks cannot race queued scene operations. Clear held movement and keyboard keys, and restore the previous pause/input state only after the closing transition.
+- Exploration mistakes remove one Semangat, floored at one, without knockback, death or Kata loss. Boss mistakes cost no health or Kata and resume with the stage's `buff` callback. Closing a puzzle is always available and has no success/failure effect.
+- Hints cost 20, 40, 80 within one modal session, then stop. Kancil is available when his party flag is set (the test room has an isolated override), usable once per modal, and removes one wrong choice. In pairing puzzles remove a wrong pairing edge; in the single-pair boss wrapper reveal the valid pairing because there is no wrong edge to remove. Paid hints also show a clue or next correct action.
+- All eleven Master Prompt word banks load from same-origin JSON. `puzzles.json` adds explicitly authored repairs, linked clauses, odd-one-out items and chains; infer no unsupported Malay morphology from a heuristic. meN sound changes are authored in affixes.json, with rule notes. Generic distractor generation excludes every accepted answer after normalization.
+- Peribahasa expressions and source IDs come from the user's `KriptograMelayu_127_Peribahasa_Diluluskan.md` (17 October version). Meanings are newly paraphrased rather than copied wholesale; English glosses are new. Editorial approval for that project does not approve these adaptations, which remain draft.
+- Seed 30 sentence items; 20 each of affixes, parts of speech, synonyms, antonyms and translations; ten peribahasa; nine names; variant-specific distractors and 21 additional exercises. Jawi/dialects are empty, disabled banks until their later phase.
+- Test-room health and Kata are isolated from campaign saves. The reusable overlay defaults to the caller's real hero/Kata wallet and persists through the caller's save hook.
+- Preserve the existing save key/schema and all simplified Phase 1 controls. Update the service-worker resource version consistently so old code and new imports cannot mix.

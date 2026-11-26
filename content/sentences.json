@@ -1,3 +1,675 @@
 [
-  {"id":"syntax-sample-1","tier":"mudah","topic":"susun ayat","stage":1,"domain":"general","acceptedAnswers":["Kancil membaca buku."],"hint":"Mulakan dengan pelaku.","syllabusRef":"","reviewStatus":"draft","notes":"Contoh teknikal untuk penyemak kandungan; semakan bahasa diperlukan.","tokens":["Kancil","membaca","buku."]}
+  {
+    "id": "sentence-01",
+    "tier": "mudah",
+    "topic": "sentence",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Kancil membaca buku"
+    ],
+    "hint": "Mulakan dengan Kancil.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "tokens": [
+      "Kancil",
+      "membaca",
+      "buku"
+    ],
+    "validOrders": [
+      "Kancil membaca buku"
+    ]
+  },
+  {
+    "id": "sentence-02",
+    "tier": "mudah",
+    "topic": "sentence",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Ibu memasak nasi"
+    ],
+    "hint": "Mulakan dengan Ibu.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "tokens": [
+      "Ibu",
+      "memasak",
+      "nasi"
+    ],
+    "validOrders": [
+      "Ibu memasak nasi"
+    ]
+  },
+  {
+    "id": "sentence-03",
+    "tier": "mudah",
+    "topic": "sentence",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Adik minum air"
+    ],
+    "hint": "Mulakan dengan Adik.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "tokens": [
+      "Adik",
+      "minum",
+      "air"
+    ],
+    "validOrders": [
+      "Adik minum air"
+    ]
+  },
+  {
+    "id": "sentence-04",
+    "tier": "mudah",
+    "topic": "sentence",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Burung terbang tinggi"
+    ],
+    "hint": "Mulakan dengan Burung.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "tokens": [
+      "Burung",
+      "terbang",
+      "tinggi"
+    ],
+    "validOrders": [
+      "Burung terbang tinggi"
+    ]
+  },
+  {
+    "id": "sentence-05",
+    "tier": "mudah",
+    "topic": "sentence",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Ayah membuka pintu"
+    ],
+    "hint": "Mulakan dengan Ayah.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "tokens": [
+      "Ayah",
+      "membuka",
+      "pintu"
+    ],
+    "validOrders": [
+      "Ayah membuka pintu"
+    ]
+  },
+  {
+    "id": "sentence-06",
+    "tier": "mudah",
+    "topic": "sentence",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Kucing tidur lena"
+    ],
+    "hint": "Mulakan dengan Kucing.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "tokens": [
+      "Kucing",
+      "tidur",
+      "lena"
+    ],
+    "validOrders": [
+      "Kucing tidur lena"
+    ]
+  },
+  {
+    "id": "sentence-07",
+    "tier": "mudah",
+    "topic": "sentence",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Kami pergi bersama"
+    ],
+    "hint": "Mulakan dengan Kami.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "tokens": [
+      "Kami",
+      "pergi",
+      "bersama"
+    ],
+    "validOrders": [
+      "Kami pergi bersama"
+    ]
+  },
+  {
+    "id": "sentence-08",
+    "tier": "mudah",
+    "topic": "sentence",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Dia membawa beg"
+    ],
+    "hint": "Mulakan dengan Dia.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "tokens": [
+      "Dia",
+      "membawa",
+      "beg"
+    ],
+    "validOrders": [
+      "Dia membawa beg"
+    ]
+  },
+  {
+    "id": "sentence-09",
+    "tier": "mudah",
+    "topic": "sentence",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Mereka menanam pokok"
+    ],
+    "hint": "Mulakan dengan Mereka.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "tokens": [
+      "Mereka",
+      "menanam",
+      "pokok"
+    ],
+    "validOrders": [
+      "Mereka menanam pokok"
+    ]
+  },
+  {
+    "id": "sentence-10",
+    "tier": "mudah",
+    "topic": "sentence",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Saya mencuci tangan"
+    ],
+    "hint": "Mulakan dengan Saya.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "tokens": [
+      "Saya",
+      "mencuci",
+      "tangan"
+    ],
+    "validOrders": [
+      "Saya mencuci tangan"
+    ]
+  },
+  {
+    "id": "sentence-11",
+    "tier": "biasa",
+    "topic": "sentence",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Lang menjaga hutan"
+    ],
+    "hint": "Mulakan dengan Lang.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "tokens": [
+      "Lang",
+      "menjaga",
+      "hutan"
+    ],
+    "validOrders": [
+      "Lang menjaga hutan"
+    ]
+  },
+  {
+    "id": "sentence-12",
+    "tier": "biasa",
+    "topic": "sentence",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Rimau mencari kawannya"
+    ],
+    "hint": "Mulakan dengan Rimau.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "tokens": [
+      "Rimau",
+      "mencari",
+      "kawannya"
+    ],
+    "validOrders": [
+      "Rimau mencari kawannya"
+    ]
+  },
+  {
+    "id": "sentence-13",
+    "tier": "biasa",
+    "topic": "sentence",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Dayang menyalakan pelita"
+    ],
+    "hint": "Mulakan dengan Dayang.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "tokens": [
+      "Dayang",
+      "menyalakan",
+      "pelita"
+    ],
+    "validOrders": [
+      "Dayang menyalakan pelita"
+    ]
+  },
+  {
+    "id": "sentence-14",
+    "tier": "biasa",
+    "topic": "sentence",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Angin meniup daun"
+    ],
+    "hint": "Mulakan dengan Angin.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "tokens": [
+      "Angin",
+      "meniup",
+      "daun"
+    ],
+    "validOrders": [
+      "Angin meniup daun"
+    ]
+  },
+  {
+    "id": "sentence-15",
+    "tier": "biasa",
+    "topic": "sentence",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Hujan membasahi tanah"
+    ],
+    "hint": "Mulakan dengan Hujan.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "tokens": [
+      "Hujan",
+      "membasahi",
+      "tanah"
+    ],
+    "validOrders": [
+      "Hujan membasahi tanah"
+    ]
+  },
+  {
+    "id": "sentence-16",
+    "tier": "biasa",
+    "topic": "sentence",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Nenek menyiram bunga"
+    ],
+    "hint": "Mulakan dengan Nenek.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "tokens": [
+      "Nenek",
+      "menyiram",
+      "bunga"
+    ],
+    "validOrders": [
+      "Nenek menyiram bunga"
+    ]
+  },
+  {
+    "id": "sentence-17",
+    "tier": "biasa",
+    "topic": "sentence",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Abang mengangkat bakul"
+    ],
+    "hint": "Mulakan dengan Abang.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "tokens": [
+      "Abang",
+      "mengangkat",
+      "bakul"
+    ],
+    "validOrders": [
+      "Abang mengangkat bakul"
+    ]
+  },
+  {
+    "id": "sentence-18",
+    "tier": "biasa",
+    "topic": "sentence",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Kakak menulis surat"
+    ],
+    "hint": "Mulakan dengan Kakak.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "tokens": [
+      "Kakak",
+      "menulis",
+      "surat"
+    ],
+    "validOrders": [
+      "Kakak menulis surat"
+    ]
+  },
+  {
+    "id": "sentence-19",
+    "tier": "biasa",
+    "topic": "sentence",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Pengawal menutup gerbang"
+    ],
+    "hint": "Mulakan dengan Pengawal.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "tokens": [
+      "Pengawal",
+      "menutup",
+      "gerbang"
+    ],
+    "validOrders": [
+      "Pengawal menutup gerbang"
+    ]
+  },
+  {
+    "id": "sentence-20",
+    "tier": "biasa",
+    "topic": "sentence",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Pelita menerangi bilik"
+    ],
+    "hint": "Mulakan dengan Pelita.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "tokens": [
+      "Pelita",
+      "menerangi",
+      "bilik"
+    ],
+    "validOrders": [
+      "Pelita menerangi bilik"
+    ]
+  },
+  {
+    "id": "sentence-21",
+    "tier": "mahir",
+    "topic": "sentence",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Jurutulis menyusun naskhah lama"
+    ],
+    "hint": "Mulakan dengan Jurutulis.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "tokens": [
+      "Jurutulis",
+      "menyusun",
+      "naskhah",
+      "lama"
+    ],
+    "validOrders": [
+      "Jurutulis menyusun naskhah lama"
+    ]
+  },
+  {
+    "id": "sentence-22",
+    "tier": "mahir",
+    "topic": "sentence",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Pengembara menyeberangi sungai deras"
+    ],
+    "hint": "Mulakan dengan Pengembara.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "tokens": [
+      "Pengembara",
+      "menyeberangi",
+      "sungai",
+      "deras"
+    ],
+    "validOrders": [
+      "Pengembara menyeberangi sungai deras"
+    ]
+  },
+  {
+    "id": "sentence-23",
+    "tier": "mahir",
+    "topic": "sentence",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Penduduk memulihkan jambatan usang"
+    ],
+    "hint": "Mulakan dengan Penduduk.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "tokens": [
+      "Penduduk",
+      "memulihkan",
+      "jambatan",
+      "usang"
+    ],
+    "validOrders": [
+      "Penduduk memulihkan jambatan usang"
+    ]
+  },
+  {
+    "id": "sentence-24",
+    "tier": "mahir",
+    "topic": "sentence",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Cahaya menyinari ruang perpustakaan"
+    ],
+    "hint": "Mulakan dengan Cahaya.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "tokens": [
+      "Cahaya",
+      "menyinari",
+      "ruang",
+      "perpustakaan"
+    ],
+    "validOrders": [
+      "Cahaya menyinari ruang perpustakaan"
+    ]
+  },
+  {
+    "id": "sentence-25",
+    "tier": "mahir",
+    "topic": "sentence",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Akar menjalar sepanjang tebing"
+    ],
+    "hint": "Mulakan dengan Akar.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "tokens": [
+      "Akar",
+      "menjalar",
+      "sepanjang",
+      "tebing"
+    ],
+    "validOrders": [
+      "Akar menjalar sepanjang tebing"
+    ]
+  },
+  {
+    "id": "sentence-26",
+    "tier": "mahir",
+    "topic": "sentence",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Kancil meneliti tulisan purba"
+    ],
+    "hint": "Mulakan dengan Kancil.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "tokens": [
+      "Kancil",
+      "meneliti",
+      "tulisan",
+      "purba"
+    ],
+    "validOrders": [
+      "Kancil meneliti tulisan purba"
+    ]
+  },
+  {
+    "id": "sentence-27",
+    "tier": "mahir",
+    "topic": "sentence",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Dayang merawat sahabatnya dengan cermat"
+    ],
+    "hint": "Mulakan dengan Dayang.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "tokens": [
+      "Dayang",
+      "merawat",
+      "sahabatnya",
+      "dengan",
+      "cermat"
+    ],
+    "validOrders": [
+      "Dayang merawat sahabatnya dengan cermat"
+    ]
+  },
+  {
+    "id": "sentence-28",
+    "tier": "mahir",
+    "topic": "sentence",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Lang memerhatikan awan dari puncak"
+    ],
+    "hint": "Mulakan dengan Lang.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "tokens": [
+      "Lang",
+      "memerhatikan",
+      "awan",
+      "dari",
+      "puncak"
+    ],
+    "validOrders": [
+      "Lang memerhatikan awan dari puncak"
+    ]
+  },
+  {
+    "id": "sentence-29",
+    "tier": "mahir",
+    "topic": "sentence",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Mereka mempertahankan khazanah bahasa"
+    ],
+    "hint": "Mulakan dengan Mereka.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "tokens": [
+      "Mereka",
+      "mempertahankan",
+      "khazanah",
+      "bahasa"
+    ],
+    "validOrders": [
+      "Mereka mempertahankan khazanah bahasa"
+    ]
+  },
+  {
+    "id": "sentence-30",
+    "tier": "mahir",
+    "topic": "sentence",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Kami menghargai warisan nenek moyang"
+    ],
+    "hint": "Mulakan dengan Kami.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "tokens": [
+      "Kami",
+      "menghargai",
+      "warisan",
+      "nenek",
+      "moyang"
+    ],
+    "validOrders": [
+      "Kami menghargai warisan nenek moyang"
+    ]
+  }
 ]
