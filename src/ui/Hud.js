@@ -1,5 +1,5 @@
-import {el,theme} from './dom.js?v=z1-3';
-import cfg from '../config/combat.json?v=z1-3' with {type:'json'};
+import {el,theme} from './dom.js?v=z2-1';
+import cfg from '../config/combat.json?v=z2-1' with {type:'json'};
 export class Hud{
  constructor(scene){this.scene=scene;this.root=el('div',null,document.getElementById('ui'),'hud');theme(this.root);this.hearts=el('div',null,this.root,'hearts');this.kata=el('span',null,this.root,'kata');this.status=el('div',null,this.root,'status');this.status.setAttribute('role','status');this.update()}
  update(){const s=this.scene.s;const signature=`${s.hearts}|${s.maxHearts}|${s.kata}`;if(signature===this.signature)return;this.signature=signature;this.hearts.replaceChildren();for(let i=0;i<s.maxHearts/2;i++){const heart=el('span','♥',this.hearts,'heart');heart.style.setProperty('--fill',Math.max(0,Math.min(2,s.hearts-i*2))/2*100+'%')}this.hearts.setAttribute('aria-label',`${this.scene.t.hearts} ${s.hearts/2}/${s.maxHearts/2}`);this.kata.textContent=`${this.scene.t.kata} ${s.kata}`}

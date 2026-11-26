@@ -1,0 +1,573 @@
+{
+  "id": "ch1_s3",
+  "chapter": 1,
+  "stage": 3,
+  "palette": "rimba",
+  "nameKey": "stage_sungai",
+  "puzzleRevision": 2,
+  "puzzles": [
+    {
+      "id": "ch1_s3_seal1",
+      "style": "CM",
+      "contentIds": {
+        "mudah": "cm-3-mudah",
+        "biasa": "cm-3-biasa",
+        "mahir": "cm-3-mahir"
+      },
+      "room": "r1"
+    },
+    {
+      "id": "ch1_s3_seal2",
+      "style": "RV",
+      "contentIds": {
+        "mudah": "rv-5-mudah",
+        "biasa": "rv-5-biasa",
+        "mahir": "rv-5-mahir"
+      },
+      "room": "r2"
+    },
+    {
+      "id": "ch1_s3_seal3",
+      "style": "TD",
+      "contentIds": {
+        "mudah": "td-4-mudah",
+        "biasa": "td-4-biasa",
+        "mahir": "td-1-mahir"
+      },
+      "room": "r3"
+    },
+    {
+      "id": "ch1_s3_seal4",
+      "style": "CR",
+      "contentIds": {
+        "mudah": "cr-2-mudah",
+        "biasa": "cr-2-biasa",
+        "mahir": "cr-2-mahir"
+      },
+      "room": "r4"
+    },
+    {
+      "id": "ch1_s3_seal5",
+      "style": "RV",
+      "contentIds": {
+        "mudah": "rv-6-mudah",
+        "biasa": "rv-6-biasa",
+        "mahir": "rv-6-mahir"
+      },
+      "room": "r5"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "r1",
+      "nameKey": "room1",
+      "rows": [
+        "####################",
+        "#..................#",
+        "#.....#.........#..#",
+        "#.....#............#",
+        "#..................#",
+        "#...................",
+        "#..................#",
+        "#..................#",
+        "#.....#............#",
+        "#..................#",
+        "####################"
+      ],
+      "entrance": [
+        2,
+        5
+      ],
+      "doors": [
+        {
+          "tile": [
+            19,
+            5
+          ],
+          "to": "r2",
+          "spawn": [
+            1,
+            5
+          ]
+        }
+      ],
+      "shrines": [
+        {
+          "id": "ch1_s3_seal1",
+          "tile": [
+            14,
+            5
+          ]
+        }
+      ],
+      "pondok": [
+        {
+          "id": "pondok1",
+          "tile": [
+            2,
+            8
+          ]
+        }
+      ],
+      "enemies": [
+        {
+          "id": "e0",
+          "key": "daun",
+          "nameKey": "daun",
+          "tile": [
+            5,
+            4
+          ],
+          "pattern": "patrol"
+        },
+        {
+          "id": "e1",
+          "key": "kumbang",
+          "nameKey": "kumbang",
+          "tile": [
+            9,
+            8
+          ],
+          "pattern": "charge"
+        },
+        {
+          "id": "e2",
+          "key": "daun",
+          "nameKey": "daun",
+          "tile": [
+            16,
+            8
+          ],
+          "pattern": "patrol"
+        }
+      ],
+      "tablets": [
+        {
+          "tile": [
+            4,
+            2
+          ],
+          "textKey": "lore1"
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "nameKey": "room2",
+      "rows": [
+        "####################",
+        "#...............#..#",
+        "#.....#.........#..#",
+        "#.....#.........####",
+        "#..................#",
+        "....................",
+        "#..................#",
+        "#..................#",
+        "#.....#............#",
+        "#..................#",
+        "####################"
+      ],
+      "entrance": [
+        2,
+        5
+      ],
+      "doors": [
+        {
+          "tile": [
+            0,
+            5
+          ],
+          "to": "r1",
+          "spawn": [
+            18,
+            5
+          ]
+        },
+        {
+          "tile": [
+            19,
+            5
+          ],
+          "to": "r3",
+          "spawn": [
+            1,
+            5
+          ]
+        }
+      ],
+      "shrines": [
+        {
+          "id": "ch1_s3_seal2",
+          "tile": [
+            14,
+            5
+          ]
+        }
+      ],
+      "pondok": [],
+      "enemies": [
+        {
+          "id": "e0",
+          "key": "daun",
+          "nameKey": "daun",
+          "tile": [
+            5,
+            4
+          ],
+          "pattern": "patrol"
+        },
+        {
+          "id": "e1",
+          "key": "kumbang",
+          "nameKey": "kumbang",
+          "tile": [
+            9,
+            8
+          ],
+          "pattern": "charge"
+        },
+        {
+          "id": "e2",
+          "key": "daun",
+          "nameKey": "daun",
+          "tile": [
+            16,
+            8
+          ],
+          "pattern": "patrol"
+        }
+      ],
+      "tablets": [
+        {
+          "tile": [
+            4,
+            2
+          ],
+          "textKey": "lore2"
+        }
+      ],
+      "bonusChest": {
+        "id": "bonus",
+        "tile": [
+          17,
+          2
+        ],
+        "accessTile": [
+          14,
+          3
+        ],
+        "companion": "rimau"
+      }
+    },
+    {
+      "id": "r3",
+      "nameKey": "room3",
+      "rows": [
+        "####################",
+        "#..................#",
+        "#.....#.........#..#",
+        "#.....#............#",
+        "#..................#",
+        "....................",
+        "#..................#",
+        "#..................#",
+        "#.....#............#",
+        "#..................#",
+        "####################"
+      ],
+      "entrance": [
+        2,
+        5
+      ],
+      "doors": [
+        {
+          "tile": [
+            0,
+            5
+          ],
+          "to": "r2",
+          "spawn": [
+            18,
+            5
+          ]
+        },
+        {
+          "tile": [
+            19,
+            5
+          ],
+          "to": "r4",
+          "spawn": [
+            1,
+            5
+          ]
+        }
+      ],
+      "shrines": [
+        {
+          "id": "ch1_s3_seal3",
+          "tile": [
+            14,
+            5
+          ]
+        }
+      ],
+      "pondok": [
+        {
+          "id": "pondok3",
+          "tile": [
+            2,
+            8
+          ]
+        }
+      ],
+      "enemies": [
+        {
+          "id": "e0",
+          "key": "daun",
+          "nameKey": "daun",
+          "tile": [
+            5,
+            4
+          ],
+          "pattern": "patrol"
+        },
+        {
+          "id": "e1",
+          "key": "kumbang",
+          "nameKey": "kumbang",
+          "tile": [
+            9,
+            8
+          ],
+          "pattern": "charge"
+        },
+        {
+          "id": "e2",
+          "key": "daun",
+          "nameKey": "daun",
+          "tile": [
+            16,
+            8
+          ],
+          "pattern": "patrol"
+        }
+      ],
+      "tablets": [
+        {
+          "tile": [
+            4,
+            2
+          ],
+          "textKey": "lore3"
+        }
+      ],
+      "companionEvent": {
+        "id": "findKancil",
+        "companion": "kancil",
+        "tile": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "id": "r4",
+      "nameKey": "room4",
+      "rows": [
+        "####################",
+        "#..................#",
+        "#.....#.........#..#",
+        "#.....#............#",
+        "#..................#",
+        "....................",
+        "#..................#",
+        "#..................#",
+        "#.....#............#",
+        "#..................#",
+        "####################"
+      ],
+      "entrance": [
+        2,
+        5
+      ],
+      "doors": [
+        {
+          "tile": [
+            0,
+            5
+          ],
+          "to": "r3",
+          "spawn": [
+            18,
+            5
+          ]
+        },
+        {
+          "tile": [
+            19,
+            5
+          ],
+          "to": "r5",
+          "spawn": [
+            1,
+            5
+          ]
+        }
+      ],
+      "shrines": [
+        {
+          "id": "ch1_s3_seal4",
+          "tile": [
+            14,
+            5
+          ]
+        }
+      ],
+      "pondok": [],
+      "enemies": [
+        {
+          "id": "e0",
+          "key": "daun",
+          "nameKey": "daun",
+          "tile": [
+            5,
+            4
+          ],
+          "pattern": "patrol"
+        },
+        {
+          "id": "e1",
+          "key": "kumbang",
+          "nameKey": "kumbang",
+          "tile": [
+            9,
+            8
+          ],
+          "pattern": "charge"
+        },
+        {
+          "id": "e2",
+          "key": "daun",
+          "nameKey": "daun",
+          "tile": [
+            16,
+            8
+          ],
+          "pattern": "patrol"
+        }
+      ],
+      "tablets": [
+        {
+          "tile": [
+            4,
+            2
+          ],
+          "textKey": "lore4"
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "nameKey": "room5",
+      "rows": [
+        "####################",
+        "#..................#",
+        "#.....#.........#..#",
+        "#.....#............#",
+        "#..................#",
+        "...................#",
+        "#..................#",
+        "#..................#",
+        "#.....#............#",
+        "#..................#",
+        "####################"
+      ],
+      "entrance": [
+        2,
+        5
+      ],
+      "doors": [
+        {
+          "tile": [
+            0,
+            5
+          ],
+          "to": "r4",
+          "spawn": [
+            18,
+            5
+          ]
+        }
+      ],
+      "shrines": [
+        {
+          "id": "ch1_s3_seal5",
+          "tile": [
+            14,
+            5
+          ]
+        }
+      ],
+      "pondok": [
+        {
+          "id": "pondok5",
+          "tile": [
+            2,
+            8
+          ]
+        }
+      ],
+      "enemies": [
+        {
+          "id": "e0",
+          "key": "daun",
+          "nameKey": "daun",
+          "tile": [
+            5,
+            4
+          ],
+          "pattern": "patrol"
+        },
+        {
+          "id": "e1",
+          "key": "kumbang",
+          "nameKey": "kumbang",
+          "tile": [
+            9,
+            8
+          ],
+          "pattern": "charge"
+        },
+        {
+          "id": "e2",
+          "key": "daun",
+          "nameKey": "daun",
+          "tile": [
+            16,
+            8
+          ],
+          "pattern": "patrol"
+        }
+      ],
+      "tablets": [
+        {
+          "tile": [
+            4,
+            2
+          ],
+          "textKey": "lore5"
+        }
+      ],
+      "exit": {
+        "tile": [
+          18,
+          5
+        ]
+      }
+    }
+  ],
+  "companionEvents": [
+    "findKancil"
+  ]
+}

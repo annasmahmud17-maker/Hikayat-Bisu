@@ -1,0 +1,812 @@
+[
+  {
+    "id": "rv-1-mudah",
+    "tier": "mudah",
+    "topic": "word-order",
+    "chapter": 1,
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Saya makan nasi putih",
+      "I eat white rice"
+    ],
+    "hint": "Saya",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Dalam frasa nama, kata adjektif biasanya mengikuti kata nama: nasi putih.",
+    "note_en": "Syntax Tip: In Bahasa Melayu, adjectives come after the noun: nasi putih (rice white) instead of 'white rice'.",
+    "style": "RV",
+    "ms": "Saya makan nasi putih",
+    "en": "I eat white rice",
+    "orders": {
+      "ms": [
+        "Saya makan nasi putih"
+      ],
+      "en": [
+        "I eat white rice"
+      ]
+    },
+    "decoys": {
+      "ms": [
+        "merah",
+        "minum",
+        "dia"
+      ],
+      "en": [
+        "red",
+        "small",
+        "drink",
+        "after",
+        "cold",
+        "old"
+      ]
+    },
+    "prototype": "Crossy Syntax sentence 1"
+  },
+  {
+    "id": "rv-1-biasa",
+    "tier": "biasa",
+    "topic": "word-order",
+    "chapter": 1,
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Saya makan nasi putih",
+      "I eat white rice"
+    ],
+    "hint": "Saya",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Dalam frasa nama, kata adjektif biasanya mengikuti kata nama: nasi putih.",
+    "note_en": "Syntax Tip: In Bahasa Melayu, adjectives come after the noun: nasi putih (rice white) instead of 'white rice'.",
+    "style": "RV",
+    "ms": "Saya makan nasi putih",
+    "en": "I eat white rice",
+    "orders": {
+      "ms": [
+        "Saya makan nasi putih"
+      ],
+      "en": [
+        "I eat white rice"
+      ]
+    },
+    "decoys": {
+      "ms": [
+        "merah",
+        "minum",
+        "dia"
+      ],
+      "en": [
+        "red",
+        "small",
+        "drink",
+        "after",
+        "cold",
+        "old"
+      ]
+    },
+    "prototype": "Crossy Syntax sentence 1"
+  },
+  {
+    "id": "rv-1-mahir",
+    "tier": "mahir",
+    "topic": "word-order",
+    "chapter": 1,
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Saya makan nasi putih",
+      "I eat white rice"
+    ],
+    "hint": "Saya",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Dalam frasa nama, kata adjektif biasanya mengikuti kata nama: nasi putih.",
+    "note_en": "Syntax Tip: In Bahasa Melayu, adjectives come after the noun: nasi putih (rice white) instead of 'white rice'.",
+    "style": "RV",
+    "ms": "Saya makan nasi putih",
+    "en": "I eat white rice",
+    "orders": {
+      "ms": [
+        "Saya makan nasi putih"
+      ],
+      "en": [
+        "I eat white rice"
+      ]
+    },
+    "decoys": {
+      "ms": [
+        "merah",
+        "minum",
+        "dia"
+      ],
+      "en": [
+        "red",
+        "small",
+        "drink",
+        "after",
+        "cold",
+        "old"
+      ]
+    },
+    "prototype": "Crossy Syntax sentence 1"
+  },
+  {
+    "id": "rv-2-mudah",
+    "tier": "mudah",
+    "topic": "word-order",
+    "chapter": 1,
+    "stage": 2,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Kucing besar itu tidur",
+      "The big cat sleeps"
+    ],
+    "hint": "Kucing",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Kata tunjuk itu hadir pada hujung frasa nama: kucing besar itu.",
+    "note_en": "Syntax Tip: Demonstratives like itu (the/that) go at the very end of the noun phrase: Kucing besar itu.",
+    "style": "RV",
+    "ms": "Kucing besar itu tidur",
+    "en": "The big cat sleeps",
+    "orders": {
+      "ms": [
+        "Kucing besar itu tidur"
+      ],
+      "en": [
+        "The big cat sleeps"
+      ]
+    },
+    "decoys": {
+      "ms": [
+        "kecil",
+        "lari",
+        "ayam"
+      ],
+      "en": [
+        "red",
+        "small",
+        "drink",
+        "after",
+        "cold",
+        "old"
+      ]
+    },
+    "prototype": "Crossy Syntax sentence 2"
+  },
+  {
+    "id": "rv-2-biasa",
+    "tier": "biasa",
+    "topic": "word-order",
+    "chapter": 1,
+    "stage": 2,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Kucing besar itu tidur",
+      "The big cat sleeps"
+    ],
+    "hint": "Kucing",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Kata tunjuk itu hadir pada hujung frasa nama: kucing besar itu.",
+    "note_en": "Syntax Tip: Demonstratives like itu (the/that) go at the very end of the noun phrase: Kucing besar itu.",
+    "style": "RV",
+    "ms": "Kucing besar itu tidur",
+    "en": "The big cat sleeps",
+    "orders": {
+      "ms": [
+        "Kucing besar itu tidur"
+      ],
+      "en": [
+        "The big cat sleeps"
+      ]
+    },
+    "decoys": {
+      "ms": [
+        "kecil",
+        "lari",
+        "ayam"
+      ],
+      "en": [
+        "red",
+        "small",
+        "drink",
+        "after",
+        "cold",
+        "old"
+      ]
+    },
+    "prototype": "Crossy Syntax sentence 2"
+  },
+  {
+    "id": "rv-2-mahir",
+    "tier": "mahir",
+    "topic": "word-order",
+    "chapter": 1,
+    "stage": 2,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Kucing besar itu tidur",
+      "The big cat sleeps"
+    ],
+    "hint": "Kucing",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Kata tunjuk itu hadir pada hujung frasa nama: kucing besar itu.",
+    "note_en": "Syntax Tip: Demonstratives like itu (the/that) go at the very end of the noun phrase: Kucing besar itu.",
+    "style": "RV",
+    "ms": "Kucing besar itu tidur",
+    "en": "The big cat sleeps",
+    "orders": {
+      "ms": [
+        "Kucing besar itu tidur"
+      ],
+      "en": [
+        "The big cat sleeps"
+      ]
+    },
+    "decoys": {
+      "ms": [
+        "kecil",
+        "lari",
+        "ayam"
+      ],
+      "en": [
+        "red",
+        "small",
+        "drink",
+        "after",
+        "cold",
+        "old"
+      ]
+    },
+    "prototype": "Crossy Syntax sentence 2"
+  },
+  {
+    "id": "rv-3-mudah",
+    "tier": "mudah",
+    "topic": "word-order",
+    "chapter": 1,
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Ibu beli ikan segar",
+      "Mother buys fresh fish"
+    ],
+    "hint": "Ibu",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Susunan asas ialah subjek, kata kerja, objek. Bentuk beli dalam contoh ini bersifat percakapan.",
+    "note_en": "Syntax Tip: Subject-Verb-Object matches English (Ibu beli), while the noun phrase flips to ikan segar.",
+    "style": "RV",
+    "ms": "Ibu beli ikan segar",
+    "en": "Mother buys fresh fish",
+    "orders": {
+      "ms": [
+        "Ibu beli ikan segar"
+      ],
+      "en": [
+        "Mother buys fresh fish"
+      ]
+    },
+    "decoys": {
+      "ms": [
+        "bapa",
+        "masak",
+        "busuk"
+      ],
+      "en": [
+        "red",
+        "small",
+        "drink",
+        "after",
+        "cold",
+        "old"
+      ]
+    },
+    "prototype": "Crossy Syntax sentence 3"
+  },
+  {
+    "id": "rv-3-biasa",
+    "tier": "biasa",
+    "topic": "word-order",
+    "chapter": 1,
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Ibu beli ikan segar",
+      "Mother buys fresh fish"
+    ],
+    "hint": "Ibu",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Susunan asas ialah subjek, kata kerja, objek. Bentuk beli dalam contoh ini bersifat percakapan.",
+    "note_en": "Syntax Tip: Subject-Verb-Object matches English (Ibu beli), while the noun phrase flips to ikan segar.",
+    "style": "RV",
+    "ms": "Ibu beli ikan segar",
+    "en": "Mother buys fresh fish",
+    "orders": {
+      "ms": [
+        "Ibu beli ikan segar"
+      ],
+      "en": [
+        "Mother buys fresh fish"
+      ]
+    },
+    "decoys": {
+      "ms": [
+        "bapa",
+        "masak",
+        "busuk"
+      ],
+      "en": [
+        "red",
+        "small",
+        "drink",
+        "after",
+        "cold",
+        "old"
+      ]
+    },
+    "prototype": "Crossy Syntax sentence 3"
+  },
+  {
+    "id": "rv-3-mahir",
+    "tier": "mahir",
+    "topic": "word-order",
+    "chapter": 1,
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Ibu beli ikan segar",
+      "Mother buys fresh fish"
+    ],
+    "hint": "Ibu",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Susunan asas ialah subjek, kata kerja, objek. Bentuk beli dalam contoh ini bersifat percakapan.",
+    "note_en": "Syntax Tip: Subject-Verb-Object matches English (Ibu beli), while the noun phrase flips to ikan segar.",
+    "style": "RV",
+    "ms": "Ibu beli ikan segar",
+    "en": "Mother buys fresh fish",
+    "orders": {
+      "ms": [
+        "Ibu beli ikan segar"
+      ],
+      "en": [
+        "Mother buys fresh fish"
+      ]
+    },
+    "decoys": {
+      "ms": [
+        "bapa",
+        "masak",
+        "busuk"
+      ],
+      "en": [
+        "red",
+        "small",
+        "drink",
+        "after",
+        "cold",
+        "old"
+      ]
+    },
+    "prototype": "Crossy Syntax sentence 3"
+  },
+  {
+    "id": "rv-4-mudah",
+    "tier": "mudah",
+    "topic": "word-order",
+    "chapter": 1,
+    "stage": 4,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Kami baca buku baharu",
+      "We read new books"
+    ],
+    "hint": "Kami",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Kami tidak termasuk pendengar. Bentuk baca dalam contoh ini bersifat percakapan.",
+    "note_en": "Syntax Tip: Kami means 'we' (excluding the listener), and buku baharu places 'new' after 'books'.",
+    "style": "RV",
+    "ms": "Kami baca buku baharu",
+    "en": "We read new books",
+    "orders": {
+      "ms": [
+        "Kami baca buku baharu"
+      ],
+      "en": [
+        "We read new books"
+      ]
+    },
+    "decoys": {
+      "ms": [
+        "lama",
+        "tulis",
+        "mereka"
+      ],
+      "en": [
+        "red",
+        "small",
+        "drink",
+        "after",
+        "cold",
+        "old"
+      ]
+    },
+    "prototype": "Crossy Syntax sentence 4"
+  },
+  {
+    "id": "rv-4-biasa",
+    "tier": "biasa",
+    "topic": "word-order",
+    "chapter": 1,
+    "stage": 4,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Kami baca buku baharu",
+      "We read new books"
+    ],
+    "hint": "Kami",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Kami tidak termasuk pendengar. Bentuk baca dalam contoh ini bersifat percakapan.",
+    "note_en": "Syntax Tip: Kami means 'we' (excluding the listener), and buku baharu places 'new' after 'books'.",
+    "style": "RV",
+    "ms": "Kami baca buku baharu",
+    "en": "We read new books",
+    "orders": {
+      "ms": [
+        "Kami baca buku baharu"
+      ],
+      "en": [
+        "We read new books"
+      ]
+    },
+    "decoys": {
+      "ms": [
+        "lama",
+        "tulis",
+        "mereka"
+      ],
+      "en": [
+        "red",
+        "small",
+        "drink",
+        "after",
+        "cold",
+        "old"
+      ]
+    },
+    "prototype": "Crossy Syntax sentence 4"
+  },
+  {
+    "id": "rv-4-mahir",
+    "tier": "mahir",
+    "topic": "word-order",
+    "chapter": 1,
+    "stage": 4,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Kami baca buku baharu",
+      "We read new books"
+    ],
+    "hint": "Kami",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Kami tidak termasuk pendengar. Bentuk baca dalam contoh ini bersifat percakapan.",
+    "note_en": "Syntax Tip: Kami means 'we' (excluding the listener), and buku baharu places 'new' after 'books'.",
+    "style": "RV",
+    "ms": "Kami baca buku baharu",
+    "en": "We read new books",
+    "orders": {
+      "ms": [
+        "Kami baca buku baharu"
+      ],
+      "en": [
+        "We read new books"
+      ]
+    },
+    "decoys": {
+      "ms": [
+        "lama",
+        "tulis",
+        "mereka"
+      ],
+      "en": [
+        "red",
+        "small",
+        "drink",
+        "after",
+        "cold",
+        "old"
+      ]
+    },
+    "prototype": "Crossy Syntax sentence 4"
+  },
+  {
+    "id": "rv-5-mudah",
+    "tier": "mudah",
+    "topic": "word-order",
+    "chapter": 1,
+    "stage": 5,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Dia minum kopi panas",
+      "He drinks hot coffee"
+    ],
+    "hint": "Dia",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Kopi panas meletakkan kata nama sebelum kata adjektif.",
+    "note_en": "Syntax Tip: Kopi panas (coffee hot) follows the standard Malay Hukum D-M (Diterangkan-Menerangkan) rule.",
+    "style": "RV",
+    "ms": "Dia minum kopi panas",
+    "en": "He drinks hot coffee",
+    "orders": {
+      "ms": [
+        "Dia minum kopi panas"
+      ],
+      "en": [
+        "He drinks hot coffee"
+      ]
+    },
+    "decoys": {
+      "ms": [
+        "sejuk",
+        "teh",
+        "makan"
+      ],
+      "en": [
+        "red",
+        "small",
+        "drink",
+        "after",
+        "cold",
+        "old"
+      ]
+    },
+    "prototype": "Crossy Syntax sentence 5"
+  },
+  {
+    "id": "rv-5-biasa",
+    "tier": "biasa",
+    "topic": "word-order",
+    "chapter": 1,
+    "stage": 5,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Dia minum kopi panas",
+      "He drinks hot coffee"
+    ],
+    "hint": "Dia",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Kopi panas meletakkan kata nama sebelum kata adjektif.",
+    "note_en": "Syntax Tip: Kopi panas (coffee hot) follows the standard Malay Hukum D-M (Diterangkan-Menerangkan) rule.",
+    "style": "RV",
+    "ms": "Dia minum kopi panas",
+    "en": "He drinks hot coffee",
+    "orders": {
+      "ms": [
+        "Dia minum kopi panas"
+      ],
+      "en": [
+        "He drinks hot coffee"
+      ]
+    },
+    "decoys": {
+      "ms": [
+        "sejuk",
+        "teh",
+        "makan"
+      ],
+      "en": [
+        "red",
+        "small",
+        "drink",
+        "after",
+        "cold",
+        "old"
+      ]
+    },
+    "prototype": "Crossy Syntax sentence 5"
+  },
+  {
+    "id": "rv-5-mahir",
+    "tier": "mahir",
+    "topic": "word-order",
+    "chapter": 1,
+    "stage": 5,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Dia minum kopi panas",
+      "He drinks hot coffee"
+    ],
+    "hint": "Dia",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Kopi panas meletakkan kata nama sebelum kata adjektif.",
+    "note_en": "Syntax Tip: Kopi panas (coffee hot) follows the standard Malay Hukum D-M (Diterangkan-Menerangkan) rule.",
+    "style": "RV",
+    "ms": "Dia minum kopi panas",
+    "en": "He drinks hot coffee",
+    "orders": {
+      "ms": [
+        "Dia minum kopi panas"
+      ],
+      "en": [
+        "He drinks hot coffee"
+      ]
+    },
+    "decoys": {
+      "ms": [
+        "sejuk",
+        "teh",
+        "makan"
+      ],
+      "en": [
+        "red",
+        "small",
+        "drink",
+        "after",
+        "cold",
+        "old"
+      ]
+    },
+    "prototype": "Crossy Syntax sentence 5"
+  },
+  {
+    "id": "rv-6-mudah",
+    "tier": "mudah",
+    "topic": "word-order",
+    "chapter": 1,
+    "stage": 5,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Sediakan payung sebelum hujan",
+      "Prepare umbrella before rain"
+    ],
+    "hint": "Sediakan",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Sediakan payung sebelum hujan bermaksud bersedia sebelum kesusahan.",
+    "note_en": "Peribahasa Bonus: Sediakan payung sebelum hujan is a famous Malay proverb meaning 'Prepare in advance before trouble strikes!'",
+    "style": "RV",
+    "ms": "Sediakan payung sebelum hujan",
+    "en": "Prepare umbrella before rain",
+    "orders": {
+      "ms": [
+        "Sediakan payung sebelum hujan"
+      ],
+      "en": [
+        "Prepare umbrella before rain"
+      ]
+    },
+    "decoys": {
+      "ms": [
+        "selepas",
+        "panas",
+        "bawa"
+      ],
+      "en": [
+        "red",
+        "small",
+        "drink",
+        "after",
+        "cold",
+        "old"
+      ]
+    },
+    "prototype": "Crossy Syntax sentence 6"
+  },
+  {
+    "id": "rv-6-biasa",
+    "tier": "biasa",
+    "topic": "word-order",
+    "chapter": 1,
+    "stage": 5,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Sediakan payung sebelum hujan",
+      "Prepare umbrella before rain"
+    ],
+    "hint": "Sediakan",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Sediakan payung sebelum hujan bermaksud bersedia sebelum kesusahan.",
+    "note_en": "Peribahasa Bonus: Sediakan payung sebelum hujan is a famous Malay proverb meaning 'Prepare in advance before trouble strikes!'",
+    "style": "RV",
+    "ms": "Sediakan payung sebelum hujan",
+    "en": "Prepare umbrella before rain",
+    "orders": {
+      "ms": [
+        "Sediakan payung sebelum hujan"
+      ],
+      "en": [
+        "Prepare umbrella before rain"
+      ]
+    },
+    "decoys": {
+      "ms": [
+        "selepas",
+        "panas",
+        "bawa"
+      ],
+      "en": [
+        "red",
+        "small",
+        "drink",
+        "after",
+        "cold",
+        "old"
+      ]
+    },
+    "prototype": "Crossy Syntax sentence 6"
+  },
+  {
+    "id": "rv-6-mahir",
+    "tier": "mahir",
+    "topic": "word-order",
+    "chapter": 1,
+    "stage": 5,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Sediakan payung sebelum hujan",
+      "Prepare umbrella before rain"
+    ],
+    "hint": "Sediakan",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Sediakan payung sebelum hujan bermaksud bersedia sebelum kesusahan.",
+    "note_en": "Peribahasa Bonus: Sediakan payung sebelum hujan is a famous Malay proverb meaning 'Prepare in advance before trouble strikes!'",
+    "style": "RV",
+    "ms": "Sediakan payung sebelum hujan",
+    "en": "Prepare umbrella before rain",
+    "orders": {
+      "ms": [
+        "Sediakan payung sebelum hujan"
+      ],
+      "en": [
+        "Prepare umbrella before rain"
+      ]
+    },
+    "decoys": {
+      "ms": [
+        "selepas",
+        "panas",
+        "bawa"
+      ],
+      "en": [
+        "red",
+        "small",
+        "drink",
+        "after",
+        "cold",
+        "old"
+      ]
+    },
+    "prototype": "Crossy Syntax sentence 6"
+  }
+]

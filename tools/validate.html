@@ -1,8 +1,8 @@
 <!doctype html><html lang="ms"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="../src/ui/game.css"><title>Hikayat Bisu</title></head><body><section id="validator" class="panel wide"></section><script type="module">
-import {theme,el,button} from '../src/ui/dom.js?v=z1-3';
-import {stringsFor} from '../src/systems/Strings.js?v=z1-3';
-import {loadContent} from '../src/systems/Content.js?v=z1-3';
-import {validateBanks,validateStage} from '../src/systems/ValidateContent.js?v=z1-3';
-import cfg from '../src/config/puzzles.json?v=z1-3' with {type:'json'};
-const root=document.getElementById('validator'),t=stringsFor('ms');theme(root);el('h1',t.validator,root);button(root,t.validate,async()=>{const output=el('pre',t.loading,root);try{const entries=await Promise.all(cfg.files.map(async name=>[name,await loadContent(name+'.json')])),result=validateBanks(Object.fromEntries(entries)),catalog=await loadContent('stage_catalog.json'),temp=await loadContent('temp_shrines.json');for(const entry of catalog.filter(x=>x.implemented)){const report=validateStage(await loadContent(entry.file),new Set(temp.map(x=>x.id)));result.errors.push(...report.errors.map(error=>entry.id+': '+error))}output.textContent=`${result.errors.length?t.errors:t.valid}: ${result.errors.length}\n${t.warnings}: ${result.warnings.length}\n`+result.errors.join('\n')}catch(error){output.textContent=t.loadError+' '+error.message}});
+import {theme,el,button} from '../src/ui/dom.js?v=z2-1';
+import {stringsFor} from '../src/systems/Strings.js?v=z2-1';
+import {loadContent} from '../src/systems/Content.js?v=z2-1';
+import {validateBanks,validateStage} from '../src/systems/ValidateContent.js?v=z2-1';
+import cfg from '../src/config/puzzles.json?v=z2-1' with {type:'json'};
+const root=document.getElementById('validator'),t=stringsFor('ms');theme(root);el('h1',t.validator,root);button(root,t.validate,async()=>{const output=el('pre',t.loading,root);try{const entries=await Promise.all(cfg.files.map(async name=>[name,await loadContent(name+'.json')])),result=validateBanks(Object.fromEntries(entries)),catalog=await loadContent('stage_catalog.json'),content=new Map(entries.filter(([name])=>['cryptograms','crossings','cardsets','defence_waves'].includes(name)).flatMap(([,items])=>items.map(x=>[x.id,x])));for(const entry of catalog.filter(x=>x.implemented)){const report=validateStage(await loadContent(entry.file),content);result.errors.push(...report.errors.map(error=>entry.id+': '+error))}output.textContent=`${result.errors.length?t.errors:t.valid}: ${result.errors.length}\n${t.warnings}: ${result.warnings.length}\n`+result.errors.join('\n')}catch(error){output.textContent=t.loadError+' '+error.message}});
 </script></body></html>

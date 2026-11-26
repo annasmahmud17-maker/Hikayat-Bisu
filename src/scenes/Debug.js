@@ -1,10 +1,10 @@
 import * as Phaser from 'https://cdn.jsdelivr.net/npm/phaser@3.90.0/dist/phaser.esm.js';
-import {stringsFor} from '../systems/Strings.js?v=z1-3';
-import {findCompanion,recordBoss,companionIds} from '../systems/CompanionState.js?v=z1-3';
-import {Save} from '../systems/Save.js?v=z1-3';
-import {el,button,theme} from '../ui/dom.js?v=z1-3';
-import cfg from '../config/combat.json?v=z1-3' with {type:'json'};
-import sayings from '../../content/boss_peribahasa.json?v=z1-3' with {type:'json'};
+import {stringsFor} from '../systems/Strings.js?v=z2-1';
+import {findCompanion,recordBoss,companionIds} from '../systems/CompanionState.js?v=z2-1';
+import {Save} from '../systems/Save.js?v=z2-1';
+import {el,button,theme} from '../ui/dom.js?v=z2-1';
+import cfg from '../config/combat.json?v=z2-1' with {type:'json'};
+import sayings from '../../content/boss_peribahasa.json?v=z2-1' with {type:'json'};
 export class Debug extends Phaser.Scene{
  constructor(){super('debug')}
  create(){
@@ -18,13 +18,14 @@ export class Debug extends Phaser.Scene{
   document.addEventListener('pointerdown',this.down);document.addEventListener('pointerup',this.up);document.addEventListener('pointercancel',this.up);
   this.events.once('shutdown',()=>{this.hide();this.root.remove();this.toggle.remove();document.removeEventListener('pointerdown',this.down);document.removeEventListener('pointerup',this.up);document.removeEventListener('pointercancel',this.up)})
  }
- hide(){this.root.hidden=true;if(this.activeStage)this.activeStage.paused=this.wasPaused;this.activeStage=null}
+ hide(){this.root.hidden=true;if(this.activeStage)this.activeStage.paused=this.activeStage.loading?true:this.wasPaused&&Boolean(this.activeStage.menuDialog||this.activeStage.puzzleHost.active);this.activeStage=null}
  render(){
   if(!this.root.hidden){this.hide();return}
   this.root.hidden=false;
   const s=this.game.settings,t=stringsFor(s.language),stage=this.scene.get('stage');
-  if(this.scene.isActive('stage')&&stage.stage){this.activeStage=stage;this.wasPaused=stage.paused;stage.paused=true;stage.controls.reset()}
+  if(this.scene.isActive('stage')&&stage.stage&&stage.hero&&!stage.loading){this.activeStage=stage;this.wasPaused=stage.paused;stage.paused=true;stage.controls.reset()}
   this.root.replaceChildren();el('h2',t.debug,this.root);this.stats=el('p',null,this.root);button(this.root,t.close,()=>this.hide());
+  for(let n=1;n<=5;n++)button(this.root,t.debugStage+' '+n,()=>{this.hide();const id=`ch1_s${n}`;if(!s.progress.unlocked.includes(id))s.progress.unlocked.push(id);this.scene.manager.stop('stage');this.scene.manager.stop('camp');this.scene.manager.stop('map');this.scene.manager.start('stage',{id})});
   for(const id of companionIds)button(this.root,t.find+' '+t[id],()=>{findCompanion(s,id);Save.write(s);if(this.scene.isActive('camp'))this.scene.get('camp').render()});
   button(this.root,t.debugKata,()=>{s.kata+=cfg.ui.debugKata;Save.write(s)});
   button(this.root,t.debugArrow,()=>{s.abilities.inkArrow=!s.abilities.inkArrow;Save.write(s)});

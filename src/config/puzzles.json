@@ -1,1 +1,192 @@
-{"files":["sentences","affixes","parts_of_speech","synonyms","antonyms","peribahasa","translations","jawi","dialects","names","distractors","puzzles"],"tiers":["mudah","biasa","mahir"],"styles":["CR","RV","CM","TD"],"temporary":true}
+{
+  "files": [
+    "sentences",
+    "affixes",
+    "parts_of_speech",
+    "synonyms",
+    "antonyms",
+    "peribahasa",
+    "translations",
+    "jawi",
+    "dialects",
+    "names",
+    "distractors",
+    "puzzles",
+    "cryptograms",
+    "crossings",
+    "cardsets",
+    "defence_waves"
+  ],
+  "tiers": [
+    "mudah",
+    "biasa",
+    "mahir"
+  ],
+  "styles": [
+    "CR",
+    "RV",
+    "CM",
+    "TD"
+  ],
+  "revision": 2,
+  "minorDamage": 1,
+  "minimumHearts": 1,
+  "transitionMs": 180,
+  "messageMs": 1600,
+  "short": {
+    "rows": 2,
+    "pairs": 2,
+    "words": 3,
+    "letters": 1
+  },
+  "CR": {
+    "prefill": {
+      "mudah": 0.65,
+      "biasa": 0.4,
+      "mahir": 0.15
+    },
+    "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "pillar": [
+      12,
+      6
+    ],
+    "pit": [
+      12,
+      5
+    ],
+    "start": [
+      12,
+      8
+    ],
+    "pushRadius": 58
+  },
+  "RV": {
+    "left": 144,
+    "right": 816,
+    "bottom": 432,
+    "rowHeight": 48,
+    "logWidth": 160,
+    "logHeight": 40,
+    "stepMs": 260,
+    "moveSpeed": 170,
+    "speed": {
+      "mudah": 18,
+      "biasa": 24,
+      "mahir": 32
+    },
+    "decoys": 2,
+    "alignTolerance": 12
+  },
+  "CM": {
+    "pairs": {
+      "mudah": 4,
+      "biasa": 6,
+      "mahir": 8
+    },
+    "mismatchMs": 800,
+    "guardianHealth": 1
+  },
+  "TD": {
+    "width": 640,
+    "height": 300,
+    "ink": 60,
+    "towerCost": 20,
+    "range": 270,
+    "cooldownMs": 500,
+    "spawnMs": 950,
+    "speed": {
+      "mudah": 42,
+      "biasa": 52,
+      "mahir": 62
+    },
+    "health": {
+      "mudah": 1,
+      "biasa": 2,
+      "mahir": 2
+    },
+    "words": {
+      "mudah": 5,
+      "biasa": 6,
+      "mahir": 8
+    },
+    "path": [
+      [
+        0.02,
+        0.3
+      ],
+      [
+        0.28,
+        0.3
+      ],
+      [
+        0.28,
+        0.72
+      ],
+      [
+        0.68,
+        0.72
+      ],
+      [
+        0.68,
+        0.25
+      ],
+      [
+        0.98,
+        0.25
+      ]
+    ],
+    "pads": [
+      [
+        0.35,
+        0.48
+      ],
+      [
+        0.5,
+        0.48
+      ],
+      [
+        0.65,
+        0.48
+      ],
+      [
+        0.14,
+        0.58
+      ],
+      [
+        0.8,
+        0.55
+      ],
+      [
+        0.49,
+        0.15
+      ]
+    ],
+    "classes": [
+      "nama",
+      "kerja",
+      "adjektif"
+    ],
+    "tickMs": 33,
+    "balloonRadius": 19
+  },
+  "boss": {
+    "healthPerRound": 6,
+    "cooldownMs": 1800,
+    "tellWhiteMs": 240,
+    "tellEmberMs": 500,
+    "slamRadius": 48,
+    "leafCount": 3,
+    "pulseRadius": 150,
+    "pulseDim": 0.16,
+    "introMs": 1600,
+    "victoryMs": 2200,
+    "stunMs": 2800,
+    "buffMultiplier": 1.25,
+    "silenceMs": 1600,
+    "leafFallHeight": 140
+  },
+  "world": {
+    "guardianOffset": 36,
+    "foundRadius": 65
+  }
+}

@@ -1,6 +1,6 @@
-import cfg from '../config/combat.json?v=z1-3' with {type:'json'};
-import {canOccupy} from '../systems/WorldState.js?v=z1-3';
-import {palette as p,color} from '../theme/palette.js?v=z1-3';
+import cfg from '../config/combat.json?v=z2-1' with {type:'json'};
+import {canOccupy} from '../systems/WorldState.js?v=z2-1';
+import {palette as p,color} from '../theme/palette.js?v=z2-1';
 export class Enemy{
  constructor(scene,data){this.scene=scene;this.data=data;this.x=(data.tile[0]+.5)*cfg.tile;this.y=(data.tile[1]+.5)*cfg.tile;this.home={x:this.x,y:this.y};this.hp=data.health||cfg.enemy.health;this.pattern=data.pattern;this.timer=cfg.enemy.cooldownMs;this.state='patrol';this.direction=1;this.node=scene.renderer.draw(data.key,this.x,this.y);this.label=scene.renderer.label(this.node,scene.t[data.nameKey].slice(0,1));this.stunned=0;this.tellSound=false}
  move(dx,dy){const r=cfg.enemy.bodyRadius;if(canOccupy(this.scene.room.rows,this.x+dx,this.y,r,cfg.tile))this.x+=dx;else this.direction*=-1;if(canOccupy(this.scene.room.rows,this.x,this.y+dy,r,cfg.tile))this.y+=dy}

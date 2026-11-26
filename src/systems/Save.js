@@ -1,5 +1,5 @@
-import defaults from '../config/settings.json?v=z1-3' with {type:'json'};
-import config from '../config/foundation.json?v=z1-3' with {type:'json'};
+import defaults from '../config/settings.json?v=z2-1' with {type:'json'};
+import config from '../config/foundation.json?v=z2-1' with {type:'json'};
 const clone=value=>structuredClone(value);
 export function migrate(record){
  const s=clone(defaults);
@@ -13,6 +13,7 @@ export function migrate(record){
  s.maxHearts=Math.max(defaults.maxHearts,Math.min(30,Number(record.maxHearts)||defaults.maxHearts));s.hearts=Math.max(0,Math.min(s.maxHearts,Number(record.hearts)||s.maxHearts));
  s.companions=record.companions&&typeof record.companions==='object'?record.companions:{};s.party=[...new Set(record.party||[])].filter(id=>s.companions[id]?.found).slice(0,2);s.activeCompanion=s.party.includes(record.activeCompanion)?record.activeCompanion:s.party[0]||null;
  s.layout=record.layout&&typeof record.layout==='object'?record.layout:null;s.abilities={inkArrow:record.abilities?.inkArrow===true};
+ s.story={...(record.story||{})};
  const p=record.progress||{};s.progress={current:/^ch[1-4]_s(?:[1-9]|10)$/.test(p.current)?p.current:'ch1_s1',unlocked:[...new Set(['ch1_s1',...(p.unlocked||[])])],cleared:[...new Set(p.cleared||[])],stages:p.stages&&typeof p.stages==='object'?p.stages:{},lesserKeys:[...new Set(p.lesserKeys||[])].filter(n=>[1,2,3].includes(n))};
  s.bayang=record.bayang&&Number.isFinite(record.bayang.kata)?record.bayang:null;
  return s;

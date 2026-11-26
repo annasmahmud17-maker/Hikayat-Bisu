@@ -1,4 +1,4 @@
-import cfg from '../config/audio.json?v=z1-3' with {type:'json'};
+import cfg from '../config/audio.json?v=z2-1' with {type:'json'};
 export class Sound{
  constructor(settings){this.settings=settings;this.context=null;this.timer=null;this.step=0}
  unlock(){try{this.context??=new(window.AudioContext||window.webkitAudioContext)();this.context.resume().catch(()=>{})}catch{}}
