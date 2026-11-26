@@ -1,0 +1,22 @@
+name: Preserve sidescroller snapshot
+on:
+  push:
+    branches: [zelda-phase-1]
+permissions:
+  contents: write
+jobs:
+  backup-tag:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      LEGACY_SHA: 31113195d634a3738804c2b87c03d7a261d5f679
+    steps:
+      - name: Create immutable legacy tag
+        shell: bash
+        run: |
+          existing=$(gh api "repos/$GITHUB_REPOSITORY/git/ref/tags/legacy-sidescroller" --jq .object.sha 2>/dev/null || true)
+          if [ -n "$existing" ]; then
+            test "$existing" = "$LEGACY_SHA"
+          else
+            gh api "repos/$GITHUB_REPOSITORY/git/refs" -f ref=refs/tags/legacy-sidescroller -f sha="$LEGACY_SHA"
+          fi

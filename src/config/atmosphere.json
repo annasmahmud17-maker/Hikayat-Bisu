@@ -1,0 +1,78 @@
+{
+  "lighting": {
+    "normalOpacity": 0.46,
+    "lowOpacity": 0.35,
+    "heroRadiusTiles": 4,
+    "stationRadiusTiles": 2,
+    "pickupRadiusTiles": 0.8,
+    "vignette": 0.25,
+    "edgeOpacity": 0.4,
+    "lightLayers": 5
+  },
+  "biomes": {
+    "camp": {
+      "particles": "fireflies",
+      "count": 18,
+      "lowCount": 5,
+      "speed": 9,
+      "opacity": 0.3,
+      "edgeShapes": 12
+    },
+    "rimba": {
+      "particles": "spores",
+      "count": 18,
+      "lowCount": 5,
+      "speed": 9,
+      "opacity": 0.3,
+      "edgeShapes": 12
+    },
+    "gua": {
+      "particles": "dust",
+      "count": 18,
+      "lowCount": 5,
+      "speed": 9,
+      "opacity": 0.3,
+      "edgeShapes": 12
+    },
+    "bukit": {
+      "particles": "dust",
+      "count": 18,
+      "lowCount": 5,
+      "speed": 9,
+      "opacity": 0.3,
+      "edgeShapes": 12
+    },
+    "tasik": {
+      "particles": "ink",
+      "count": 18,
+      "lowCount": 5,
+      "speed": 9,
+      "opacity": 0.3,
+      "edgeShapes": 12
+    },
+    "istana": {
+      "particles": "bubbles",
+      "count": 18,
+      "lowCount": 5,
+      "speed": 9,
+      "opacity": 0.3,
+      "edgeShapes": 12
+    },
+    "dasar": {
+      "particles": "bubbles",
+      "count": 18,
+      "lowCount": 5,
+      "speed": 9,
+      "opacity": 0.3,
+      "edgeShapes": 12
+    },
+    "pustaka": {
+      "particles": "letters",
+      "count": 18,
+      "lowCount": 5,
+      "speed": 9,
+      "opacity": 0.3,
+      "edgeShapes": 12
+    }
+  }
+}

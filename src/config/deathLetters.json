@@ -1,0 +1,16 @@
+{
+  "poolSize": 160,
+  "shatterMs": 400,
+  "driftMs": 1500,
+  "sway": 13,
+  "swayRate": 3,
+  "rise": 58,
+  "spread": 36,
+  "collectShare": 0.3333333333,
+  "collectRadius": 35,
+  "fontSize": 18,
+  "smallLetters": 6,
+  "mediumLetters": 10,
+  "heroPhrase": "AKSARA",
+  "lowPowerLimit": 6
+}

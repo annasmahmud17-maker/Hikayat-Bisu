@@ -1,8 +1,11 @@
 {
-  "schema": 3,
+  "hintCosts": [
+    20,
+    40,
+    80
+  ],
   "partyMax": 2,
   "setia": {
-    "chainLength": 3,
     "replayCosts": [
       60,
       120
@@ -10,65 +13,7 @@
     "mockAdSeconds": 5,
     "adTickMs": 1000
   },
-  "companion": {
-    "followDistance": 46,
-    "followSpeed": 130,
-    "teleportDistance": 300,
-    "teleportOffset": 35,
-    "staggerMs": 2400,
-    "commandCooldownMs": 10000,
-    "hitCooldownGainMs": 1600,
-    "parryCooldownGainMs": 2400,
-    "commandDurationMs": 1800,
-    "decoyDistance": 155,
-    "weakPointDurationMs": 4000,
-    "pledgeMax": 100,
-    "pledgeHitGain": 25,
-    "pledgeParryGain": 35,
-    "pledgeHintCharges": 3,
-    "commandStunMs": 1200,
-    "spriteSize": 32,
-    "tinyGapHeight": 24
-  },
-  "charms": {
-    "laju": {
-      "cost": 35,
-      "refillCost": 15,
-      "notches": 2,
-      "speedMultiplier": 1.25,
-      "durationMs": 10000
-    },
-    "kebal": {
-      "cost": 45,
-      "refillCost": 20,
-      "notches": 2
-    }
-  },
-  "benches": [
-    {
-      "id": "entrance",
-      "x": 220,
-      "y": 449
-    },
-    {
-      "id": "far",
-      "x": 1370,
-      "y": 449
-    }
-  ],
-  "mapInteractionRadius": 55,
-  "camp": {
-    "fireflyCount": 12,
-    "flickerMs": 120,
-    "lullabyStepMs": 900,
-    "lullabyNotes": [
-      220,
-      293.66,
-      329.63,
-      440
-    ],
-    "lanternCount": 3
-  },
-  "repositoryGoal": 7,
-  "tinyGapKata": 4
+  "revivalCost": 2000,
+  "letterKata": 1,
+  "chestKata": 20
 }

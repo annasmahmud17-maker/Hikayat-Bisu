@@ -20,7 +20,10 @@
       "tulisan",
       "tulisnya"
     ],
-    "ruleNote": "meN- + tulis → menulis"
+    "ruleNote": "meN- + tulis → menulis",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mudah",
@@ -43,7 +46,10 @@
       "bacaan",
       "bacanya"
     ],
-    "ruleNote": "meN- + baca → membaca"
+    "ruleNote": "meN- + baca → membaca",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mudah",
@@ -66,7 +72,10 @@
       "sapuan",
       "sapunya"
     ],
-    "ruleNote": "meN- + sapu → menyapu"
+    "ruleNote": "meN- + sapu → menyapu",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mudah",
@@ -88,7 +97,10 @@
       "jalanan",
       "jalannya"
     ],
-    "ruleNote": "ber- + jalan → berjalan"
+    "ruleNote": "ber- + jalan → berjalan",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mudah",
@@ -110,7 +122,10 @@
       "mainan",
       "mainnya"
     ],
-    "ruleNote": "ber- + main → bermain"
+    "ruleNote": "ber- + main → bermain",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mudah",
@@ -132,7 +147,10 @@
       "larian",
       "larinya"
     ],
-    "ruleNote": "ber- + lari → berlari"
+    "ruleNote": "ber- + lari → berlari",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mudah",
@@ -154,7 +172,10 @@
       "bacaan",
       "bacanya"
     ],
-    "ruleNote": "di- + baca → dibaca"
+    "ruleNote": "di- + baca → dibaca",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mudah",
@@ -176,7 +197,10 @@
       "tulisan",
       "tulisnya"
     ],
-    "ruleNote": "di- + tulis → ditulis"
+    "ruleNote": "di- + tulis → ditulis",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mudah",
@@ -198,7 +222,10 @@
       "bukaan",
       "bukanya"
     ],
-    "ruleNote": "di- + buka → dibuka"
+    "ruleNote": "di- + buka → dibuka",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mudah",
@@ -221,7 +248,10 @@
       "pukulan",
       "pukulnya"
     ],
-    "ruleNote": "meN- + pukul → memukul"
+    "ruleNote": "meN- + pukul → memukul",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "biasa",
@@ -244,7 +274,10 @@
       "tanaman",
       "tanamnya"
     ],
-    "ruleNote": "meN- + tanam → menanam"
+    "ruleNote": "meN- + tanam → menanam",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "biasa",
@@ -267,7 +300,10 @@
       "kiraan",
       "kiranya"
     ],
-    "ruleNote": "meN- + kira → mengira"
+    "ruleNote": "meN- + kira → mengira",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "biasa",
@@ -290,7 +326,10 @@
       "ajaran",
       "ajarnya"
     ],
-    "ruleNote": "meN- + ajar → mengajar"
+    "ruleNote": "meN- + ajar → mengajar",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "biasa",
@@ -313,7 +352,10 @@
       "kerjaan",
       "kerjanya"
     ],
-    "ruleNote": "ber- + kerja → bekerja"
+    "ruleNote": "ber- + kerja → bekerja",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "biasa",
@@ -336,7 +378,10 @@
       "ajaran",
       "ajarnya"
     ],
-    "ruleNote": "ber- + ajar → belajar"
+    "ruleNote": "ber- + ajar → belajar",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "biasa",
@@ -358,7 +403,10 @@
       "kataan",
       "katanya"
     ],
-    "ruleNote": "ber- + kata → berkata"
+    "ruleNote": "ber- + kata → berkata",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "biasa",
@@ -380,7 +428,10 @@
       "susunan",
       "susunnya"
     ],
-    "ruleNote": "di- + susun → disusun"
+    "ruleNote": "di- + susun → disusun",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "biasa",
@@ -402,7 +453,10 @@
       "tanaman",
       "tanamnya"
     ],
-    "ruleNote": "di- + tanam → ditanam"
+    "ruleNote": "di- + tanam → ditanam",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "biasa",
@@ -424,7 +478,10 @@
       "jumpaan",
       "jumpanya"
     ],
-    "ruleNote": "ber- + jumpa → berjumpa"
+    "ruleNote": "ber- + jumpa → berjumpa",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "biasa",
@@ -447,7 +504,10 @@
       "pilihan",
       "pilihnya"
     ],
-    "ruleNote": "meN- + pilih → memilih"
+    "ruleNote": "meN- + pilih → memilih",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mahir",
@@ -470,7 +530,10 @@
       "catan",
       "catnya"
     ],
-    "ruleNote": "meN- + cat → mengecat"
+    "ruleNote": "meN- + cat → mengecat",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mahir",
@@ -493,7 +556,10 @@
       "boman",
       "bomnya"
     ],
-    "ruleNote": "meN- + bom → mengebom"
+    "ruleNote": "meN- + bom → mengebom",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mahir",
@@ -516,7 +582,10 @@
       "siasatan",
       "siasatnya"
     ],
-    "ruleNote": "meN- + siasat → menyiasat"
+    "ruleNote": "meN- + siasat → menyiasat",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mahir",
@@ -539,7 +608,10 @@
       "kajian",
       "kajinya"
     ],
-    "ruleNote": "meN- + kaji → mengkaji"
+    "ruleNote": "meN- + kaji → mengkaji",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mahir",
@@ -561,7 +633,10 @@
       "dirian",
       "dirinya"
     ],
-    "ruleNote": "ber- + diri → berdiri"
+    "ruleNote": "ber- + diri → berdiri",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mahir",
@@ -583,7 +658,10 @@
       "ertian",
       "ertinya"
     ],
-    "ruleNote": "ber- + erti → bererti"
+    "ruleNote": "ber- + erti → bererti",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mahir",
@@ -605,7 +683,10 @@
       "bincangan",
       "bincangnya"
     ],
-    "ruleNote": "ber- + bincang → berbincang"
+    "ruleNote": "ber- + bincang → berbincang",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mahir",
@@ -627,7 +708,10 @@
       "peliharaan",
       "peliharanya"
     ],
-    "ruleNote": "di- + pelihara → dipelihara"
+    "ruleNote": "di- + pelihara → dipelihara",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mahir",
@@ -649,7 +733,10 @@
       "selidikan",
       "selidiknya"
     ],
-    "ruleNote": "di- + selidik → diselidik"
+    "ruleNote": "di- + selidik → diselidik",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mahir",
@@ -672,6 +759,9 @@
       "tafsiran",
       "tafsirnya"
     ],
-    "ruleNote": "meN- + tafsir → mentafsir"
+    "ruleNote": "meN- + tafsir → mentafsir",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   }
 ]

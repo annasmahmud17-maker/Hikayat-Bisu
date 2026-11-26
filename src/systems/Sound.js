@@ -1,1 +1,11 @@
-export class Sound{constructor(settings){this.settings=settings;this.context=null}play(kind){try{this.context??=new (window.AudioContext||window.webkitAudioContext)();const c=this.context,o=c.createOscillator(),g=c.createGain(),now=c.currentTime;const tones={tell:440,slash:270,parry:720,hurt:130,heal:560,collect:840,jump:420,death:100};o.type=kind==='tell'?'sine':'triangle';o.frequency.setValueAtTime(tones[kind]||350,now);o.frequency.exponentialRampToValueAtTime(Math.max(60,(tones[kind]||350)*0.65),now+0.12);g.gain.setValueAtTime(Math.max(0.001,this.settings.masterVolume*this.settings.effectsVolume*0.09),now);g.gain.exponentialRampToValueAtTime(0.001,now+0.14);o.connect(g).connect(c.destination);o.start(now);o.stop(now+0.15)}catch{}}/* Replace each tone with a locally hosted /audio file in a later phase. */}
+import cfg from '../config/audio.json' with {type:'json'};
+export class Sound{
+ constructor(settings){this.settings=settings;this.context=null;this.timer=null;this.step=0}
+ unlock(){try{this.context??=new(window.AudioContext||window.webkitAudioContext)();this.context.resume().catch(()=>{})}catch{}}
+ tone(frequency,volume){try{if(volume<=0||!this.context||this.context.state!=='running')return;const c=this.context,o=c.createOscillator(),g=c.createGain(),now=c.currentTime;o.type='sine';o.frequency.setValueAtTime(frequency,now);o.frequency.exponentialRampToValueAtTime(frequency*cfg.tailFrequency,now+cfg.duration);g.gain.setValueAtTime(Math.max(cfg.minGain,volume*cfg.gain),now);g.gain.exponentialRampToValueAtTime(cfg.minGain,now+cfg.duration);o.connect(g).connect(c.destination);o.start(now);o.stop(now+cfg.duration)}catch{}}
+ play(kind){this.unlock();this.tone(cfg.tones[kind]||cfg.tones.click,this.settings.masterVolume*this.settings.effectsVolume)}
+ motif(biome){this.stop();const notes=cfg.motifs[biome]||cfg.motifs.rimba;this.timer=setInterval(()=>{if(!document.hidden)this.tone(notes[this.step++%notes.length],this.settings.masterVolume*this.settings.musicVolume)},cfg.motifStepMs)}
+ stop(){clearInterval(this.timer);this.timer=null}
+ destroy(){this.stop();this.context?.close().catch(()=>{})}
+}
+// Future real sound files belong in /audio and can replace play()/motif() here.

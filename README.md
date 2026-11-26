@@ -1,33 +1,31 @@
-# Hikayat Bisu — foundation and simplified test arena
+# Hikayat Bisu
 
-This static Phaser 3.90.0 ES-module project has no bundler or build step. It starts at Title, then enters Balai Cerita camp. The test arena is accessible from camp. Choose a boy or girl hero, name, language, and difficulty tier. Settings and Kata save locally. There are no accounts, analytics, or tracking.
+A phone-first top-down action-puzzle adventure set in Alam Lisan. Original procedural shapes and WebAudio placeholders; no accounts, analytics, tracking, bundler or build step. Phaser **3.90.0** is loaded as an ES module from jsDelivr. Runtime assets are same-origin except that pinned engine.
+
+## Current phase
+
+Master Prompt v2, Phase 1. Title → Balai Cerita → Rimba Aksara Stage 1. Five walkable rooms contain five **TEMP** seals, three Pondok rest points, two enemy patterns, a Kancil bonus chest, a far-side shortcut and an exit. The future 40-stage map is visible; only Stage 1 is implemented. Actual puzzle styles arrive in Phase 2.
+
+Use the floating pad to move; **Tetak / Slash** attacks and **Aksi / Act** interacts. Keyboard: WASD/arrows, Space to slash, E to act, Q to swap, Escape for Menu. A controller's left stick, button 0 and button 1 move, slash and act. Menu contains the layout editor, hit-stop/shake toggles, low power and volume controls. Three fingers or the small ⋮ button opens debug tools inside the real stage.
+
+When defeated, half the Kata goes to a Bayang and the hero returns to the last Pondok. Defeat the Bayang to recover it; another defeat replaces the old Bayang. Seal progress remains saved. Rest to restore hearts and autosave.
 
 ## GitHub Pages
 
-In repository Settings → Pages select **Deploy from a branch**, branch **main**, folder **/(root)**. Open the resulting Pages link in a current phone browser in landscape. Add to Home Screen for fullscreen. Load once online for offline caching. A local preview can run with `python3 -m http.server 8000` from the root; direct `file://` loading cannot import JSON or register a service worker.
+1. Merge the `zelda-phase-1` pull request into `main` when ready.
+2. Repository Settings → Pages → Deploy from a branch → `main` → `/ (root)`.
+3. Open `https://annasmahmud17-maker.github.io/Hikayat-Bisu/` after deployment completes. Close/reopen once to update an older service worker.
+4. On Android Chrome, use Add to Home Screen / Install app. Landscape is preferred; puzzle dialogs also fit portrait. One successful complete online load caches the shell, Stage 1, content and pinned engine for later offline use.
 
-## Controls
+For local development, serve the repository root with any static HTTP server (for example `python3 -m http.server 8000`). No dependencies need installation. Modern Chromium with JSON import attributes is required.
 
-Move with the floating left stick. Jump with the large right button; press again quickly in the air for a double jump. Jump while touching a wall to leap away. Land on enemies from above to defeat them and bounce. Touching their sides or underside costs Semangat. A future ranged Attack button is reserved diagonally above Jump and remains hidden until that ability is implemented. On a keyboard, A/D or arrows move and Space jumps; a controller's left stick and south button also work.
+## Files and validation
 
-The top-right **Susun Butang** control opens the layout editor to move and resize the Jump button. Three fingers toggle debug information and future ability flags. The two sample puzzle entries can be checked at `/tools/validate.html`. Stages and puzzle gameplay are reserved for later phases. Visuals and audio are procedural.
+- `/src/render/sprites.js` and `/src/config/sprites.json`: one rendering API for placeholders and future sheets. `/src/render/LightingLayer.js` and `ParticleLayer.js`: atmosphere.
+- `/content/stages/ch1_s1.json`: room string rows and exactly five seals. `stage_catalog.json`: all forty map entries.
+- `/src/config/`: movement/combat, economy, Bayang share, pooled death letters, atmosphere and audio tuning.
+- `/src/strings/ms.json` and `en.json`: interface/lore text. `/content/`: puzzle banks and draft proverb text.
+- `/tools/validate.html`: content and stage validation. `node --test tests/*.test.mjs`: engine-independent checks with Node 24+.
+- `/docs/rework-audit.md`: every original tracked file categorized keep/adapt/remove. `/docs/rework-phase-1-qa.md`: verified checks and phone checklist.
 
-## Phase 2 puzzles
-
-Balai Cerita → **Bilik Ujian Teka-teki** opens the isolated puzzle test room. All active variants work by touch; Jawi and dialect are disabled future stubs. Validation is at [`tools/validate.html`](tools/validate.html), including a broken-entry test.
-
-Run engine/content checks with `node --test tests/puzzles.test.mjs` (Node 24+). See [`docs/phase-2-qa.md`](docs/phase-2-qa.md) for phone checks and remaining editorial/device review.
-
-To use in a stage, load `WordBanks`, construct one `PuzzleOverlay(scene, banks)`, then call `overlay.open('1a', {tier, onCorrect, onClose})`. It defaults to `scene.hero.hp`, `scene.kata` and the saved Kancil party flag. A custom `wallet: {hp, kata}` can be supplied. Import `kataKunci` and call `kataKunci(overlay, '3b', {boss: {stun(){…}, buff(){…}}})` for a boss. Callbacks run after the closing transition and action restoration. Keep the overlay instance per scene to prevent concurrent modals.
-
-### Phase 3 camp test
-
-Enter a hero name and open **Balai Cerita**. Use Pasukan to choose one or two companions (unlock a second through the three-finger debug panel), Setia for Kancil's three riddle chains, Azimat for the two-notch samples, and Peribahasa for collected boss sayings. The debug panel can add each draft peribahasa and toggle an ad-free test flag. Earn Kata by stomping enemies in the arena; discover the far Pondok to use fast travel from the camp map. A free Setia replay shows an opt-in five-second mock ad; the ad-free test flag skips it but still charges Kata. Reload to check persistence. The seven proverb meanings remain drafts pending Malay editorial review.
-
-## Phase 4 — Rimba Aksara
-
-From camp select **Jelajah Rimba Aksara** / **Explore Rimba Aksara**. The twelve-room stage has three Pondok checkpoints, three syntax doors, a syntax chest, leaf/beetle enemies, Root Guard and wall-jump chest, Kancil recruitment, two optional companion chests, and Beringin Sunyi. Rest restores Semangat/Ink and saves. Use the mini-map's Map button for discovered Pondok travel; travel is disabled during encounters.
-
-Touch: left stick, Jump, Slash, Read/Use, dodge, parry, heal and ink buttons. Keyboard: A/D or arrows, Space jump, J slash, E interact, M map, K parry, L dodge, H heal, I ink. Kancil's command and Setia-only Pledge use the existing companion buttons. Hear his bonding scene in camp's Setia tab after recruitment.
-
-Run `node --test tests/*.test.mjs`. For live engine verification open `tests/stage1-browser.html` on a local preview; it creates an isolated test campaign in that preview origin, drives the real Phaser scene and writes a visible report. It does not measure human playthrough pacing. See `docs/phase-4-qa.md` for the complete phone checklist and verification limits.
+The legacy branch/tag `legacy-sidescroller` preserves pre-rework main. The old localStorage record is untouched; the new schema copies compatible preferences and Kata while resetting incompatible world progress. All storage operations use try/catch. Future real audio can be wired behind Sound in `/audio`; AdProvider and PurchaseProvider remain local mocks. Every peribahasa adaptation remains draft pending Malay editorial review.

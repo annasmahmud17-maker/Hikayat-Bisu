@@ -1,2 +1,1 @@
-export {WordBanks,normalize,accepts} from './PuzzleContent.js?v=21';
-export async function loadContent(file){if(!/^[a-z_]+\.json$/.test(file))throw new Error('Invalid content path');const response=await fetch(new URL('../../content/'+file,import.meta.url));if(!response.ok)throw new Error(`Content unavailable: ${file}`);return response.json()}
+export async function loadContent(file){if(!/^(?:[a-z_]+|stages\/ch[1-4]_s(?:[1-9]|10))\.json$/.test(file))throw Error('Invalid content path');const r=await fetch(new URL('../../content/'+file,import.meta.url));if(!r.ok)throw Error(`Content unavailable: ${file}`);return r.json()}

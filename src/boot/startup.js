@@ -1,9 +1,10 @@
-import {palette} from '../theme/palette.js?v=21';
-import {stringsFor} from '../systems/Strings.js?v=21';
+import {palette} from '../theme/palette.js';
+import {stringsFor} from '../systems/Strings.js';
+for(const [key,value] of Object.entries(palette))if(typeof value==='string')document.documentElement.style.setProperty('--'+key,value);
 document.querySelector('meta[name="theme-color"]').content=palette.background;
-const panel=document.getElementById('startup');panel.style.color=palette.buttonText;panel.style.backgroundColor=palette.background;panel.textContent=stringsFor('ms').loading;
-window.addEventListener('error',event=>{panel.textContent=`${stringsFor('ms').loadError} ${event.message||''}`});
-window.addEventListener('unhandledrejection',event=>{panel.textContent=`${stringsFor('ms').loadError} ${event.reason?.message||''}`});
-document.addEventListener('hikayat-ready',()=>panel.remove(),{once:true});
-const landscape=document.getElementById('landscape');landscape.textContent=stringsFor('ms').portraitHint;landscape.style.backgroundColor=palette.camp.far;landscape.style.color=palette.parchment;
-try{await import('../main.js?v=21')}catch(error){panel.textContent=`${stringsFor('ms').loadError} ${error.message||''}`}
+const t=stringsFor('ms'),status=document.getElementById('startup');status.textContent=t.loading;document.getElementById('landscape').textContent=t.portraitHint;
+const error=()=>{status.hidden=false;status.textContent=t.loadError;document.body.append(status)};
+window.addEventListener('error',error);window.addEventListener('unhandledrejection',error);
+document.addEventListener('hikayat-ready',()=>status.remove(),{once:true});
+try{await import('../main.js')}catch(e){console.error(e);error()}
+if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));

@@ -1,0 +1,164 @@
+{
+  "frameSize": 48,
+  "heroSize": 30,
+  "enemySize": 32,
+  "bossSize": 78,
+  "companionSize": 22,
+  "stationSize": 30,
+  "rimWidth": 2,
+  "checkerLift": 0.06,
+  "keys": {
+    "boy": {
+      "type": "placeholder",
+      "path": null,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "animations": {}
+    },
+    "girlA": {
+      "type": "placeholder",
+      "path": null,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "animations": {}
+    },
+    "girlB": {
+      "type": "placeholder",
+      "path": null,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "animations": {}
+    },
+    "daun": {
+      "type": "placeholder",
+      "path": null,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "animations": {}
+    },
+    "kumbang": {
+      "type": "placeholder",
+      "path": null,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "animations": {}
+    },
+    "shooter": {
+      "type": "placeholder",
+      "path": null,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "animations": {}
+    },
+    "boss": {
+      "type": "placeholder",
+      "path": null,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "animations": {}
+    },
+    "kancil": {
+      "type": "placeholder",
+      "path": null,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "animations": {}
+    },
+    "rimau": {
+      "type": "placeholder",
+      "path": null,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "animations": {}
+    },
+    "lang": {
+      "type": "placeholder",
+      "path": null,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "animations": {}
+    },
+    "dayang": {
+      "type": "placeholder",
+      "path": null,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "animations": {}
+    },
+    "hidden": {
+      "type": "placeholder",
+      "path": null,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "animations": {}
+    },
+    "shrine": {
+      "type": "placeholder",
+      "path": null,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "animations": {}
+    },
+    "pondok": {
+      "type": "placeholder",
+      "path": null,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "animations": {}
+    },
+    "chest": {
+      "type": "placeholder",
+      "path": null,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "animations": {}
+    },
+    "tile": {
+      "type": "placeholder",
+      "path": null,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "animations": {}
+    },
+    "bayang": {
+      "type": "placeholder",
+      "path": null,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "animations": {}
+    },
+    "gate": {
+      "type": "placeholder",
+      "path": null,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "animations": {}
+    },
+    "tablet": {
+      "type": "placeholder",
+      "path": null,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "animations": {}
+    },
+    "shortcut": {
+      "type": "placeholder",
+      "path": null,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "animations": {}
+    }
+  },
+  "tileFrames": {
+    "floor": 0,
+    "wall": 1,
+    "water": 2
+  },
+  "slash": {
+    "width": 5,
+    "trailWidth": 9,
+    "trailAlpha": 0.3,
+    "alpha": 0.7,
+    "trailOffset": 3
+  }
+}

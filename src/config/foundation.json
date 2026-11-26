@@ -1,1 +1,10 @@
-{"schema":2,"heroNameMax":24,"debugTapWindowMs":420,"debugPanelWidth":430,"previewScale":2.4,"titleY":36,"formY":340,"campButtonY":420,"landscapeRatio":1,"draftSampleCount":2}
+{
+  "saveKey": "hikayat-bisu-topdown",
+  "legacyKey": "hikayat-bisu-phase1",
+  "schema": 2,
+  "build": "z1-1",
+  "chapters": 4,
+  "stagesPerChapter": 10,
+  "sealsPerStage": 5,
+  "autosaveMs": 2000
+}

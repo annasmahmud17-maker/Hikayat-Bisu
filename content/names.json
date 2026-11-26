@@ -13,7 +13,10 @@
     "reviewStatus": "draft",
     "notes": "Draf untuk semakan editor bahasa.",
     "word": "kancil",
-    "kind": "animal"
+    "kind": "animal",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "id": "name-02",
@@ -29,7 +32,10 @@
     "reviewStatus": "draft",
     "notes": "Draf untuk semakan editor bahasa.",
     "word": "lang",
-    "kind": "animal"
+    "kind": "animal",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "id": "name-03",
@@ -45,7 +51,10 @@
     "reviewStatus": "draft",
     "notes": "Draf untuk semakan editor bahasa.",
     "word": "ibu",
-    "kind": "kinship"
+    "kind": "kinship",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "id": "name-04",
@@ -61,7 +70,10 @@
     "reviewStatus": "draft",
     "notes": "Draf untuk semakan editor bahasa.",
     "word": "ayah",
-    "kind": "kinship"
+    "kind": "kinship",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "id": "name-05",
@@ -77,7 +89,10 @@
     "reviewStatus": "draft",
     "notes": "Draf untuk semakan editor bahasa.",
     "word": "Rimau",
-    "kind": "proper"
+    "kind": "proper",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "id": "name-06",
@@ -93,7 +108,10 @@
     "reviewStatus": "draft",
     "notes": "Draf untuk semakan editor bahasa.",
     "word": "Dayang",
-    "kind": "proper"
+    "kind": "proper",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "id": "name-07",
@@ -109,7 +127,10 @@
     "reviewStatus": "draft",
     "notes": "Draf untuk semakan editor bahasa.",
     "word": "nenek",
-    "kind": "kinship"
+    "kind": "kinship",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "id": "name-08",
@@ -125,7 +146,10 @@
     "reviewStatus": "draft",
     "notes": "Draf untuk semakan editor bahasa.",
     "word": "datuk",
-    "kind": "kinship"
+    "kind": "kinship",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "id": "name-09",
@@ -141,6 +165,9 @@
     "reviewStatus": "draft",
     "notes": "Draf untuk semakan editor bahasa.",
     "word": "Alam Lisan",
-    "kind": "proper"
+    "kind": "proper",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   }
 ]

@@ -1,0 +1,31 @@
+{
+  "duration": 0.22,
+  "gain": 0.06,
+  "minGain": 0.0001,
+  "tailFrequency": 0.6,
+  "motifStepMs": 1800,
+  "tones": {
+    "tell": 440,
+    "slash": 270,
+    "hurt": 130,
+    "rest": 560,
+    "collect": 840,
+    "seal": 660,
+    "death": 100,
+    "click": 330
+  },
+  "motifs": {
+    "camp": [
+      220,
+      293.66,
+      329.63,
+      440
+    ],
+    "rimba": [
+      293.66,
+      329.63,
+      440,
+      329.63
+    ]
+  }
+}
