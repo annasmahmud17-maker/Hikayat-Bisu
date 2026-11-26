@@ -1,5 +1,5 @@
-import {el,button,theme} from './dom.js?v=z1-3';
-import {applyPowerMode} from '../systems/PowerMode.js?v=z1-3';
-import {Save} from '../systems/Save.js?v=z1-3';
-import {stageState} from '../systems/WorldState.js?v=z1-3';
+import {el,button,theme} from './dom.js?v=z2-1';
+import {applyPowerMode} from '../systems/PowerMode.js?v=z2-1';
+import {Save} from '../systems/Save.js?v=z2-1';
+import {stageState} from '../systems/WorldState.js?v=z2-1';
 export function openMenu(scene){if(scene.menuDialog)return;scene.paused=true;scene.controls.reset();const d=el('dialog',null,document.body,'menu-dialog');theme(d);scene.menuDialog=d;const s=scene.s,t=scene.t;el('h2',t.menu,d);const state=stageState(s,scene.stage.id);el('p',`${t.pages} ${state.seals.length}/5 · ${t.keys} ${[1,2,3].map(n=>s.progress.lesserKeys.includes(n)?'◆':'◇').join(' ')}`,d);const close=()=>{d.close();d.remove();scene.menuDialog=null;scene.paused=false};button(d,t.back,close);button(d,t.layout,()=>{close();scene.controls.edit()});for(const id of ['hitStop','shake','lowPower']){const label=el('label',null,d),box=el('input',null,label);box.type='checkbox';box.checked=s[id];el('span',t[id],label);box.addEventListener('change',()=>{s[id]=box.checked;applyPowerMode(scene.game);Save.write(s)})}for(const id of ['masterVolume','musicVolume','effectsVolume']){const label=el('label',t[id],d),range=el('input',null,label);range.type='range';range.min=0;range.max=1;range.step=.05;range.value=s[id];range.addEventListener('input',()=>{s[id]=+range.value;Save.write(s)})}button(d,t.map,()=>{close();scene.save();scene.scene.start('map',{returnTo:'stage'})});button(d,t.repository,()=>{close();scene.save();scene.scene.start('repository',{returnTo:'stage'})});button(d,t.camp,()=>{close();scene.save();scene.scene.start('camp')});d.addEventListener('cancel',e=>{e.preventDefault();close()});scene.events.once('shutdown',()=>d.remove());d.showModal()}

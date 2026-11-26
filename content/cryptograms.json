@@ -1,0 +1,209 @@
+[
+  {
+    "id": "cr-1-mudah",
+    "tier": "mudah",
+    "topic": "idiom",
+    "chapter": 1,
+    "stage": 2,
+    "domain": "riddle",
+    "acceptedAnswers": [
+      "ALAS PERUT"
+    ],
+    "hint": "ALAS",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Alas perut ialah simpulan bahasa.",
+    "note_en": "This idiom has a figurative meaning; its words do not describe a literal object.",
+    "style": "CR",
+    "text": "ALAS PERUT",
+    "meaning": {
+      "ms": "Makanan sedikit sebelum hidangan utama.",
+      "en": "A light snack before a main meal."
+    }
+  },
+  {
+    "id": "cr-1-biasa",
+    "tier": "biasa",
+    "topic": "idiom",
+    "chapter": 1,
+    "stage": 2,
+    "domain": "riddle",
+    "acceptedAnswers": [
+      "ALAS PERUT"
+    ],
+    "hint": "ALAS",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Alas perut ialah simpulan bahasa.",
+    "note_en": "This idiom has a figurative meaning; its words do not describe a literal object.",
+    "style": "CR",
+    "text": "ALAS PERUT",
+    "meaning": {
+      "ms": "Makanan sedikit sebelum hidangan utama.",
+      "en": "A light snack before a main meal."
+    }
+  },
+  {
+    "id": "cr-1-mahir",
+    "tier": "mahir",
+    "topic": "idiom",
+    "chapter": 1,
+    "stage": 2,
+    "domain": "riddle",
+    "acceptedAnswers": [
+      "ALAS PERUT"
+    ],
+    "hint": "ALAS",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Alas perut ialah simpulan bahasa.",
+    "note_en": "This idiom has a figurative meaning; its words do not describe a literal object.",
+    "style": "CR",
+    "text": "ALAS PERUT",
+    "meaning": {
+      "ms": "Makanan sedikit sebelum hidangan utama.",
+      "en": "A light snack before a main meal."
+    }
+  },
+  {
+    "id": "cr-2-mudah",
+    "tier": "mudah",
+    "topic": "idiom",
+    "chapter": 1,
+    "stage": 2,
+    "domain": "riddle",
+    "acceptedAnswers": [
+      "RINGAN TULANG"
+    ],
+    "hint": "RINGAN",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Ringan tulang menerangkan sifat rajin.",
+    "note_en": "This idiom has a figurative meaning; its words do not describe a literal object.",
+    "style": "CR",
+    "text": "RINGAN TULANG",
+    "meaning": {
+      "ms": "Rajin membantu atau bekerja.",
+      "en": "Willing to help or work."
+    }
+  },
+  {
+    "id": "cr-2-biasa",
+    "tier": "biasa",
+    "topic": "idiom",
+    "chapter": 1,
+    "stage": 2,
+    "domain": "riddle",
+    "acceptedAnswers": [
+      "RINGAN TULANG"
+    ],
+    "hint": "RINGAN",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Ringan tulang menerangkan sifat rajin.",
+    "note_en": "This idiom has a figurative meaning; its words do not describe a literal object.",
+    "style": "CR",
+    "text": "RINGAN TULANG",
+    "meaning": {
+      "ms": "Rajin membantu atau bekerja.",
+      "en": "Willing to help or work."
+    }
+  },
+  {
+    "id": "cr-2-mahir",
+    "tier": "mahir",
+    "topic": "idiom",
+    "chapter": 1,
+    "stage": 2,
+    "domain": "riddle",
+    "acceptedAnswers": [
+      "RINGAN TULANG"
+    ],
+    "hint": "RINGAN",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Ringan tulang menerangkan sifat rajin.",
+    "note_en": "This idiom has a figurative meaning; its words do not describe a literal object.",
+    "style": "CR",
+    "text": "RINGAN TULANG",
+    "meaning": {
+      "ms": "Rajin membantu atau bekerja.",
+      "en": "Willing to help or work."
+    }
+  },
+  {
+    "id": "cr-3-mudah",
+    "tier": "mudah",
+    "topic": "idiom",
+    "chapter": 1,
+    "stage": 2,
+    "domain": "riddle",
+    "acceptedAnswers": [
+      "BUAH TANGAN"
+    ],
+    "hint": "BUAH",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Buah tangan membawa makna kiasan, bukan makna harfiah.",
+    "note_en": "This idiom has a figurative meaning; its words do not describe a literal object.",
+    "style": "CR",
+    "text": "BUAH TANGAN",
+    "meaning": {
+      "ms": "Hadiah yang dibawa untuk seseorang.",
+      "en": "A gift brought for someone."
+    }
+  },
+  {
+    "id": "cr-3-biasa",
+    "tier": "biasa",
+    "topic": "idiom",
+    "chapter": 1,
+    "stage": 2,
+    "domain": "riddle",
+    "acceptedAnswers": [
+      "BUAH TANGAN"
+    ],
+    "hint": "BUAH",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Buah tangan membawa makna kiasan, bukan makna harfiah.",
+    "note_en": "This idiom has a figurative meaning; its words do not describe a literal object.",
+    "style": "CR",
+    "text": "BUAH TANGAN",
+    "meaning": {
+      "ms": "Hadiah yang dibawa untuk seseorang.",
+      "en": "A gift brought for someone."
+    }
+  },
+  {
+    "id": "cr-3-mahir",
+    "tier": "mahir",
+    "topic": "idiom",
+    "chapter": 1,
+    "stage": 2,
+    "domain": "riddle",
+    "acceptedAnswers": [
+      "BUAH TANGAN"
+    ],
+    "hint": "BUAH",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Buah tangan membawa makna kiasan, bukan makna harfiah.",
+    "note_en": "This idiom has a figurative meaning; its words do not describe a literal object.",
+    "style": "CR",
+    "text": "BUAH TANGAN",
+    "meaning": {
+      "ms": "Hadiah yang dibawa untuk seseorang.",
+      "en": "A gift brought for someone."
+    }
+  }
+]

@@ -1,0 +1,818 @@
+[
+  {
+    "id": "cm-1-mudah",
+    "tier": "mudah",
+    "topic": "synonyms",
+    "chapter": 1,
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "p1",
+      "p2",
+      "p3",
+      "p4",
+      "p5",
+      "p6",
+      "p7",
+      "p8"
+    ],
+    "hint": "cepat · pantas",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Sinonim hampir sama maknanya; penggunaannya bergantung pada konteks.",
+    "note_en": "Synonyms have similar meanings; usage depends on context.",
+    "style": "CM",
+    "kind": "synonyms",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "cepat",
+        "right": "pantas"
+      },
+      {
+        "id": "p2",
+        "left": "cantik",
+        "right": "indah"
+      },
+      {
+        "id": "p3",
+        "left": "gembira",
+        "right": "riang"
+      },
+      {
+        "id": "p4",
+        "left": "sukar",
+        "right": "susah"
+      },
+      {
+        "id": "p5",
+        "left": "sunyi",
+        "right": "sepi"
+      },
+      {
+        "id": "p6",
+        "left": "rajin",
+        "right": "tekun"
+      },
+      {
+        "id": "p7",
+        "left": "bijak",
+        "right": "pandai"
+      },
+      {
+        "id": "p8",
+        "left": "kecil",
+        "right": "mungil"
+      }
+    ]
+  },
+  {
+    "id": "cm-1-biasa",
+    "tier": "biasa",
+    "topic": "synonyms",
+    "chapter": 1,
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "p1",
+      "p2",
+      "p3",
+      "p4",
+      "p5",
+      "p6",
+      "p7",
+      "p8"
+    ],
+    "hint": "cepat · pantas",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Sinonim hampir sama maknanya; penggunaannya bergantung pada konteks.",
+    "note_en": "Synonyms have similar meanings; usage depends on context.",
+    "style": "CM",
+    "kind": "synonyms",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "cepat",
+        "right": "pantas"
+      },
+      {
+        "id": "p2",
+        "left": "cantik",
+        "right": "indah"
+      },
+      {
+        "id": "p3",
+        "left": "gembira",
+        "right": "riang"
+      },
+      {
+        "id": "p4",
+        "left": "sukar",
+        "right": "susah"
+      },
+      {
+        "id": "p5",
+        "left": "sunyi",
+        "right": "sepi"
+      },
+      {
+        "id": "p6",
+        "left": "rajin",
+        "right": "tekun"
+      },
+      {
+        "id": "p7",
+        "left": "bijak",
+        "right": "pandai"
+      },
+      {
+        "id": "p8",
+        "left": "kecil",
+        "right": "mungil"
+      }
+    ]
+  },
+  {
+    "id": "cm-1-mahir",
+    "tier": "mahir",
+    "topic": "synonyms",
+    "chapter": 1,
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "p1",
+      "p2",
+      "p3",
+      "p4",
+      "p5",
+      "p6",
+      "p7",
+      "p8"
+    ],
+    "hint": "cepat · pantas",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Sinonim hampir sama maknanya; penggunaannya bergantung pada konteks.",
+    "note_en": "Synonyms have similar meanings; usage depends on context.",
+    "style": "CM",
+    "kind": "synonyms",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "cepat",
+        "right": "pantas"
+      },
+      {
+        "id": "p2",
+        "left": "cantik",
+        "right": "indah"
+      },
+      {
+        "id": "p3",
+        "left": "gembira",
+        "right": "riang"
+      },
+      {
+        "id": "p4",
+        "left": "sukar",
+        "right": "susah"
+      },
+      {
+        "id": "p5",
+        "left": "sunyi",
+        "right": "sepi"
+      },
+      {
+        "id": "p6",
+        "left": "rajin",
+        "right": "tekun"
+      },
+      {
+        "id": "p7",
+        "left": "bijak",
+        "right": "pandai"
+      },
+      {
+        "id": "p8",
+        "left": "kecil",
+        "right": "mungil"
+      }
+    ]
+  },
+  {
+    "id": "cm-2-mudah",
+    "tier": "mudah",
+    "topic": "antonyms",
+    "chapter": 1,
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "p1",
+      "p2",
+      "p3",
+      "p4",
+      "p5",
+      "p6",
+      "p7",
+      "p8"
+    ],
+    "hint": "panas · sejuk",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Antonim mempunyai makna yang bertentangan.",
+    "note_en": "Antonyms have opposite meanings.",
+    "style": "CM",
+    "kind": "antonyms",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "panas",
+        "right": "sejuk"
+      },
+      {
+        "id": "p2",
+        "left": "tinggi",
+        "right": "rendah"
+      },
+      {
+        "id": "p3",
+        "left": "besar",
+        "right": "kecil"
+      },
+      {
+        "id": "p4",
+        "left": "cepat",
+        "right": "lambat"
+      },
+      {
+        "id": "p5",
+        "left": "gelap",
+        "right": "terang"
+      },
+      {
+        "id": "p6",
+        "left": "jauh",
+        "right": "dekat"
+      },
+      {
+        "id": "p7",
+        "left": "baharu",
+        "right": "lama"
+      },
+      {
+        "id": "p8",
+        "left": "bersih",
+        "right": "kotor"
+      }
+    ]
+  },
+  {
+    "id": "cm-2-biasa",
+    "tier": "biasa",
+    "topic": "antonyms",
+    "chapter": 1,
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "p1",
+      "p2",
+      "p3",
+      "p4",
+      "p5",
+      "p6",
+      "p7",
+      "p8"
+    ],
+    "hint": "panas · sejuk",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Antonim mempunyai makna yang bertentangan.",
+    "note_en": "Antonyms have opposite meanings.",
+    "style": "CM",
+    "kind": "antonyms",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "panas",
+        "right": "sejuk"
+      },
+      {
+        "id": "p2",
+        "left": "tinggi",
+        "right": "rendah"
+      },
+      {
+        "id": "p3",
+        "left": "besar",
+        "right": "kecil"
+      },
+      {
+        "id": "p4",
+        "left": "cepat",
+        "right": "lambat"
+      },
+      {
+        "id": "p5",
+        "left": "gelap",
+        "right": "terang"
+      },
+      {
+        "id": "p6",
+        "left": "jauh",
+        "right": "dekat"
+      },
+      {
+        "id": "p7",
+        "left": "baharu",
+        "right": "lama"
+      },
+      {
+        "id": "p8",
+        "left": "bersih",
+        "right": "kotor"
+      }
+    ]
+  },
+  {
+    "id": "cm-2-mahir",
+    "tier": "mahir",
+    "topic": "antonyms",
+    "chapter": 1,
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "p1",
+      "p2",
+      "p3",
+      "p4",
+      "p5",
+      "p6",
+      "p7",
+      "p8"
+    ],
+    "hint": "panas · sejuk",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Antonim mempunyai makna yang bertentangan.",
+    "note_en": "Antonyms have opposite meanings.",
+    "style": "CM",
+    "kind": "antonyms",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "panas",
+        "right": "sejuk"
+      },
+      {
+        "id": "p2",
+        "left": "tinggi",
+        "right": "rendah"
+      },
+      {
+        "id": "p3",
+        "left": "besar",
+        "right": "kecil"
+      },
+      {
+        "id": "p4",
+        "left": "cepat",
+        "right": "lambat"
+      },
+      {
+        "id": "p5",
+        "left": "gelap",
+        "right": "terang"
+      },
+      {
+        "id": "p6",
+        "left": "jauh",
+        "right": "dekat"
+      },
+      {
+        "id": "p7",
+        "left": "baharu",
+        "right": "lama"
+      },
+      {
+        "id": "p8",
+        "left": "bersih",
+        "right": "kotor"
+      }
+    ]
+  },
+  {
+    "id": "cm-3-mudah",
+    "tier": "mudah",
+    "topic": "class-shift",
+    "chapter": 1,
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "p1",
+      "p2",
+      "p3",
+      "p4",
+      "p5",
+      "p6",
+      "p7",
+      "p8"
+    ],
+    "hint": "makan · makanan",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Imbuhan boleh mengubah kata kerja menjadi kata nama.",
+    "note_en": "Affixes can change a verb into a noun.",
+    "style": "CM",
+    "kind": "class-shift",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "makan",
+        "right": "makanan"
+      },
+      {
+        "id": "p2",
+        "left": "minum",
+        "right": "minuman"
+      },
+      {
+        "id": "p3",
+        "left": "tulis",
+        "right": "tulisan"
+      },
+      {
+        "id": "p4",
+        "left": "baca",
+        "right": "bacaan"
+      },
+      {
+        "id": "p5",
+        "left": "main",
+        "right": "permainan"
+      },
+      {
+        "id": "p6",
+        "left": "ajar",
+        "right": "ajaran"
+      },
+      {
+        "id": "p7",
+        "left": "lukis",
+        "right": "lukisan"
+      },
+      {
+        "id": "p8",
+        "left": "pilih",
+        "right": "pilihan"
+      }
+    ]
+  },
+  {
+    "id": "cm-3-biasa",
+    "tier": "biasa",
+    "topic": "class-shift",
+    "chapter": 1,
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "p1",
+      "p2",
+      "p3",
+      "p4",
+      "p5",
+      "p6",
+      "p7",
+      "p8"
+    ],
+    "hint": "makan · makanan",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Imbuhan boleh mengubah kata kerja menjadi kata nama.",
+    "note_en": "Affixes can change a verb into a noun.",
+    "style": "CM",
+    "kind": "class-shift",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "makan",
+        "right": "makanan"
+      },
+      {
+        "id": "p2",
+        "left": "minum",
+        "right": "minuman"
+      },
+      {
+        "id": "p3",
+        "left": "tulis",
+        "right": "tulisan"
+      },
+      {
+        "id": "p4",
+        "left": "baca",
+        "right": "bacaan"
+      },
+      {
+        "id": "p5",
+        "left": "main",
+        "right": "permainan"
+      },
+      {
+        "id": "p6",
+        "left": "ajar",
+        "right": "ajaran"
+      },
+      {
+        "id": "p7",
+        "left": "lukis",
+        "right": "lukisan"
+      },
+      {
+        "id": "p8",
+        "left": "pilih",
+        "right": "pilihan"
+      }
+    ]
+  },
+  {
+    "id": "cm-3-mahir",
+    "tier": "mahir",
+    "topic": "class-shift",
+    "chapter": 1,
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "p1",
+      "p2",
+      "p3",
+      "p4",
+      "p5",
+      "p6",
+      "p7",
+      "p8"
+    ],
+    "hint": "makan · makanan",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Imbuhan boleh mengubah kata kerja menjadi kata nama.",
+    "note_en": "Affixes can change a verb into a noun.",
+    "style": "CM",
+    "kind": "class-shift",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "makan",
+        "right": "makanan"
+      },
+      {
+        "id": "p2",
+        "left": "minum",
+        "right": "minuman"
+      },
+      {
+        "id": "p3",
+        "left": "tulis",
+        "right": "tulisan"
+      },
+      {
+        "id": "p4",
+        "left": "baca",
+        "right": "bacaan"
+      },
+      {
+        "id": "p5",
+        "left": "main",
+        "right": "permainan"
+      },
+      {
+        "id": "p6",
+        "left": "ajar",
+        "right": "ajaran"
+      },
+      {
+        "id": "p7",
+        "left": "lukis",
+        "right": "lukisan"
+      },
+      {
+        "id": "p8",
+        "left": "pilih",
+        "right": "pilihan"
+      }
+    ]
+  },
+  {
+    "id": "cm-4-mudah",
+    "tier": "mudah",
+    "topic": "idiom",
+    "chapter": 1,
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "p1",
+      "p2",
+      "p3",
+      "p4",
+      "p5",
+      "p6",
+      "p7",
+      "p8"
+    ],
+    "hint": "alas perut · makanan sedikit sebelum hidangan utama",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Simpulan bahasa mempunyai makna kiasan.",
+    "note_en": "Idioms carry figurative meanings.",
+    "style": "CM",
+    "kind": "idiom",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "alas perut",
+        "right": "makanan sedikit sebelum hidangan utama"
+      },
+      {
+        "id": "p2",
+        "left": "ringan tulang",
+        "right": "rajin membantu"
+      },
+      {
+        "id": "p3",
+        "left": "buah tangan",
+        "right": "hadiah untuk seseorang"
+      },
+      {
+        "id": "p4",
+        "left": "kaki ayam",
+        "right": "tanpa memakai kasut"
+      },
+      {
+        "id": "p5",
+        "left": "anak emas",
+        "right": "orang yang sangat disayangi"
+      },
+      {
+        "id": "p6",
+        "left": "buah hati",
+        "right": "orang yang dikasihi"
+      },
+      {
+        "id": "p7",
+        "left": "otak cair",
+        "right": "mudah memahami pelajaran"
+      },
+      {
+        "id": "p8",
+        "left": "ambil berat",
+        "right": "memberikan perhatian"
+      }
+    ]
+  },
+  {
+    "id": "cm-4-biasa",
+    "tier": "biasa",
+    "topic": "idiom",
+    "chapter": 1,
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "p1",
+      "p2",
+      "p3",
+      "p4",
+      "p5",
+      "p6",
+      "p7",
+      "p8"
+    ],
+    "hint": "alas perut · makanan sedikit sebelum hidangan utama",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Simpulan bahasa mempunyai makna kiasan.",
+    "note_en": "Idioms carry figurative meanings.",
+    "style": "CM",
+    "kind": "idiom",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "alas perut",
+        "right": "makanan sedikit sebelum hidangan utama"
+      },
+      {
+        "id": "p2",
+        "left": "ringan tulang",
+        "right": "rajin membantu"
+      },
+      {
+        "id": "p3",
+        "left": "buah tangan",
+        "right": "hadiah untuk seseorang"
+      },
+      {
+        "id": "p4",
+        "left": "kaki ayam",
+        "right": "tanpa memakai kasut"
+      },
+      {
+        "id": "p5",
+        "left": "anak emas",
+        "right": "orang yang sangat disayangi"
+      },
+      {
+        "id": "p6",
+        "left": "buah hati",
+        "right": "orang yang dikasihi"
+      },
+      {
+        "id": "p7",
+        "left": "otak cair",
+        "right": "mudah memahami pelajaran"
+      },
+      {
+        "id": "p8",
+        "left": "ambil berat",
+        "right": "memberikan perhatian"
+      }
+    ]
+  },
+  {
+    "id": "cm-4-mahir",
+    "tier": "mahir",
+    "topic": "idiom",
+    "chapter": 1,
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "p1",
+      "p2",
+      "p3",
+      "p4",
+      "p5",
+      "p6",
+      "p7",
+      "p8"
+    ],
+    "hint": "alas perut · makanan sedikit sebelum hidangan utama",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Simpulan bahasa mempunyai makna kiasan.",
+    "note_en": "Idioms carry figurative meanings.",
+    "style": "CM",
+    "kind": "idiom",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "alas perut",
+        "right": "makanan sedikit sebelum hidangan utama"
+      },
+      {
+        "id": "p2",
+        "left": "ringan tulang",
+        "right": "rajin membantu"
+      },
+      {
+        "id": "p3",
+        "left": "buah tangan",
+        "right": "hadiah untuk seseorang"
+      },
+      {
+        "id": "p4",
+        "left": "kaki ayam",
+        "right": "tanpa memakai kasut"
+      },
+      {
+        "id": "p5",
+        "left": "anak emas",
+        "right": "orang yang sangat disayangi"
+      },
+      {
+        "id": "p6",
+        "left": "buah hati",
+        "right": "orang yang dikasihi"
+      },
+      {
+        "id": "p7",
+        "left": "otak cair",
+        "right": "mudah memahami pelajaran"
+      },
+      {
+        "id": "p8",
+        "left": "ambil berat",
+        "right": "memberikan perhatian"
+      }
+    ]
+  }
+]

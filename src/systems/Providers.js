@@ -1,4 +1,4 @@
-import economy from '../config/economy.json?v=z1-3' with {type:'json'};
+import economy from '../config/economy.json?v=z2-1' with {type:'json'};
 export class AdProvider{async showRewarded(){throw Error('Implement showRewarded')}}
 export class MockAdProvider extends AdProvider{
  async showRewarded({container,strings,signal}={}){return new Promise(resolve=>{

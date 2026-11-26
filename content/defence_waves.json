@@ -1,0 +1,651 @@
+[
+  {
+    "id": "td-1-mudah",
+    "tier": "mudah",
+    "topic": "parts-of-speech",
+    "chapter": 1,
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "buku|nama",
+      "lari|kerja",
+      "kucing|nama",
+      "makan|kerja",
+      "sekolah|nama",
+      "pantas|adjektif",
+      "tulis|kerja",
+      "besar|adjektif"
+    ],
+    "hint": "buku · nama",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Kata nama menamakan sesuatu; kata kerja menyatakan perbuatan; kata adjektif menerangkan sifat.",
+    "note_en": "Nouns name things, verbs express actions, and adjectives describe qualities.",
+    "style": "TD",
+    "words": [
+      {
+        "text": "buku",
+        "class": "nama"
+      },
+      {
+        "text": "lari",
+        "class": "kerja"
+      },
+      {
+        "text": "kucing",
+        "class": "nama"
+      },
+      {
+        "text": "makan",
+        "class": "kerja"
+      },
+      {
+        "text": "sekolah",
+        "class": "nama"
+      },
+      {
+        "text": "pantas",
+        "class": "adjektif"
+      },
+      {
+        "text": "tulis",
+        "class": "kerja"
+      },
+      {
+        "text": "besar",
+        "class": "adjektif"
+      }
+    ]
+  },
+  {
+    "id": "td-1-biasa",
+    "tier": "biasa",
+    "topic": "parts-of-speech",
+    "chapter": 1,
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "buku|nama",
+      "lari|kerja",
+      "kucing|nama",
+      "makan|kerja",
+      "sekolah|nama",
+      "pantas|adjektif",
+      "tulis|kerja",
+      "besar|adjektif"
+    ],
+    "hint": "buku · nama",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Kata nama menamakan sesuatu; kata kerja menyatakan perbuatan; kata adjektif menerangkan sifat.",
+    "note_en": "Nouns name things, verbs express actions, and adjectives describe qualities.",
+    "style": "TD",
+    "words": [
+      {
+        "text": "buku",
+        "class": "nama"
+      },
+      {
+        "text": "lari",
+        "class": "kerja"
+      },
+      {
+        "text": "kucing",
+        "class": "nama"
+      },
+      {
+        "text": "makan",
+        "class": "kerja"
+      },
+      {
+        "text": "sekolah",
+        "class": "nama"
+      },
+      {
+        "text": "pantas",
+        "class": "adjektif"
+      },
+      {
+        "text": "tulis",
+        "class": "kerja"
+      },
+      {
+        "text": "besar",
+        "class": "adjektif"
+      }
+    ]
+  },
+  {
+    "id": "td-1-mahir",
+    "tier": "mahir",
+    "topic": "parts-of-speech",
+    "chapter": 1,
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "buku|nama",
+      "lari|kerja",
+      "kucing|nama",
+      "makan|kerja",
+      "sekolah|nama",
+      "pantas|adjektif",
+      "tulis|kerja",
+      "besar|adjektif"
+    ],
+    "hint": "buku · nama",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Kata nama menamakan sesuatu; kata kerja menyatakan perbuatan; kata adjektif menerangkan sifat.",
+    "note_en": "Nouns name things, verbs express actions, and adjectives describe qualities.",
+    "style": "TD",
+    "words": [
+      {
+        "text": "buku",
+        "class": "nama"
+      },
+      {
+        "text": "lari",
+        "class": "kerja"
+      },
+      {
+        "text": "kucing",
+        "class": "nama"
+      },
+      {
+        "text": "makan",
+        "class": "kerja"
+      },
+      {
+        "text": "sekolah",
+        "class": "nama"
+      },
+      {
+        "text": "pantas",
+        "class": "adjektif"
+      },
+      {
+        "text": "tulis",
+        "class": "kerja"
+      },
+      {
+        "text": "besar",
+        "class": "adjektif"
+      }
+    ]
+  },
+  {
+    "id": "td-2-mudah",
+    "tier": "mudah",
+    "topic": "parts-of-speech",
+    "chapter": 1,
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "pantas|adjektif",
+      "tulis|kerja",
+      "besar|adjektif",
+      "pokok|nama",
+      "cantik|adjektif",
+      "minum|kerja",
+      "membaca|kerja",
+      "gembira|adjektif"
+    ],
+    "hint": "pantas · adjektif",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Kata nama menamakan sesuatu; kata kerja menyatakan perbuatan; kata adjektif menerangkan sifat.",
+    "note_en": "Nouns name things, verbs express actions, and adjectives describe qualities.",
+    "style": "TD",
+    "words": [
+      {
+        "text": "pantas",
+        "class": "adjektif"
+      },
+      {
+        "text": "tulis",
+        "class": "kerja"
+      },
+      {
+        "text": "besar",
+        "class": "adjektif"
+      },
+      {
+        "text": "pokok",
+        "class": "nama"
+      },
+      {
+        "text": "cantik",
+        "class": "adjektif"
+      },
+      {
+        "text": "minum",
+        "class": "kerja"
+      },
+      {
+        "text": "membaca",
+        "class": "kerja"
+      },
+      {
+        "text": "gembira",
+        "class": "adjektif"
+      }
+    ]
+  },
+  {
+    "id": "td-2-biasa",
+    "tier": "biasa",
+    "topic": "parts-of-speech",
+    "chapter": 1,
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "pantas|adjektif",
+      "tulis|kerja",
+      "besar|adjektif",
+      "pokok|nama",
+      "cantik|adjektif",
+      "minum|kerja",
+      "membaca|kerja",
+      "gembira|adjektif"
+    ],
+    "hint": "pantas · adjektif",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Kata nama menamakan sesuatu; kata kerja menyatakan perbuatan; kata adjektif menerangkan sifat.",
+    "note_en": "Nouns name things, verbs express actions, and adjectives describe qualities.",
+    "style": "TD",
+    "words": [
+      {
+        "text": "pantas",
+        "class": "adjektif"
+      },
+      {
+        "text": "tulis",
+        "class": "kerja"
+      },
+      {
+        "text": "besar",
+        "class": "adjektif"
+      },
+      {
+        "text": "pokok",
+        "class": "nama"
+      },
+      {
+        "text": "cantik",
+        "class": "adjektif"
+      },
+      {
+        "text": "minum",
+        "class": "kerja"
+      },
+      {
+        "text": "membaca",
+        "class": "kerja"
+      },
+      {
+        "text": "gembira",
+        "class": "adjektif"
+      }
+    ]
+  },
+  {
+    "id": "td-2-mahir",
+    "tier": "mahir",
+    "topic": "parts-of-speech",
+    "chapter": 1,
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "pantas|adjektif",
+      "tulis|kerja",
+      "besar|adjektif",
+      "pokok|nama",
+      "cantik|adjektif",
+      "minum|kerja",
+      "membaca|kerja",
+      "gembira|adjektif"
+    ],
+    "hint": "pantas · adjektif",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Kata nama menamakan sesuatu; kata kerja menyatakan perbuatan; kata adjektif menerangkan sifat.",
+    "note_en": "Nouns name things, verbs express actions, and adjectives describe qualities.",
+    "style": "TD",
+    "words": [
+      {
+        "text": "pantas",
+        "class": "adjektif"
+      },
+      {
+        "text": "tulis",
+        "class": "kerja"
+      },
+      {
+        "text": "besar",
+        "class": "adjektif"
+      },
+      {
+        "text": "pokok",
+        "class": "nama"
+      },
+      {
+        "text": "cantik",
+        "class": "adjektif"
+      },
+      {
+        "text": "minum",
+        "class": "kerja"
+      },
+      {
+        "text": "membaca",
+        "class": "kerja"
+      },
+      {
+        "text": "gembira",
+        "class": "adjektif"
+      }
+    ]
+  },
+  {
+    "id": "td-3-mudah",
+    "tier": "mudah",
+    "topic": "parts-of-speech",
+    "chapter": 1,
+    "stage": 4,
+    "domain": "general",
+    "acceptedAnswers": [
+      "minum|kerja",
+      "membaca|kerja",
+      "gembira|adjektif",
+      "jambatan|nama",
+      "melompat|kerja",
+      "sejuk|adjektif",
+      "sungai|nama",
+      "berlari|kerja"
+    ],
+    "hint": "minum · kerja",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Kata nama menamakan sesuatu; kata kerja menyatakan perbuatan; kata adjektif menerangkan sifat.",
+    "note_en": "Nouns name things, verbs express actions, and adjectives describe qualities.",
+    "style": "TD",
+    "words": [
+      {
+        "text": "minum",
+        "class": "kerja"
+      },
+      {
+        "text": "membaca",
+        "class": "kerja"
+      },
+      {
+        "text": "gembira",
+        "class": "adjektif"
+      },
+      {
+        "text": "jambatan",
+        "class": "nama"
+      },
+      {
+        "text": "melompat",
+        "class": "kerja"
+      },
+      {
+        "text": "sejuk",
+        "class": "adjektif"
+      },
+      {
+        "text": "sungai",
+        "class": "nama"
+      },
+      {
+        "text": "berlari",
+        "class": "kerja"
+      }
+    ]
+  },
+  {
+    "id": "td-3-biasa",
+    "tier": "biasa",
+    "topic": "parts-of-speech",
+    "chapter": 1,
+    "stage": 4,
+    "domain": "general",
+    "acceptedAnswers": [
+      "minum|kerja",
+      "membaca|kerja",
+      "gembira|adjektif",
+      "jambatan|nama",
+      "melompat|kerja",
+      "sejuk|adjektif",
+      "sungai|nama",
+      "berlari|kerja"
+    ],
+    "hint": "minum · kerja",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Kata nama menamakan sesuatu; kata kerja menyatakan perbuatan; kata adjektif menerangkan sifat.",
+    "note_en": "Nouns name things, verbs express actions, and adjectives describe qualities.",
+    "style": "TD",
+    "words": [
+      {
+        "text": "minum",
+        "class": "kerja"
+      },
+      {
+        "text": "membaca",
+        "class": "kerja"
+      },
+      {
+        "text": "gembira",
+        "class": "adjektif"
+      },
+      {
+        "text": "jambatan",
+        "class": "nama"
+      },
+      {
+        "text": "melompat",
+        "class": "kerja"
+      },
+      {
+        "text": "sejuk",
+        "class": "adjektif"
+      },
+      {
+        "text": "sungai",
+        "class": "nama"
+      },
+      {
+        "text": "berlari",
+        "class": "kerja"
+      }
+    ]
+  },
+  {
+    "id": "td-3-mahir",
+    "tier": "mahir",
+    "topic": "parts-of-speech",
+    "chapter": 1,
+    "stage": 4,
+    "domain": "general",
+    "acceptedAnswers": [
+      "minum|kerja",
+      "membaca|kerja",
+      "gembira|adjektif",
+      "jambatan|nama",
+      "melompat|kerja",
+      "sejuk|adjektif",
+      "sungai|nama",
+      "berlari|kerja"
+    ],
+    "hint": "minum · kerja",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Kata nama menamakan sesuatu; kata kerja menyatakan perbuatan; kata adjektif menerangkan sifat.",
+    "note_en": "Nouns name things, verbs express actions, and adjectives describe qualities.",
+    "style": "TD",
+    "words": [
+      {
+        "text": "minum",
+        "class": "kerja"
+      },
+      {
+        "text": "membaca",
+        "class": "kerja"
+      },
+      {
+        "text": "gembira",
+        "class": "adjektif"
+      },
+      {
+        "text": "jambatan",
+        "class": "nama"
+      },
+      {
+        "text": "melompat",
+        "class": "kerja"
+      },
+      {
+        "text": "sejuk",
+        "class": "adjektif"
+      },
+      {
+        "text": "sungai",
+        "class": "nama"
+      },
+      {
+        "text": "berlari",
+        "class": "kerja"
+      }
+    ]
+  },
+  {
+    "id": "td-4-mudah",
+    "tier": "mudah",
+    "topic": "parts-of-speech",
+    "chapter": 1,
+    "stage": 4,
+    "domain": "general",
+    "acceptedAnswers": [
+      "makanan|nama",
+      "makan|kerja",
+      "minuman|nama",
+      "minum|kerja",
+      "tulisan|nama",
+      "menulis|kerja",
+      "bersih|adjektif",
+      "sejuk|adjektif"
+    ],
+    "hint": "sejuk · adjektif",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Makan ialah kata kerja; makanan ialah kata nama. Imbuhan boleh mengubah golongan kata.",
+    "note_en": "Makan is a verb; makanan is a noun. Affixes can change a word’s class.",
+    "style": "TD",
+    "words": [
+      {
+        "text": "makanan",
+        "class": "nama"
+      },
+      {
+        "text": "makan",
+        "class": "kerja"
+      },
+      {
+        "text": "minuman",
+        "class": "nama"
+      },
+      {
+        "text": "minum",
+        "class": "kerja"
+      },
+      {
+        "text": "tulisan",
+        "class": "nama"
+      },
+      {
+        "text": "menulis",
+        "class": "kerja"
+      },
+      {
+        "text": "bersih",
+        "class": "adjektif"
+      },
+      {
+        "text": "sejuk",
+        "class": "adjektif"
+      }
+    ]
+  },
+  {
+    "id": "td-4-biasa",
+    "tier": "biasa",
+    "topic": "parts-of-speech",
+    "chapter": 1,
+    "stage": 4,
+    "domain": "general",
+    "acceptedAnswers": [
+      "makanan|nama",
+      "makan|kerja",
+      "minuman|nama",
+      "minum|kerja",
+      "tulisan|nama",
+      "menulis|kerja",
+      "bersih|adjektif",
+      "sejuk|adjektif"
+    ],
+    "hint": "sejuk · adjektif",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Original adaptation for Hikayat Bisu. Malay editorial review required.",
+    "note_ms": "Makan ialah kata kerja; makanan ialah kata nama. Imbuhan boleh mengubah golongan kata.",
+    "note_en": "Makan is a verb; makanan is a noun. Affixes can change a word’s class.",
+    "style": "TD",
+    "words": [
+      {
+        "text": "makanan",
+        "class": "nama"
+      },
+      {
+        "text": "makan",
+        "class": "kerja"
+      },
+      {
+        "text": "minuman",
+        "class": "nama"
+      },
+      {
+        "text": "minum",
+        "class": "kerja"
+      },
+      {
+        "text": "tulisan",
+        "class": "nama"
+      },
+      {
+        "text": "menulis",
+        "class": "kerja"
+      },
+      {
+        "text": "bersih",
+        "class": "adjektif"
+      },
+      {
+        "text": "sejuk",
+        "class": "adjektif"
+      }
+    ]
+  }
+]

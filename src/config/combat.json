@@ -118,6 +118,7 @@
   "companion": {
     "teleportTiles": 6,
     "followTiles": 1,
-    "staggerMs": 2200
+    "staggerMs": 2200,
+    "fetchMs": 900
   }
 }

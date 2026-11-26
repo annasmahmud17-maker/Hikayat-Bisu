@@ -8,7 +8,7 @@ if ('serviceWorker' in navigator) {
       window.location.reload();
     }
   });
-  navigator.serviceWorker.register('./sw.js?v=z1-3', {updateViaCache: 'none'})
+  navigator.serviceWorker.register('./sw.js?v=z2-1', {updateViaCache: 'none'})
     .then(registration => registration.update())
     .catch(() => {});
 }

@@ -3,36 +3,57 @@
   "chapter": 1,
   "stage": 1,
   "palette": "rimba",
-  "nameKey": "stage1",
+  "nameKey": "stage_pangkal",
+  "puzzleRevision": 2,
   "puzzles": [
     {
-      "id": "seal1",
-      "style": "CR",
-      "contentId": "temp1",
+      "id": "ch1_s1_seal1",
+      "style": "RV",
+      "contentIds": {
+        "mudah": "rv-1-mudah",
+        "biasa": "rv-1-biasa",
+        "mahir": "rv-1-mahir"
+      },
       "room": "r1"
     },
     {
-      "id": "seal2",
-      "style": "RV",
-      "contentId": "temp2",
+      "id": "ch1_s1_seal2",
+      "style": "TD",
+      "contentIds": {
+        "mudah": "td-1-mudah",
+        "biasa": "td-1-biasa",
+        "mahir": "td-1-mahir"
+      },
       "room": "r2"
     },
     {
-      "id": "seal3",
+      "id": "ch1_s1_seal3",
       "style": "CM",
-      "contentId": "temp3",
+      "contentIds": {
+        "mudah": "cm-1-mudah",
+        "biasa": "cm-1-biasa",
+        "mahir": "cm-1-mahir"
+      },
       "room": "r3"
     },
     {
-      "id": "seal4",
-      "style": "TD",
-      "contentId": "temp4",
+      "id": "ch1_s1_seal4",
+      "style": "RV",
+      "contentIds": {
+        "mudah": "rv-2-mudah",
+        "biasa": "rv-2-biasa",
+        "mahir": "rv-2-mahir"
+      },
       "room": "r4"
     },
     {
-      "id": "seal5",
-      "style": "CR",
-      "contentId": "temp5",
+      "id": "ch1_s1_seal5",
+      "style": "TD",
+      "contentIds": {
+        "mudah": "td-2-mudah",
+        "biasa": "td-2-biasa",
+        "mahir": "td-2-mahir"
+      },
       "room": "r5"
     }
   ],
@@ -43,13 +64,13 @@
       "rows": [
         "####################",
         "#..................#",
+        "#.....#.........#..#",
+        "#.....#............#",
         "#..................#",
-        "#......#.....#.....#",
-        "#......#...........#",
         "#...................",
-        "#......#...........#",
-        "#......#.....#.....#",
         "#..................#",
+        "#..................#",
+        "#.....#............#",
         "#..................#",
         "####################"
       ],
@@ -72,11 +93,10 @@
       ],
       "shrines": [
         {
-          "id": "seal1",
-          "contentId": "temp1",
+          "id": "ch1_s1_seal1",
           "tile": [
-            15,
-            4
+            14,
+            5
           ]
         }
       ],
@@ -85,39 +105,49 @@
           "id": "pondok1",
           "tile": [
             2,
-            7
+            8
           ]
         }
       ],
       "enemies": [
         {
-          "id": "leaf1",
+          "id": "e0",
           "key": "daun",
           "nameKey": "daun",
           "tile": [
-            9,
-            5
+            5,
+            4
           ],
           "pattern": "patrol"
         },
         {
-          "id": "beetle1",
+          "id": "e1",
           "key": "kumbang",
           "nameKey": "kumbang",
           "tile": [
-            14,
-            7
+            9,
+            8
           ],
           "pattern": "charge"
+        },
+        {
+          "id": "e2",
+          "key": "daun",
+          "nameKey": "daun",
+          "tile": [
+            16,
+            8
+          ],
+          "pattern": "patrol"
         }
       ],
       "tablets": [
         {
           "tile": [
             4,
-            3
+            2
           ],
-          "textKey": "lore1"
+          "textKey": "tutorialRV"
         }
       ]
     },
@@ -126,14 +156,14 @@
       "nameKey": "room2",
       "rows": [
         "####################",
+        "#...............#..#",
+        "#.....#.........#..#",
+        "#.....#.........####",
         "#..................#",
-        "#........~~~.......#",
-        "#......#.~~~.#.....#",
-        "#......#...........#",
         "....................",
-        "#......#...........#",
-        "#......#.~~~.#.....#",
-        "#........~~~.......#",
+        "#..................#",
+        "#..................#",
+        "#.....#............#",
         "#..................#",
         "####################"
       ],
@@ -167,53 +197,66 @@
       ],
       "shrines": [
         {
-          "id": "seal2",
-          "contentId": "temp2",
+          "id": "ch1_s1_seal2",
           "tile": [
-            15,
-            4
+            14,
+            5
           ]
         }
       ],
       "pondok": [],
       "enemies": [
         {
-          "id": "leaf2",
+          "id": "e0",
           "key": "daun",
           "nameKey": "daun",
           "tile": [
-            9,
-            5
+            5,
+            4
           ],
           "pattern": "patrol"
         },
         {
-          "id": "beetle2",
+          "id": "e1",
           "key": "kumbang",
           "nameKey": "kumbang",
           "tile": [
-            14,
-            7
+            9,
+            8
           ],
           "pattern": "charge"
+        },
+        {
+          "id": "e2",
+          "key": "daun",
+          "nameKey": "daun",
+          "tile": [
+            16,
+            8
+          ],
+          "pattern": "patrol"
         }
       ],
       "tablets": [
         {
           "tile": [
             4,
-            3
+            2
           ],
-          "textKey": "lore2"
+          "textKey": "tutorialTD"
         }
       ],
       "bonusChest": {
         "id": "bonus",
         "tile": [
-          16,
+          17,
           2
         ],
-        "companion": "kancil"
+        "accessTile": [
+          14,
+          3
+        ],
+        "companion": "rimau"
       }
     },
     {
@@ -222,13 +265,13 @@
       "rows": [
         "####################",
         "#..................#",
+        "#.....#.........#..#",
+        "#.....#............#",
         "#..................#",
-        "#......#.....#.....#",
-        "#......#...........#",
         "....................",
-        "#......#...........#",
-        "#......#.....#.....#",
         "#..................#",
+        "#..................#",
+        "#.....#............#",
         "#..................#",
         "####################"
       ],
@@ -262,11 +305,10 @@
       ],
       "shrines": [
         {
-          "id": "seal3",
-          "contentId": "temp3",
+          "id": "ch1_s1_seal3",
           "tile": [
-            15,
-            4
+            14,
+            5
           ]
         }
       ],
@@ -275,54 +317,51 @@
           "id": "pondok3",
           "tile": [
             2,
-            7
+            8
           ]
         }
       ],
       "enemies": [
         {
-          "id": "leaf3",
+          "id": "e0",
           "key": "daun",
           "nameKey": "daun",
           "tile": [
-            9,
-            5
+            5,
+            4
           ],
           "pattern": "patrol"
         },
         {
-          "id": "beetle3",
+          "id": "e1",
           "key": "kumbang",
           "nameKey": "kumbang",
           "tile": [
-            14,
-            7
+            9,
+            8
           ],
           "pattern": "charge"
+        },
+        {
+          "id": "e2",
+          "key": "daun",
+          "nameKey": "daun",
+          "tile": [
+            16,
+            8
+          ],
+          "pattern": "patrol"
         }
       ],
       "tablets": [
         {
           "tile": [
             4,
-            3
+            2
           ],
-          "textKey": "lore3"
+          "textKey": "tutorialCM"
         }
-      ],
-      "shortcut": {
-        "id": "rootDoor",
-        "tile": [
-          3,
-          8
-        ],
-        "to": "r1",
-        "spawn": [
-          16,
-          8
-        ],
-        "fromFarSide": true
-      }
+      ]
     },
     {
       "id": "r4",
@@ -330,13 +369,13 @@
       "rows": [
         "####################",
         "#..................#",
-        "#........~~~.......#",
-        "#......#.~~~.#.....#",
-        "#......#...........#",
+        "#.....#.........#..#",
+        "#.....#............#",
+        "#..................#",
         "....................",
-        "#......#...........#",
-        "#......#.~~~.#.....#",
-        "#........~~~.......#",
+        "#..................#",
+        "#..................#",
+        "#.....#............#",
         "#..................#",
         "####################"
       ],
@@ -370,44 +409,53 @@
       ],
       "shrines": [
         {
-          "id": "seal4",
-          "contentId": "temp4",
+          "id": "ch1_s1_seal4",
           "tile": [
-            15,
-            4
+            14,
+            5
           ]
         }
       ],
       "pondok": [],
       "enemies": [
         {
-          "id": "leaf4",
+          "id": "e0",
           "key": "daun",
           "nameKey": "daun",
           "tile": [
-            9,
-            5
+            5,
+            4
           ],
           "pattern": "patrol"
         },
         {
-          "id": "beetle4",
+          "id": "e1",
           "key": "kumbang",
           "nameKey": "kumbang",
           "tile": [
-            14,
-            7
+            9,
+            8
           ],
           "pattern": "charge"
+        },
+        {
+          "id": "e2",
+          "key": "daun",
+          "nameKey": "daun",
+          "tile": [
+            16,
+            8
+          ],
+          "pattern": "patrol"
         }
       ],
       "tablets": [
         {
           "tile": [
             4,
-            3
+            2
           ],
-          "textKey": "lore4"
+          "textKey": "tutorialRV"
         }
       ]
     },
@@ -417,13 +465,13 @@
       "rows": [
         "####################",
         "#..................#",
+        "#.....#.........#..#",
+        "#.....#............#",
         "#..................#",
-        "#......#.....#.....#",
-        "#......#...........#",
         "...................#",
-        "#......#...........#",
-        "#......#.....#.....#",
         "#..................#",
+        "#..................#",
+        "#.....#............#",
         "#..................#",
         "####################"
       ],
@@ -446,11 +494,10 @@
       ],
       "shrines": [
         {
-          "id": "seal5",
-          "contentId": "temp5",
+          "id": "ch1_s1_seal5",
           "tile": [
-            15,
-            4
+            14,
+            5
           ]
         }
       ],
@@ -459,44 +506,54 @@
           "id": "pondok5",
           "tile": [
             2,
-            7
+            8
           ]
         }
       ],
       "enemies": [
         {
-          "id": "leaf5",
+          "id": "e0",
           "key": "daun",
           "nameKey": "daun",
           "tile": [
-            9,
-            5
+            5,
+            4
           ],
           "pattern": "patrol"
         },
         {
-          "id": "beetle5",
+          "id": "e1",
           "key": "kumbang",
           "nameKey": "kumbang",
           "tile": [
-            14,
-            7
+            9,
+            8
           ],
           "pattern": "charge"
+        },
+        {
+          "id": "e2",
+          "key": "daun",
+          "nameKey": "daun",
+          "tile": [
+            16,
+            8
+          ],
+          "pattern": "patrol"
         }
       ],
       "tablets": [
         {
           "tile": [
             4,
-            3
+            2
           ],
-          "textKey": "lore5"
+          "textKey": "tutorialTD"
         }
       ],
       "exit": {
         "tile": [
-          17,
+          18,
           5
         ]
       }
