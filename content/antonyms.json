@@ -1,3 +1,382 @@
 [
-  {"id":"antonym-sample-1","tier":"mudah","topic":"antonim","stage":3,"domain":"general","acceptedAnswers":["sejuk"],"hint":"Lawan panas.","syllabusRef":"","reviewStatus":"draft","notes":"Contoh teknikal; semakan bahasa diperlukan.","word":"panas","antonyms":["sejuk"],"effect":"freeze"}
+  {
+    "id": "antonyms-01",
+    "tier": "mudah",
+    "topic": "antonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "sejuk"
+    ],
+    "hint": "Jawapan bermula dengan se.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "panas",
+    "antonyms": [
+      "sejuk"
+    ],
+    "effect": "freeze"
+  },
+  {
+    "id": "antonyms-02",
+    "tier": "mudah",
+    "topic": "antonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kecil"
+    ],
+    "hint": "Jawapan bermula dengan ke.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "besar",
+    "antonyms": [
+      "kecil"
+    ],
+    "effect": "restore"
+  },
+  {
+    "id": "antonyms-03",
+    "tier": "mudah",
+    "topic": "antonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "rendah"
+    ],
+    "hint": "Jawapan bermula dengan re.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "tinggi",
+    "antonyms": [
+      "rendah"
+    ],
+    "effect": "restore"
+  },
+  {
+    "id": "antonyms-04",
+    "tier": "mudah",
+    "topic": "antonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "pendek"
+    ],
+    "hint": "Jawapan bermula dengan pe.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "panjang",
+    "antonyms": [
+      "pendek"
+    ],
+    "effect": "restore"
+  },
+  {
+    "id": "antonyms-05",
+    "tier": "mudah",
+    "topic": "antonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "lambat"
+    ],
+    "hint": "Jawapan bermula dengan la.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "cepat",
+    "antonyms": [
+      "lambat"
+    ],
+    "effect": "restore"
+  },
+  {
+    "id": "antonyms-06",
+    "tier": "mudah",
+    "topic": "antonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "tutup"
+    ],
+    "hint": "Jawapan bermula dengan tu.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "buka",
+    "antonyms": [
+      "tutup"
+    ],
+    "effect": "restore"
+  },
+  {
+    "id": "antonyms-07",
+    "tier": "mudah",
+    "topic": "antonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "malam"
+    ],
+    "hint": "Jawapan bermula dengan ma.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "siang",
+    "antonyms": [
+      "malam"
+    ],
+    "effect": "restore"
+  },
+  {
+    "id": "antonyms-08",
+    "tier": "biasa",
+    "topic": "antonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "jauh"
+    ],
+    "hint": "Jawapan bermula dengan ja.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "dekat",
+    "antonyms": [
+      "jauh"
+    ],
+    "effect": "restore"
+  },
+  {
+    "id": "antonyms-09",
+    "tier": "biasa",
+    "topic": "antonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "gelap"
+    ],
+    "hint": "Jawapan bermula dengan ge.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "terang",
+    "antonyms": [
+      "gelap"
+    ],
+    "effect": "restore"
+  },
+  {
+    "id": "antonyms-10",
+    "tier": "biasa",
+    "topic": "antonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "lemah"
+    ],
+    "hint": "Jawapan bermula dengan le.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "kuat",
+    "antonyms": [
+      "lemah"
+    ],
+    "effect": "restore"
+  },
+  {
+    "id": "antonyms-11",
+    "tier": "biasa",
+    "topic": "antonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "turun"
+    ],
+    "hint": "Jawapan bermula dengan tu.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "naik",
+    "antonyms": [
+      "turun"
+    ],
+    "effect": "restore"
+  },
+  {
+    "id": "antonyms-12",
+    "tier": "biasa",
+    "topic": "antonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "keluar"
+    ],
+    "hint": "Jawapan bermula dengan ke.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "masuk",
+    "antonyms": [
+      "keluar"
+    ],
+    "effect": "restore"
+  },
+  {
+    "id": "antonyms-13",
+    "tier": "biasa",
+    "topic": "antonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "lewat"
+    ],
+    "hint": "Jawapan bermula dengan le.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "awal",
+    "antonyms": [
+      "lewat"
+    ],
+    "effect": "restore"
+  },
+  {
+    "id": "antonyms-14",
+    "tier": "biasa",
+    "topic": "antonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "malas"
+    ],
+    "hint": "Jawapan bermula dengan ma.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "rajin",
+    "antonyms": [
+      "malas"
+    ],
+    "effect": "restore"
+  },
+  {
+    "id": "antonyms-15",
+    "tier": "mahir",
+    "topic": "antonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "miskin"
+    ],
+    "hint": "Jawapan bermula dengan mi.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "kaya",
+    "antonyms": [
+      "miskin"
+    ],
+    "effect": "restore"
+  },
+  {
+    "id": "antonyms-16",
+    "tier": "mahir",
+    "topic": "antonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "absen"
+    ],
+    "hint": "Jawapan bermula dengan ab.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "hadir",
+    "antonyms": [
+      "absen"
+    ],
+    "effect": "restore"
+  },
+  {
+    "id": "antonyms-17",
+    "tier": "mahir",
+    "topic": "antonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "tandus"
+    ],
+    "hint": "Jawapan bermula dengan ta.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "subur",
+    "antonyms": [
+      "tandus"
+    ],
+    "effect": "restore"
+  },
+  {
+    "id": "antonyms-18",
+    "tier": "mahir",
+    "topic": "antonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "rapuh"
+    ],
+    "hint": "Jawapan bermula dengan ra.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "kukuh",
+    "antonyms": [
+      "rapuh"
+    ],
+    "effect": "restore"
+  },
+  {
+    "id": "antonyms-19",
+    "tier": "mahir",
+    "topic": "antonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kacau"
+    ],
+    "hint": "Jawapan bermula dengan ka.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "damai",
+    "antonyms": [
+      "kacau"
+    ],
+    "effect": "restore"
+  },
+  {
+    "id": "antonyms-20",
+    "tier": "mahir",
+    "topic": "antonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "sempit"
+    ],
+    "hint": "Jawapan bermula dengan se.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "luas",
+    "antonyms": [
+      "sempit"
+    ],
+    "effect": "restore"
+  }
 ]

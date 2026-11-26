@@ -1,0 +1,962 @@
+[
+  {
+    "id": "distractor-01",
+    "tier": "mudah",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "1a",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-02",
+    "tier": "biasa",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "1a",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-03",
+    "tier": "mahir",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "1a",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-04",
+    "tier": "mudah",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "1b",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-05",
+    "tier": "biasa",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "1b",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-06",
+    "tier": "mahir",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "1b",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-07",
+    "tier": "mudah",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "1c",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-08",
+    "tier": "biasa",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "1c",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-09",
+    "tier": "mahir",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "1c",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-10",
+    "tier": "mudah",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "1d",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-11",
+    "tier": "biasa",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "1d",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-12",
+    "tier": "mahir",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "1d",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-13",
+    "tier": "mudah",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "2a",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-14",
+    "tier": "biasa",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "2a",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-15",
+    "tier": "mahir",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "2a",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-16",
+    "tier": "mudah",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "2b",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-17",
+    "tier": "biasa",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "2b",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-18",
+    "tier": "mahir",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "2b",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-19",
+    "tier": "mudah",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "2c",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-20",
+    "tier": "biasa",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "2c",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-21",
+    "tier": "mahir",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "2c",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-22",
+    "tier": "mudah",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "2d",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-23",
+    "tier": "biasa",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "2d",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-24",
+    "tier": "mahir",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "2d",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-25",
+    "tier": "mudah",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "3a",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-26",
+    "tier": "biasa",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "3a",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-27",
+    "tier": "mahir",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "3a",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-28",
+    "tier": "mudah",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "3b",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-29",
+    "tier": "biasa",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "3b",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-30",
+    "tier": "mahir",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "3b",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-31",
+    "tier": "mudah",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "3c",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-32",
+    "tier": "biasa",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "3c",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-33",
+    "tier": "mahir",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "3c",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-34",
+    "tier": "mudah",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "3d",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-35",
+    "tier": "biasa",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "3d",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-36",
+    "tier": "mahir",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "3d",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-37",
+    "tier": "mudah",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "4a",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-38",
+    "tier": "biasa",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "4a",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-39",
+    "tier": "mahir",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "4a",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-40",
+    "tier": "mudah",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "4b",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-41",
+    "tier": "biasa",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "4b",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-42",
+    "tier": "mahir",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "4b",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-43",
+    "tier": "mudah",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "4c",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-44",
+    "tier": "biasa",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "4c",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-45",
+    "tier": "mahir",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "4c",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-46",
+    "tier": "mudah",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "peribahasa",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-47",
+    "tier": "biasa",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "peribahasa",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  },
+  {
+    "id": "distractor-48",
+    "tier": "mahir",
+    "topic": "distractor",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kabut"
+    ],
+    "hint": "Pilihan pengalih perhatian.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "peribahasa",
+    "options": [
+      "kabut",
+      "dakwat",
+      "pintu"
+    ]
+  }
+]

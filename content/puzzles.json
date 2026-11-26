@@ -1,0 +1,830 @@
+[
+  {
+    "id": "exercise-1c-01",
+    "tier": "mudah",
+    "topic": "exercise-1c",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "3"
+    ],
+    "hint": "Ada satu perkataan berulang.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "1c",
+    "sentence": "Kancil membaca buku buku",
+    "tokens": [
+      "Kancil",
+      "membaca",
+      "buku",
+      "buku"
+    ],
+    "wrongIndex": 3,
+    "replacement": ""
+  },
+  {
+    "id": "exercise-1d-01",
+    "tier": "mudah",
+    "topic": "exercise-1d",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Kancil membaca dan Lang menulis"
+    ],
+    "hint": "Hubungkan dua ayat dengan dan.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "1d",
+    "tokens": [
+      "Kancil",
+      "membaca",
+      "dan",
+      "Lang",
+      "menulis"
+    ],
+    "clauses": [
+      "Kancil membaca",
+      "Lang menulis"
+    ],
+    "conjunction": "dan"
+  },
+  {
+    "id": "exercise-2c-01",
+    "tier": "mudah",
+    "topic": "exercise-2c",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "berlari"
+    ],
+    "hint": "Tiga kata nama dan satu kata kerja.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "2c",
+    "words": [
+      "buku",
+      "meja",
+      "kerusi",
+      "berlari"
+    ]
+  },
+  {
+    "id": "exercise-2d-01",
+    "tier": "mudah",
+    "topic": "exercise-2d",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "nama"
+    ],
+    "hint": "Hasil perbuatan menjadi kata nama.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "2d",
+    "root": "makan",
+    "form": "makanan"
+  },
+  {
+    "id": "exercise-3c-01",
+    "tier": "mudah",
+    "topic": "exercise-3c",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "girang"
+    ],
+    "hint": "Cari kata yang hampir sama maknanya.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "3c",
+    "start": "gembira",
+    "steps": [
+      {
+        "prompt": "gembira",
+        "acceptedAnswers": [
+          "riang"
+        ],
+        "options": [
+          "riang",
+          "panas",
+          "gelap"
+        ]
+      },
+      {
+        "prompt": "riang",
+        "acceptedAnswers": [
+          "girang"
+        ],
+        "options": [
+          "girang",
+          "sejuk",
+          "rapuh"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "exercise-3d-01",
+    "tier": "mudah",
+    "topic": "exercise-3d",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Ayam tambatan"
+    ],
+    "hint": "Cari ungkapan yang sepadan dengan maksud kiasan.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "3d",
+    "steps": [
+      {
+        "prompt": "Pelawaan yang dibuat tanpa kesungguhan",
+        "acceptedAnswers": [
+          "Ajak-ajak ayam"
+        ],
+        "options": [
+          "Ajak-ajak ayam",
+          "Cakar ayam",
+          "Bagai isi dengan kuku"
+        ]
+      },
+      {
+        "prompt": "Orang yang diharapkan membawa kejayaan kepada pasukan",
+        "acceptedAnswers": [
+          "Ayam tambatan"
+        ],
+        "options": [
+          "Ayam tambatan",
+          "Cakar ayam",
+          "Bagai isi dengan kuku"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "exercise-4c-01",
+    "tier": "mudah",
+    "topic": "exercise-4c",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "The water is cold"
+    ],
+    "hint": "Periksa terjemahan sejuk.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "4c",
+    "source": "Air itu sejuk",
+    "broken": "The water is hot",
+    "tokens": [
+      "The",
+      "water",
+      "is",
+      "hot"
+    ],
+    "wrongIndex": 3,
+    "replacement": "cold",
+    "options": [
+      "cold",
+      "green",
+      "silent"
+    ]
+  },
+  {
+    "id": "exercise-1c-02",
+    "tier": "biasa",
+    "topic": "exercise-1c",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "3"
+    ],
+    "hint": "Ada satu perkataan berulang.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "1c",
+    "sentence": "Dayang membaca buku buku",
+    "tokens": [
+      "Dayang",
+      "membaca",
+      "buku",
+      "buku"
+    ],
+    "wrongIndex": 3,
+    "replacement": ""
+  },
+  {
+    "id": "exercise-1d-02",
+    "tier": "biasa",
+    "topic": "exercise-1d",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Dayang membaca tetapi Rimau berehat"
+    ],
+    "hint": "Hubungkan dua ayat dengan tetapi.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "1d",
+    "tokens": [
+      "Dayang",
+      "membaca",
+      "tetapi",
+      "Rimau",
+      "berehat"
+    ],
+    "clauses": [
+      "Dayang membaca",
+      "Rimau berehat"
+    ],
+    "conjunction": "tetapi"
+  },
+  {
+    "id": "exercise-2c-02",
+    "tier": "biasa",
+    "topic": "exercise-2c",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "meneliti"
+    ],
+    "hint": "Tiga kata nama dan satu kata kerja.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "2c",
+    "words": [
+      "naskhah",
+      "pelita",
+      "gerbang",
+      "meneliti"
+    ]
+  },
+  {
+    "id": "exercise-2d-02",
+    "tier": "biasa",
+    "topic": "exercise-2d",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "nama"
+    ],
+    "hint": "Hasil perbuatan menjadi kata nama.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "2d",
+    "root": "baca",
+    "form": "bacaan"
+  },
+  {
+    "id": "exercise-3c-02",
+    "tier": "biasa",
+    "topic": "exercise-3c",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "lengang"
+    ],
+    "hint": "Cari kata yang hampir sama maknanya.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "3c",
+    "start": "sunyi",
+    "steps": [
+      {
+        "prompt": "sunyi",
+        "acceptedAnswers": [
+          "sepi"
+        ],
+        "options": [
+          "sepi",
+          "panas",
+          "gelap"
+        ]
+      },
+      {
+        "prompt": "sepi",
+        "acceptedAnswers": [
+          "lengang"
+        ],
+        "options": [
+          "lengang",
+          "sejuk",
+          "rapuh"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "exercise-3d-02",
+    "tier": "biasa",
+    "topic": "exercise-3d",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Bau-bau bacang"
+    ],
+    "hint": "Cari ungkapan yang sepadan dengan maksud kiasan.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "3d",
+    "steps": [
+      {
+        "prompt": "Anak yang dibesarkan oleh keluarga selain ibu bapa kandungnya",
+        "acceptedAnswers": [
+          "Anak angkat"
+        ],
+        "options": [
+          "Anak angkat",
+          "Bagai isi dengan kuku",
+          "Buah tangan"
+        ]
+      },
+      {
+        "prompt": "Hubungan saudara yang tidak rapat",
+        "acceptedAnswers": [
+          "Bau-bau bacang"
+        ],
+        "options": [
+          "Bau-bau bacang",
+          "Bagai isi dengan kuku",
+          "Buah tangan"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "exercise-4c-02",
+    "tier": "biasa",
+    "topic": "exercise-4c",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "The gate is closed"
+    ],
+    "hint": "Periksa terjemahan tertutup.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "4c",
+    "source": "Gerbang itu tertutup",
+    "broken": "The gate is open",
+    "tokens": [
+      "The",
+      "gate",
+      "is",
+      "open"
+    ],
+    "wrongIndex": 3,
+    "replacement": "closed",
+    "options": [
+      "closed",
+      "green",
+      "silent"
+    ]
+  },
+  {
+    "id": "exercise-1c-03",
+    "tier": "mahir",
+    "topic": "exercise-1c",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "3"
+    ],
+    "hint": "Ada satu perkataan berulang.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "1c",
+    "sentence": "Jurutulis membaca buku buku",
+    "tokens": [
+      "Jurutulis",
+      "membaca",
+      "buku",
+      "buku"
+    ],
+    "wrongIndex": 3,
+    "replacement": ""
+  },
+  {
+    "id": "exercise-1d-03",
+    "tier": "mahir",
+    "topic": "exercise-1d",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Jurutulis membaca supaya pengawal berjaga"
+    ],
+    "hint": "Hubungkan dua ayat dengan supaya.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "1d",
+    "tokens": [
+      "Jurutulis",
+      "membaca",
+      "supaya",
+      "pengawal",
+      "berjaga"
+    ],
+    "clauses": [
+      "Jurutulis membaca",
+      "pengawal berjaga"
+    ],
+    "conjunction": "supaya"
+  },
+  {
+    "id": "exercise-2c-03",
+    "tier": "mahir",
+    "topic": "exercise-2c",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "memulihkan"
+    ],
+    "hint": "Tiga kata nama dan satu kata kerja.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "2c",
+    "words": [
+      "khazanah",
+      "warisan",
+      "hikayat",
+      "memulihkan"
+    ]
+  },
+  {
+    "id": "exercise-2d-03",
+    "tier": "mahir",
+    "topic": "exercise-2d",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "nama"
+    ],
+    "hint": "Hasil perbuatan menjadi kata nama.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "2d",
+    "root": "tulis",
+    "form": "tulisan"
+  },
+  {
+    "id": "exercise-3c-03",
+    "tier": "mahir",
+    "topic": "exercise-3c",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "utuh"
+    ],
+    "hint": "Cari kata yang hampir sama maknanya.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "3c",
+    "start": "kukuh",
+    "steps": [
+      {
+        "prompt": "kukuh",
+        "acceptedAnswers": [
+          "teguh"
+        ],
+        "options": [
+          "teguh",
+          "panas",
+          "gelap"
+        ]
+      },
+      {
+        "prompt": "teguh",
+        "acceptedAnswers": [
+          "utuh"
+        ],
+        "options": [
+          "utuh",
+          "sejuk",
+          "rapuh"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "exercise-3d-03",
+    "tier": "mahir",
+    "topic": "exercise-3d",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "Bagai aur dengan tebing"
+    ],
+    "hint": "Cari ungkapan yang sepadan dengan maksud kiasan.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "3d",
+    "steps": [
+      {
+        "prompt": "Usaha yang tidak membawa hasil",
+        "acceptedAnswers": [
+          "Bagai mencencang air"
+        ],
+        "options": [
+          "Bagai mencencang air",
+          "Buah tangan",
+          "Atas pagar"
+        ]
+      },
+      {
+        "prompt": "Saling membantu dan menyokong",
+        "acceptedAnswers": [
+          "Bagai aur dengan tebing"
+        ],
+        "options": [
+          "Bagai aur dengan tebing",
+          "Buah tangan",
+          "Atas pagar"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "exercise-4c-03",
+    "tier": "mahir",
+    "topic": "exercise-4c",
+    "stage": 1,
+    "domain": "general",
+    "acceptedAnswers": [
+      "The manuscript is ancient"
+    ],
+    "hint": "Periksa terjemahan purba.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "variant": "4c",
+    "source": "Naskhah itu purba",
+    "broken": "The manuscript is modern",
+    "tokens": [
+      "The",
+      "manuscript",
+      "is",
+      "modern"
+    ],
+    "wrongIndex": 3,
+    "replacement": "ancient",
+    "options": [
+      "ancient",
+      "green",
+      "silent"
+    ]
+  },
+  {
+    "id": "setia-kancil-mudah-1",
+    "tier": "mudah",
+    "topic": "rantaian teka-teki setia",
+    "stage": 1,
+    "domain": "riddle",
+    "acceptedAnswers": [
+      "Anak angkat"
+    ],
+    "hint": "Padankan maksud dengan ungkapan yang tepat.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf quest Kancil untuk semakan editor bahasa.",
+    "variant": "3d",
+    "steps": [
+      {
+        "prompt": "Kancil mendengar ajakan yang tidak bersungguh-sungguh. Apakah ungkapannya?",
+        "acceptedAnswers": [
+          "Ajak-ajak ayam"
+        ],
+        "options": [
+          "Ajak-ajak ayam",
+          "Anak angkat",
+          "Bagai mencencang air"
+        ]
+      },
+      {
+        "prompt": "Anak yang dibesarkan oleh keluarga selain ibu bapa kandungnya",
+        "acceptedAnswers": [
+          "Anak angkat"
+        ],
+        "options": [
+          "Anak angkat",
+          "Ajak-ajak ayam",
+          "Bagai mencencang air"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "setia-kancil-mudah-2",
+    "tier": "mudah",
+    "topic": "rantaian teka-teki setia",
+    "stage": 1,
+    "domain": "riddle",
+    "acceptedAnswers": [
+      "Bagai mencencang air"
+    ],
+    "hint": "Padankan maksud dengan ungkapan yang tepat.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf quest Kancil untuk semakan editor bahasa.",
+    "variant": "3d",
+    "steps": [
+      {
+        "prompt": "Anak yang dibesarkan oleh keluarga selain ibu bapa kandungnya",
+        "acceptedAnswers": [
+          "Anak angkat"
+        ],
+        "options": [
+          "Anak angkat",
+          "Bagai mencencang air",
+          "Ayam tambatan"
+        ]
+      },
+      {
+        "prompt": "Usaha yang tidak membawa hasil",
+        "acceptedAnswers": [
+          "Bagai mencencang air"
+        ],
+        "options": [
+          "Bagai mencencang air",
+          "Anak angkat",
+          "Ayam tambatan"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "setia-kancil-biasa-1",
+    "tier": "biasa",
+    "topic": "rantaian teka-teki setia",
+    "stage": 1,
+    "domain": "riddle",
+    "acceptedAnswers": [
+      "Bagai aur dengan tebing"
+    ],
+    "hint": "Padankan maksud dengan ungkapan yang tepat.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf quest Kancil untuk semakan editor bahasa.",
+    "variant": "3d",
+    "steps": [
+      {
+        "prompt": "Hubungan saudara yang tidak rapat",
+        "acceptedAnswers": [
+          "Bau-bau bacang"
+        ],
+        "options": [
+          "Bau-bau bacang",
+          "Bagai aur dengan tebing",
+          "Cakar ayam"
+        ]
+      },
+      {
+        "prompt": "Saling membantu dan menyokong",
+        "acceptedAnswers": [
+          "Bagai aur dengan tebing"
+        ],
+        "options": [
+          "Bagai aur dengan tebing",
+          "Bau-bau bacang",
+          "Cakar ayam"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "setia-kancil-biasa-2",
+    "tier": "biasa",
+    "topic": "rantaian teka-teki setia",
+    "stage": 1,
+    "domain": "riddle",
+    "acceptedAnswers": [
+      "Cakar ayam"
+    ],
+    "hint": "Padankan maksud dengan ungkapan yang tepat.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf quest Kancil untuk semakan editor bahasa.",
+    "variant": "3d",
+    "steps": [
+      {
+        "prompt": "Saling membantu dan menyokong",
+        "acceptedAnswers": [
+          "Bagai aur dengan tebing"
+        ],
+        "options": [
+          "Bagai aur dengan tebing",
+          "Cakar ayam",
+          "Bagai isi dengan kuku"
+        ]
+      },
+      {
+        "prompt": "Tulisan yang sukar dibaca kerana tidak kemas",
+        "acceptedAnswers": [
+          "Cakar ayam"
+        ],
+        "options": [
+          "Cakar ayam",
+          "Bagai aur dengan tebing",
+          "Bagai isi dengan kuku"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "setia-kancil-mahir-1",
+    "tier": "mahir",
+    "topic": "rantaian teka-teki setia",
+    "stage": 1,
+    "domain": "riddle",
+    "acceptedAnswers": [
+      "Atas pagar"
+    ],
+    "hint": "Padankan maksud dengan ungkapan yang tepat.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf quest Kancil untuk semakan editor bahasa.",
+    "variant": "3d",
+    "steps": [
+      {
+        "prompt": "Pemberian yang dibawa untuk orang yang dikunjungi",
+        "acceptedAnswers": [
+          "Buah tangan"
+        ],
+        "options": [
+          "Buah tangan",
+          "Atas pagar",
+          "Buah tangan"
+        ]
+      },
+      {
+        "prompt": "Tidak memilih untuk menyokong mana-mana pihak",
+        "acceptedAnswers": [
+          "Atas pagar"
+        ],
+        "options": [
+          "Atas pagar",
+          "Buah tangan",
+          "Buah tangan"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "setia-kancil-mahir-2",
+    "tier": "mahir",
+    "topic": "rantaian teka-teki setia",
+    "stage": 1,
+    "domain": "riddle",
+    "acceptedAnswers": [
+      "Buah tangan"
+    ],
+    "hint": "Padankan maksud dengan ungkapan yang tepat.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf quest Kancil untuk semakan editor bahasa.",
+    "variant": "3d",
+    "steps": [
+      {
+        "prompt": "Tidak memilih untuk menyokong mana-mana pihak",
+        "acceptedAnswers": [
+          "Atas pagar"
+        ],
+        "options": [
+          "Atas pagar",
+          "Buah tangan",
+          "Buah tangan"
+        ]
+      },
+      {
+        "prompt": "Pemberian yang dibawa untuk orang yang dikunjungi",
+        "acceptedAnswers": [
+          "Buah tangan"
+        ],
+        "options": [
+          "Buah tangan",
+          "Atas pagar",
+          "Buah tangan"
+        ]
+      }
+    ]
+  }
+]

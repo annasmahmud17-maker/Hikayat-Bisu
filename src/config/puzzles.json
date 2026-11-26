@@ -1,0 +1,66 @@
+{
+  "files": [
+    "sentences",
+    "affixes",
+    "parts_of_speech",
+    "synonyms",
+    "antonyms",
+    "translations",
+    "peribahasa",
+    "jawi",
+    "dialects",
+    "names",
+    "distractors",
+    "puzzles"
+  ],
+  "variants": [
+    "1a",
+    "1b",
+    "1c",
+    "1d",
+    "2a",
+    "2b",
+    "2c",
+    "2d",
+    "3a",
+    "3b",
+    "3c",
+    "3d",
+    "4a",
+    "4b",
+    "4c",
+    "peribahasa"
+  ],
+  "tiers": [
+    "mudah",
+    "biasa",
+    "mahir"
+  ],
+  "classes": [
+    "nama",
+    "kerja",
+    "adjektif",
+    "tugas",
+    "ganti nama"
+  ],
+  "flags": {
+    "4d": false,
+    "4e": false
+  },
+  "hintCosts": [
+    20,
+    40,
+    80
+  ],
+  "damage": 1,
+  "minimumHealth": 1,
+  "transitionMs": 180,
+  "minTarget": 56,
+  "dimOpacity": 0.55,
+  "optionCount": 3,
+  "pairCount": 2,
+  "sortCount": 3,
+  "testKata": 200,
+  "testHealth": 5,
+  "testPulseMs": 1000
+}

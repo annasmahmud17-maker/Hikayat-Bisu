@@ -29,3 +29,24 @@
 - The future ranged attack has a reserved position diagonally above Jump, but is hidden until its ability and implementation both exist. The layout editor now migrates only Jump and this reserved position once.
 - The play camera zooms slightly and follows the hero; a separate UI camera keeps thumb controls at fixed screen positions. Ink remains saved internally but is hidden from the simplified HUD.
 - Live play showed the first enemy under a raised platform. The test enemies now occupy open ground, spaced from the starting bench and pit, so top-down stomps can be practiced without a platform intercepting the fall.
+
+## Phase 2 (2026-11-26)
+
+- Add a native DOM dialog above Phaser so 56px targets are measured in physical CSS pixels rather than shrinking with a 960×540 canvas. Touch tapping is the primary interaction for all variants; the page stays fixed and short panels scroll internally.
+- Pause the calling scene, physics and input before opening. Call SceneManager pause/resume directly so chained puzzle callbacks cannot race queued scene operations. Clear held movement and keyboard keys, and restore the previous pause/input state only after the closing transition.
+- Exploration mistakes remove one Semangat, floored at one, without knockback, death or Kata loss. Boss mistakes cost no health or Kata and resume with the stage's `buff` callback. Closing a puzzle is always available and has no success/failure effect.
+- Hints cost 20, 40, 80 within one modal session, then stop. Kancil is available when his party flag is set (the test room has an isolated override), usable once per modal, and removes one wrong choice. In pairing puzzles remove a wrong pairing edge; in the single-pair boss wrapper reveal the valid pairing because there is no wrong edge to remove. Paid hints also show a clue or next correct action.
+- All eleven Master Prompt word banks load from same-origin JSON. `puzzles.json` adds explicitly authored repairs, linked clauses, odd-one-out items and chains; infer no unsupported Malay morphology from a heuristic. meN sound changes are authored in affixes.json, with rule notes. Generic distractor generation excludes every accepted answer after normalization.
+- Peribahasa expressions and source IDs come from the user's `KriptograMelayu_127_Peribahasa_Diluluskan.md` (17 October version). Meanings are newly paraphrased rather than copied wholesale; English glosses are new. Editorial approval for that project does not approve these adaptations, which remain draft.
+- Seed 30 sentence items; 20 each of affixes, parts of speech, synonyms, antonyms and translations; ten peribahasa; nine names; variant-specific distractors and 21 additional exercises. Jawi/dialects are empty, disabled banks until their later phase.
+- Test-room health and Kata are isolated from campaign saves. The reusable overlay defaults to the caller's real hero/Kata wallet and persists through the caller's save hook.
+- Preserve the existing save key/schema and all simplified Phase 1 controls. Update the service-worker resource version consistently so old code and new imports cannot mix.
+
+## Phase 3 (2026-11-26)
+
+- The camp is a procedural warm firelit room with letter fireflies and a quiet synthesized gamelan-like tone. Audio begins only after a camp tap, respecting mobile audio unlock rules. There are no external audio or art downloads.
+- Kancil is the only story companion authored in this phase. Other companion records and generic follow/retreat/stun scaffolding support debug testing without claiming later-stage abilities or stories are finished.
+- A Setia attempt contains three riddle-chain puzzles. Any wrong answer marks that attempt unfinished at the end of the chain; the player can correct and continue without a failure screen. Closing the overlay preserves the current step. Two replays cost 60 then 120 Kata; free mode additionally asks for one opt-in mock rewarded ad for each replay. The mock close button unlocks after five seconds. Ad-free skips only the ad. No attempt has a time limit.
+- The seven boss peribahasa entries are draft editorial text. Debug collection demonstrates the Repository and seven-entry achievement until boss scenes exist. Two azimat have two notches: Laju boosts early arena movement; Kebal blocks two later contacts. Purchasing and refilling costs live in economy.json.
+- The first bench is discovered by default. The far bench is discovered by approaching it, and fast travel selects the spawn in the arena. Companion world sprites have no physics bodies and cannot block the hero. The Kancil command crosses the small gap in the wall and reveals a one-time Kata cache.
+- Phase 3 branches from the open phase-2 pull request and targets phase-2; no later stages or production ad integration are included.

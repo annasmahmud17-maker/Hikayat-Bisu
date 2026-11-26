@@ -1,0 +1,382 @@
+[
+  {
+    "id": "synonyms-01",
+    "tier": "mudah",
+    "topic": "synonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "luas"
+    ],
+    "hint": "Jawapan bermula dengan lu.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "besar",
+    "synonyms": [
+      "luas"
+    ],
+    "register": "umum"
+  },
+  {
+    "id": "synonyms-02",
+    "tier": "mudah",
+    "topic": "synonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "halus"
+    ],
+    "hint": "Jawapan bermula dengan ha.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "kecil",
+    "synonyms": [
+      "halus"
+    ],
+    "register": "umum"
+  },
+  {
+    "id": "synonyms-03",
+    "tier": "mudah",
+    "topic": "synonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "indah"
+    ],
+    "hint": "Jawapan bermula dengan in.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "cantik",
+    "synonyms": [
+      "indah"
+    ],
+    "register": "umum"
+  },
+  {
+    "id": "synonyms-04",
+    "tier": "mudah",
+    "topic": "synonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "riang"
+    ],
+    "hint": "Jawapan bermula dengan ri.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "gembira",
+    "synonyms": [
+      "riang"
+    ],
+    "register": "umum"
+  },
+  {
+    "id": "synonyms-05",
+    "tier": "mudah",
+    "topic": "synonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "pilu"
+    ],
+    "hint": "Jawapan bermula dengan pi.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "sedih",
+    "synonyms": [
+      "pilu"
+    ],
+    "register": "umum"
+  },
+  {
+    "id": "synonyms-06",
+    "tier": "mudah",
+    "topic": "synonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "pantas"
+    ],
+    "hint": "Jawapan bermula dengan pa.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "cepat",
+    "synonyms": [
+      "pantas"
+    ],
+    "register": "umum"
+  },
+  {
+    "id": "synonyms-07",
+    "tier": "mudah",
+    "topic": "synonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "perlahan"
+    ],
+    "hint": "Jawapan bermula dengan pe.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "lambat",
+    "synonyms": [
+      "perlahan"
+    ],
+    "register": "umum"
+  },
+  {
+    "id": "synonyms-08",
+    "tier": "biasa",
+    "topic": "synonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "bijak"
+    ],
+    "hint": "Jawapan bermula dengan bi.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "pandai",
+    "synonyms": [
+      "bijak"
+    ],
+    "register": "umum"
+  },
+  {
+    "id": "synonyms-09",
+    "tier": "biasa",
+    "topic": "synonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "gagah"
+    ],
+    "hint": "Jawapan bermula dengan ga.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "berani",
+    "synonyms": [
+      "gagah"
+    ],
+    "register": "umum"
+  },
+  {
+    "id": "synonyms-10",
+    "tier": "biasa",
+    "topic": "synonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "sepi"
+    ],
+    "hint": "Jawapan bermula dengan se.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "sunyi",
+    "synonyms": [
+      "sepi"
+    ],
+    "register": "umum"
+  },
+  {
+    "id": "synonyms-11",
+    "tier": "biasa",
+    "topic": "synonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "penat"
+    ],
+    "hint": "Jawapan bermula dengan pe.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "letih",
+    "synonyms": [
+      "penat"
+    ],
+    "register": "umum"
+  },
+  {
+    "id": "synonyms-12",
+    "tier": "biasa",
+    "topic": "synonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "sulit"
+    ],
+    "hint": "Jawapan bermula dengan su.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "sukar",
+    "synonyms": [
+      "sulit"
+    ],
+    "register": "umum"
+  },
+  {
+    "id": "synonyms-13",
+    "tier": "biasa",
+    "topic": "synonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "senang"
+    ],
+    "hint": "Jawapan bermula dengan se.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "mudah",
+    "synonyms": [
+      "senang"
+    ],
+    "register": "umum"
+  },
+  {
+    "id": "synonyms-14",
+    "tier": "biasa",
+    "topic": "synonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "harum"
+    ],
+    "hint": "Jawapan bermula dengan ha.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "wangi",
+    "synonyms": [
+      "harum"
+    ],
+    "register": "umum"
+  },
+  {
+    "id": "synonyms-15",
+    "tier": "mahir",
+    "topic": "synonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "hampir"
+    ],
+    "hint": "Jawapan bermula dengan ha.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "dekat",
+    "synonyms": [
+      "hampir"
+    ],
+    "register": "umum"
+  },
+  {
+    "id": "synonyms-16",
+    "tier": "mahir",
+    "topic": "synonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "usang"
+    ],
+    "hint": "Jawapan bermula dengan us.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "lama",
+    "synonyms": [
+      "usang"
+    ],
+    "register": "umum"
+  },
+  {
+    "id": "synonyms-17",
+    "tier": "mahir",
+    "topic": "synonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "terang"
+    ],
+    "hint": "Jawapan bermula dengan te.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "cerah",
+    "synonyms": [
+      "terang"
+    ],
+    "register": "umum"
+  },
+  {
+    "id": "synonyms-18",
+    "tier": "mahir",
+    "topic": "synonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "teliti"
+    ],
+    "hint": "Jawapan bermula dengan te.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "cermat",
+    "synonyms": [
+      "teliti"
+    ],
+    "register": "umum"
+  },
+  {
+    "id": "synonyms-19",
+    "tier": "mahir",
+    "topic": "synonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "tenteram"
+    ],
+    "hint": "Jawapan bermula dengan te.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "damai",
+    "synonyms": [
+      "tenteram"
+    ],
+    "register": "umum"
+  },
+  {
+    "id": "synonyms-20",
+    "tier": "mahir",
+    "topic": "synonyms",
+    "stage": 3,
+    "domain": "general",
+    "acceptedAnswers": [
+      "teguh"
+    ],
+    "hint": "Jawapan bermula dengan te.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "kukuh",
+    "synonyms": [
+      "teguh"
+    ],
+    "register": "umum"
+  }
+]

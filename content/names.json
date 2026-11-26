@@ -1,0 +1,146 @@
+[
+  {
+    "id": "name-01",
+    "tier": "mudah",
+    "topic": "name",
+    "stage": 1,
+    "domain": "names-kinship",
+    "acceptedAnswers": [
+      "kancil"
+    ],
+    "hint": "k",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "kancil",
+    "kind": "animal"
+  },
+  {
+    "id": "name-02",
+    "tier": "mudah",
+    "topic": "name",
+    "stage": 1,
+    "domain": "names-kinship",
+    "acceptedAnswers": [
+      "lang"
+    ],
+    "hint": "l",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "lang",
+    "kind": "animal"
+  },
+  {
+    "id": "name-03",
+    "tier": "mudah",
+    "topic": "name",
+    "stage": 1,
+    "domain": "names-kinship",
+    "acceptedAnswers": [
+      "ibu"
+    ],
+    "hint": "i",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "ibu",
+    "kind": "kinship"
+  },
+  {
+    "id": "name-04",
+    "tier": "biasa",
+    "topic": "name",
+    "stage": 1,
+    "domain": "names-kinship",
+    "acceptedAnswers": [
+      "ayah"
+    ],
+    "hint": "a",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "ayah",
+    "kind": "kinship"
+  },
+  {
+    "id": "name-05",
+    "tier": "biasa",
+    "topic": "name",
+    "stage": 1,
+    "domain": "names-kinship",
+    "acceptedAnswers": [
+      "Rimau"
+    ],
+    "hint": "R",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "Rimau",
+    "kind": "proper"
+  },
+  {
+    "id": "name-06",
+    "tier": "biasa",
+    "topic": "name",
+    "stage": 1,
+    "domain": "names-kinship",
+    "acceptedAnswers": [
+      "Dayang"
+    ],
+    "hint": "D",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "Dayang",
+    "kind": "proper"
+  },
+  {
+    "id": "name-07",
+    "tier": "mahir",
+    "topic": "name",
+    "stage": 1,
+    "domain": "names-kinship",
+    "acceptedAnswers": [
+      "nenek"
+    ],
+    "hint": "n",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "nenek",
+    "kind": "kinship"
+  },
+  {
+    "id": "name-08",
+    "tier": "mahir",
+    "topic": "name",
+    "stage": 1,
+    "domain": "names-kinship",
+    "acceptedAnswers": [
+      "datuk"
+    ],
+    "hint": "d",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "datuk",
+    "kind": "kinship"
+  },
+  {
+    "id": "name-09",
+    "tier": "mahir",
+    "topic": "name",
+    "stage": 1,
+    "domain": "names-kinship",
+    "acceptedAnswers": [
+      "Alam Lisan"
+    ],
+    "hint": "A",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "Alam Lisan",
+    "kind": "proper"
+  }
+]

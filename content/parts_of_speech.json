@@ -1,0 +1,442 @@
+[
+  {
+    "id": "pos-01",
+    "tier": "mudah",
+    "topic": "pos",
+    "stage": 2,
+    "domain": "general",
+    "acceptedAnswers": [
+      "nama"
+    ],
+    "hint": "Golongan: nama.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "buku",
+    "wordClass": "nama",
+    "example": "Kancil membaca buku",
+    "classShift": {
+      "root": "makan",
+      "form": "makanan",
+      "class": "nama"
+    }
+  },
+  {
+    "id": "pos-02",
+    "tier": "mudah",
+    "topic": "pos",
+    "stage": 2,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kerja"
+    ],
+    "hint": "Golongan: kerja.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "membaca",
+    "wordClass": "kerja",
+    "example": "Kancil membaca buku",
+    "classShift": {
+      "root": "makan",
+      "form": "makanan",
+      "class": "nama"
+    }
+  },
+  {
+    "id": "pos-03",
+    "tier": "mudah",
+    "topic": "pos",
+    "stage": 2,
+    "domain": "general",
+    "acceptedAnswers": [
+      "adjektif"
+    ],
+    "hint": "Golongan: adjektif.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "cantik",
+    "wordClass": "adjektif",
+    "example": "Bunga itu cantik",
+    "classShift": {
+      "root": "makan",
+      "form": "makanan",
+      "class": "nama"
+    }
+  },
+  {
+    "id": "pos-04",
+    "tier": "mudah",
+    "topic": "pos",
+    "stage": 2,
+    "domain": "general",
+    "acceptedAnswers": [
+      "tugas"
+    ],
+    "hint": "Golongan: tugas.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "dan",
+    "wordClass": "tugas",
+    "example": "Ibu dan ayah pulang",
+    "classShift": {
+      "root": "makan",
+      "form": "makanan",
+      "class": "nama"
+    }
+  },
+  {
+    "id": "pos-05",
+    "tier": "mudah",
+    "topic": "pos",
+    "stage": 2,
+    "domain": "general",
+    "acceptedAnswers": [
+      "ganti nama"
+    ],
+    "hint": "Golongan: ganti nama.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "saya",
+    "wordClass": "ganti nama",
+    "example": "Saya membawa pelita",
+    "classShift": {
+      "root": "makan",
+      "form": "makanan",
+      "class": "nama"
+    }
+  },
+  {
+    "id": "pos-06",
+    "tier": "mudah",
+    "topic": "pos",
+    "stage": 2,
+    "domain": "general",
+    "acceptedAnswers": [
+      "nama"
+    ],
+    "hint": "Golongan: nama.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "rumah",
+    "wordClass": "nama",
+    "example": "Rumah itu besar",
+    "classShift": {
+      "root": "makan",
+      "form": "makanan",
+      "class": "nama"
+    }
+  },
+  {
+    "id": "pos-07",
+    "tier": "mudah",
+    "topic": "pos",
+    "stage": 2,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kerja"
+    ],
+    "hint": "Golongan: kerja.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "berlari",
+    "wordClass": "kerja",
+    "example": "Adik berlari pantas",
+    "classShift": {
+      "root": "makan",
+      "form": "makanan",
+      "class": "nama"
+    }
+  },
+  {
+    "id": "pos-08",
+    "tier": "biasa",
+    "topic": "pos",
+    "stage": 2,
+    "domain": "general",
+    "acceptedAnswers": [
+      "adjektif"
+    ],
+    "hint": "Golongan: adjektif.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "tinggi",
+    "wordClass": "adjektif",
+    "example": "Pokok itu tinggi",
+    "classShift": {
+      "root": "makan",
+      "form": "makanan",
+      "class": "nama"
+    }
+  },
+  {
+    "id": "pos-09",
+    "tier": "biasa",
+    "topic": "pos",
+    "stage": 2,
+    "domain": "general",
+    "acceptedAnswers": [
+      "tugas"
+    ],
+    "hint": "Golongan: tugas.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "kerana",
+    "wordClass": "tugas",
+    "example": "Dia berehat kerana letih",
+    "classShift": {
+      "root": "makan",
+      "form": "makanan",
+      "class": "nama"
+    }
+  },
+  {
+    "id": "pos-10",
+    "tier": "biasa",
+    "topic": "pos",
+    "stage": 2,
+    "domain": "general",
+    "acceptedAnswers": [
+      "ganti nama"
+    ],
+    "hint": "Golongan: ganti nama.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "mereka",
+    "wordClass": "ganti nama",
+    "example": "Mereka menjaga hutan",
+    "classShift": {
+      "root": "makan",
+      "form": "makanan",
+      "class": "nama"
+    }
+  },
+  {
+    "id": "pos-11",
+    "tier": "biasa",
+    "topic": "pos",
+    "stage": 2,
+    "domain": "general",
+    "acceptedAnswers": [
+      "nama"
+    ],
+    "hint": "Golongan: nama.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "naskhah",
+    "wordClass": "nama",
+    "example": "Naskhah itu lama",
+    "classShift": {
+      "root": "makan",
+      "form": "makanan",
+      "class": "nama"
+    }
+  },
+  {
+    "id": "pos-12",
+    "tier": "biasa",
+    "topic": "pos",
+    "stage": 2,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kerja"
+    ],
+    "hint": "Golongan: kerja.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "meneliti",
+    "wordClass": "kerja",
+    "example": "Kancil meneliti tulisan",
+    "classShift": {
+      "root": "makan",
+      "form": "makanan",
+      "class": "nama"
+    }
+  },
+  {
+    "id": "pos-13",
+    "tier": "biasa",
+    "topic": "pos",
+    "stage": 2,
+    "domain": "general",
+    "acceptedAnswers": [
+      "adjektif"
+    ],
+    "hint": "Golongan: adjektif.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "usang",
+    "wordClass": "adjektif",
+    "example": "Jambatan itu usang",
+    "classShift": {
+      "root": "makan",
+      "form": "makanan",
+      "class": "nama"
+    }
+  },
+  {
+    "id": "pos-14",
+    "tier": "biasa",
+    "topic": "pos",
+    "stage": 2,
+    "domain": "general",
+    "acceptedAnswers": [
+      "tugas"
+    ],
+    "hint": "Golongan: tugas.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "supaya",
+    "wordClass": "tugas",
+    "example": "Belajar supaya berjaya",
+    "classShift": {
+      "root": "makan",
+      "form": "makanan",
+      "class": "nama"
+    }
+  },
+  {
+    "id": "pos-15",
+    "tier": "mahir",
+    "topic": "pos",
+    "stage": 2,
+    "domain": "general",
+    "acceptedAnswers": [
+      "ganti nama"
+    ],
+    "hint": "Golongan: ganti nama.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "beliau",
+    "wordClass": "ganti nama",
+    "example": "Beliau seorang guru",
+    "classShift": {
+      "root": "makan",
+      "form": "makanan",
+      "class": "nama"
+    }
+  },
+  {
+    "id": "pos-16",
+    "tier": "mahir",
+    "topic": "pos",
+    "stage": 2,
+    "domain": "general",
+    "acceptedAnswers": [
+      "nama"
+    ],
+    "hint": "Golongan: nama.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "khazanah",
+    "wordClass": "nama",
+    "example": "Khazanah itu berharga",
+    "classShift": {
+      "root": "makan",
+      "form": "makanan",
+      "class": "nama"
+    }
+  },
+  {
+    "id": "pos-17",
+    "tier": "mahir",
+    "topic": "pos",
+    "stage": 2,
+    "domain": "general",
+    "acceptedAnswers": [
+      "kerja"
+    ],
+    "hint": "Golongan: kerja.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "memulihkan",
+    "wordClass": "kerja",
+    "example": "Dayang memulihkan cahaya",
+    "classShift": {
+      "root": "makan",
+      "form": "makanan",
+      "class": "nama"
+    }
+  },
+  {
+    "id": "pos-18",
+    "tier": "mahir",
+    "topic": "pos",
+    "stage": 2,
+    "domain": "general",
+    "acceptedAnswers": [
+      "adjektif"
+    ],
+    "hint": "Golongan: adjektif.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "cermat",
+    "wordClass": "adjektif",
+    "example": "Jurutulis itu cermat",
+    "classShift": {
+      "root": "makan",
+      "form": "makanan",
+      "class": "nama"
+    }
+  },
+  {
+    "id": "pos-19",
+    "tier": "mahir",
+    "topic": "pos",
+    "stage": 2,
+    "domain": "general",
+    "acceptedAnswers": [
+      "tugas"
+    ],
+    "hint": "Golongan: tugas.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "walaupun",
+    "wordClass": "tugas",
+    "example": "Dia datang walaupun penat",
+    "classShift": {
+      "root": "makan",
+      "form": "makanan",
+      "class": "nama"
+    }
+  },
+  {
+    "id": "pos-20",
+    "tier": "mahir",
+    "topic": "pos",
+    "stage": 2,
+    "domain": "general",
+    "acceptedAnswers": [
+      "ganti nama"
+    ],
+    "hint": "Golongan: ganti nama.",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "word": "baginda",
+    "wordClass": "ganti nama",
+    "example": "Baginda memerintah negeri",
+    "classShift": {
+      "root": "makan",
+      "form": "makanan",
+      "class": "nama"
+    }
+  }
+]
