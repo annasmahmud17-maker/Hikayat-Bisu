@@ -1,6 +1,6 @@
-import atmosphere from '../config/atmosphere.json' with {type:'json'};
-import cfg from '../config/combat.json' with {type:'json'};
-import {palette,color,alphaColor} from '../theme/palette.js';
+import atmosphere from '../config/atmosphere.json?v=z1-3' with {type:'json'};
+import cfg from '../config/combat.json?v=z1-3' with {type:'json'};
+import {palette,color,alphaColor} from '../theme/palette.js?v=z1-3';
 export class LightingLayer{
  constructor(scene,biome){this.scene=scene;this.biome=biome;this.texture=scene.textures.createCanvas(`lights-${scene.sys.settings.key}`,cfg.resolution.width,cfg.resolution.height);this.image=scene.add.image(0,0,this.texture.key).setOrigin(0).setScrollFactor(0).setDepth(10000);this.vignette=scene.add.graphics().setScrollFactor(0).setDepth(10001);const {width:w,height:h}=cfg.resolution;const c=atmosphere.lighting;this.vignette.lineStyle(40,color(palette.dim),c.vignette).strokeRect(0,0,w,h)}
  update(hero,stations=[],pickups=[]){const c=atmosphere.lighting,ctx=this.texture.context,{width:w,height:h}=cfg.resolution,cam=this.scene.cameras.main;ctx.clearRect(0,0,w,h);ctx.globalCompositeOperation='source-over';ctx.globalAlpha=this.scene.game.settings.lowPower?c.lowOpacity:c.normalOpacity;ctx.fillStyle=palette[this.biome].near;ctx.fillRect(0,0,w,h);ctx.globalAlpha=1;ctx.globalCompositeOperation='destination-out';const pool=(x,y,r)=>{x-=cam.scrollX;y-=cam.scrollY;const gradient=ctx.createRadialGradient(x,y,0,x,y,r);gradient.addColorStop(0,alphaColor(palette.dim,1));gradient.addColorStop(1,alphaColor(palette.dim,0));ctx.fillStyle=gradient;ctx.fillRect(x-r,y-r,r*2,r*2)};pool(hero.x,hero.y,c.heroRadiusTiles*cfg.tile);for(const s of stations)pool(s.x,s.y,c.stationRadiusTiles*cfg.tile);for(const s of pickups)pool(s.x,s.y,c.pickupRadiusTiles*cfg.tile);ctx.globalCompositeOperation='source-over';this.texture.refresh()}

@@ -1,6 +1,6 @@
-import cfg from '../config/deathLetters.json' with {type:'json'};
-import economy from '../config/economy.json' with {type:'json'};
-import {palette as p} from '../theme/palette.js';
+import cfg from '../config/deathLetters.json?v=z1-3' with {type:'json'};
+import economy from '../config/economy.json?v=z1-3' with {type:'json'};
+import {palette as p} from '../theme/palette.js?v=z1-3';
 export class DeathLetters{
  constructor(scene,biome){this.scene=scene;this.biome=biome;this.pool=Array.from({length:cfg.poolSize},()=>({node:scene.add.text(0,0,'',{font:`${cfg.fontSize}px serif`,color:p[biome].glow}).setOrigin(.5).setDepth(7000).setVisible(false),active:false}))}
  burst({x,y,size,name,kind='small',collect=true}){const text=[...name.replace(/\s/gu,'')],limit=kind==='boss'||kind==='mini'?text.length:kind==='medium'?cfg.mediumLetters:cfg.smallLetters;const count=this.scene.game.settings.lowPower?Math.min(limit,cfg.lowPowerLimit):limit;for(let i=0;i<count;i++){const item=this.pool.find(x=>!x.active);if(!item)break;Object.assign(item,{active:true,age:0,x,y,baseX:x,baseY:y,angle:Math.PI*2*i/count,spread:size||cfg.spread,collect:collect&&Math.random()<cfg.collectShare});item.node.setText(text[i%text.length]||'ا').setPosition(x,y).setColor(item.collect?p[this.biome].glow:p.white).setAlpha(1).setVisible(true)}}

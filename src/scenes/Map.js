@@ -1,9 +1,9 @@
 import * as Phaser from 'https://cdn.jsdelivr.net/npm/phaser@3.90.0/dist/phaser.esm.js';
-import catalog from '../../content/stage_catalog.json' with {type:'json'};
-import {stringsFor} from '../systems/Strings.js';
-import {palette as p} from '../theme/palette.js';
-import {panel,el,button} from '../ui/dom.js';
-import {Save} from '../systems/Save.js';
+import catalog from '../../content/stage_catalog.json?v=z1-3' with {type:'json'};
+import {stringsFor} from '../systems/Strings.js?v=z1-3';
+import {palette as p} from '../theme/palette.js?v=z1-3';
+import {panel,el,button} from '../ui/dom.js?v=z1-3';
+import {Save} from '../systems/Save.js?v=z1-3';
 export class Map extends Phaser.Scene{
  constructor(){super('map')}
  init(data){this.returnTo=data.returnTo||'camp'}

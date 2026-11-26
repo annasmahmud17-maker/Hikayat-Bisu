@@ -1,5 +1,5 @@
-import defaults from '../config/settings.json' with {type:'json'};
-import config from '../config/foundation.json' with {type:'json'};
+import defaults from '../config/settings.json?v=z1-3' with {type:'json'};
+import config from '../config/foundation.json?v=z1-3' with {type:'json'};
 const clone=value=>structuredClone(value);
 export function migrate(record){
  const s=clone(defaults);

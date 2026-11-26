@@ -1,7 +1,7 @@
-import cfg from '../config/sprites.json' with {type:'json'};
-import combat from '../config/combat.json' with {type:'json'};
-import {tilesFor} from '../theme/palette.js';
-import {palette as p,color} from '../theme/palette.js';
+import cfg from '../config/sprites.json?v=z1-3' with {type:'json'};
+import combat from '../config/combat.json?v=z1-3' with {type:'json'};
+import {tilesFor} from '../theme/palette.js?v=z1-3';
+import {palette as p,color} from '../theme/palette.js?v=z1-3';
 const vectors={north:[0,-1],south:[0,1],east:[1,0],west:[-1,0]};
 export class SpriteRenderer{
  constructor(scene,biome='rimba'){this.scene=scene;this.biome=biome}

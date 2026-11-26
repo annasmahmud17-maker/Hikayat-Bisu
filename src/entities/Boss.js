@@ -1,7 +1,7 @@
-import {Enemy} from './Enemy.js';
-import cfg from '../config/combat.json' with {type:'json'};
-import sayings from '../../content/boss_peribahasa.json' with {type:'json'};
-import {recordBoss} from '../systems/CompanionState.js';
+import {Enemy} from './Enemy.js?v=z1-3';
+import cfg from '../config/combat.json?v=z1-3' with {type:'json'};
+import sayings from '../../content/boss_peribahasa.json?v=z1-3' with {type:'json'};
+import {recordBoss} from '../systems/CompanionState.js?v=z1-3';
 // Reusable three-round contract; Stage 1 has ordinary enemies only.
 export class Boss extends Enemy{
  constructor(scene,data){super(scene,{...data,health:cfg.boss.healthPerRound,pattern:'charge',kind:'boss',deathName:sayings.find(x=>x.id===data.peribahasaId)?.text||scene.t[data.nameKey]});this.round=1;this.node.setScale(2);this.label.setText(scene.t[data.nameKey]);this.state='intro';this.timer=cfg.boss.introMs;scene.soundFx.stop()}

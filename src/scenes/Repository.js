@@ -1,8 +1,8 @@
 import * as Phaser from 'https://cdn.jsdelivr.net/npm/phaser@3.90.0/dist/phaser.esm.js';
-import sayings from '../../content/boss_peribahasa.json' with {type:'json'};
-import {stringsFor} from '../systems/Strings.js';
-import {palette as p} from '../theme/palette.js';
-import {panel,el,button} from '../ui/dom.js';
+import sayings from '../../content/boss_peribahasa.json?v=z1-3' with {type:'json'};
+import {stringsFor} from '../systems/Strings.js?v=z1-3';
+import {palette as p} from '../theme/palette.js?v=z1-3';
+import {panel,el,button} from '../ui/dom.js?v=z1-3';
 export class Repository extends Phaser.Scene{
  constructor(){super('repository')}
  init(data){this.returnTo=data.returnTo||'camp'}

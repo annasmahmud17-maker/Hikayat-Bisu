@@ -1,26 +1,26 @@
 import * as Phaser from 'https://cdn.jsdelivr.net/npm/phaser@3.90.0/dist/phaser.esm.js';
-import cfg from '../config/combat.json' with {type:'json'};
-import bayangCfg from '../config/bayang.json' with {type:'json'};
-import economy from '../config/economy.json' with {type:'json'};
-import sprites from '../config/sprites.json' with {type:'json'};
-import {palette as p,color,tilesFor} from '../theme/palette.js';
-import {stringsFor} from '../systems/Strings.js';
-import {Save} from '../systems/Save.js';
-import {loadContent} from '../systems/Content.js';
-import {stageState,gateOpen,clearStage,canOccupy,dominantAxis} from '../systems/WorldState.js';
-import {swapCompanion} from '../systems/CompanionState.js';
-import {SpriteRenderer} from '../render/sprites.js';
-import {LightingLayer} from '../render/LightingLayer.js';
-import {ParticleLayer} from '../render/ParticleLayer.js';
-import {DeathLetters} from '../systems/DeathLetters.js';
-import {Sound} from '../systems/Sound.js';
-import {Hero} from '../entities/Hero.js';
-import {Enemy} from '../entities/Enemy.js';
-import {Boss} from '../entities/Boss.js';
-import {Controls} from '../ui/Controls.js';
-import {Hud} from '../ui/Hud.js';
-import {PuzzleHost} from '../puzzles/PuzzleHost.js';
-import {openMenu} from '../ui/Menu.js';
+import cfg from '../config/combat.json?v=z1-3' with {type:'json'};
+import bayangCfg from '../config/bayang.json?v=z1-3' with {type:'json'};
+import economy from '../config/economy.json?v=z1-3' with {type:'json'};
+import sprites from '../config/sprites.json?v=z1-3' with {type:'json'};
+import {palette as p,color,tilesFor} from '../theme/palette.js?v=z1-3';
+import {stringsFor} from '../systems/Strings.js?v=z1-3';
+import {Save} from '../systems/Save.js?v=z1-3';
+import {loadContent} from '../systems/Content.js?v=z1-3';
+import {stageState,gateOpen,clearStage,canOccupy,dominantAxis} from '../systems/WorldState.js?v=z1-3';
+import {swapCompanion} from '../systems/CompanionState.js?v=z1-3';
+import {SpriteRenderer} from '../render/sprites.js?v=z1-3';
+import {LightingLayer} from '../render/LightingLayer.js?v=z1-3';
+import {ParticleLayer} from '../render/ParticleLayer.js?v=z1-3';
+import {DeathLetters} from '../systems/DeathLetters.js?v=z1-3';
+import {Sound} from '../systems/Sound.js?v=z1-3';
+import {Hero} from '../entities/Hero.js?v=z1-3';
+import {Enemy} from '../entities/Enemy.js?v=z1-3';
+import {Boss} from '../entities/Boss.js?v=z1-3';
+import {Controls} from '../ui/Controls.js?v=z1-3';
+import {Hud} from '../ui/Hud.js?v=z1-3';
+import {PuzzleHost} from '../puzzles/PuzzleHost.js?v=z1-3';
+import {openMenu} from '../ui/Menu.js?v=z1-3';
 export class Stage extends Phaser.Scene{
  constructor(){super('stage')}
  init(data){this.stageId=data.id||'ch1_s1'}

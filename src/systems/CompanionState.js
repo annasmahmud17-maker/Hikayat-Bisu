@@ -1,4 +1,4 @@
-import economy from '../config/economy.json' with {type:'json'};
+import economy from '../config/economy.json?v=z1-3' with {type:'json'};
 export const companionIds=['kancil','rimau','lang','dayang','hidden'];
 export function findCompanion(s,id){if(!companionIds.includes(id))return false;s.companions[id]??={found:true,setia:false,puzzles:{}};s.companions[id].found=true;return true}
 export function selectParty(s,id){if(!s.companions[id]?.found)return false;if(s.party.includes(id))s.party=s.party.filter(x=>x!==id);else if(s.party.length<economy.partyMax)s.party.push(id);else return false;if(!s.party.includes(s.activeCompanion))s.activeCompanion=s.party[0]||null;return true}

@@ -1,6 +1,6 @@
-import cfg from '../config/combat.json' with {type:'json'};
-import {canOccupy,dominantAxis} from '../systems/WorldState.js';
-import {palette as p,color} from '../theme/palette.js';
+import cfg from '../config/combat.json?v=z1-3' with {type:'json'};
+import {canOccupy,dominantAxis} from '../systems/WorldState.js?v=z1-3';
+import {palette as p,color} from '../theme/palette.js?v=z1-3';
 const vector={north:{x:0,y:-1},south:{x:0,y:1},east:{x:1,y:0},west:{x:-1,y:0}};
 export class Hero{
  constructor(scene,x,y){this.scene=scene;this.x=x;this.y=y;this.facing='south';this.invincibleUntil=0;this.slashAt=-Infinity;this.dead=false;this.node=scene.renderer.draw(scene.s.look,x,y,this.facing)}
