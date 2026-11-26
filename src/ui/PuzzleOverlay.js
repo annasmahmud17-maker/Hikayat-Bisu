@@ -1,8 +1,8 @@
-import cfg from '../config/puzzles.json?v=17' with {type:'json'};
-import {palette} from '../theme/palette.js?v=17';
-import {PuzzleSession,accepts,normalize,shuffle} from '../systems/PuzzleContent.js?v=17';
-import {stringsFor} from '../systems/Strings.js?v=17';
-import {Save} from '../systems/Save.js?v=17';
+import cfg from '../config/puzzles.json?v=18' with {type:'json'};
+import {palette} from '../theme/palette.js?v=18';
+import {PuzzleSession,accepts,normalize,shuffle} from '../systems/PuzzleContent.js?v=18';
+import {stringsFor} from '../systems/Strings.js?v=18';
+import {Save} from '../systems/Save.js?v=18';
 export function themeElement(element){for(const [key,value] of Object.entries(palette))if(typeof value==='string')element.style.setProperty('--'+key,value);element.style.setProperty('--target',cfg.minTarget+'px');element.style.setProperty('--transition',cfg.transitionMs+'ms');element.style.setProperty('--dim-opacity',cfg.dimOpacity)}
 export function el(tag,text,parent,cls){const node=document.createElement(tag);if(text!==undefined)node.textContent=text;if(cls)node.className=cls;if(parent)parent.append(node);return node}
 export function button(parent,text,fn){const b=el('button',text,parent);b.type='button';b.addEventListener('click',fn);return b}
@@ -13,7 +13,7 @@ export class PuzzleOverlay{
   const model=this.banks.make(variant,options.tier||this.scene.game.settings.difficulty,options);if(model.stub)return false;
   this.active=true;this.model=model;this.options=options;this.step=0;this.removed=new Set();this.picked=[];this.completed=new Set();this.assignments=new Map();this.result=null;this.message='';this.selected=null;this.detected=false;this.forbiddenPairs=new Set();this.disabledWords=new Set();
   const scene=this.scene;this.wallet=options.wallet||{get hp(){return scene.hero.hp},set hp(value){scene.hero.hp=value},get kata(){return scene.kata},set kata(value){scene.kata=value}};
-  this.session=new PuzzleSession(model,this.wallet,{kancil:Boolean(options.kancil??scene.game.settings.companions?.kancil)});
+  this.session=new PuzzleSession(model,this.wallet,{kancil:Boolean(options.kancil??scene.game.settings.party?.includes('kancil')),freeHintLimit:1+(scene.game.settings.companionEffects?.kancilHintBarrage||0)});
   this.inputEnabled=scene.input.enabled;this.physicsPaused=scene.physics?.world.isPaused;this.scenePaused=scene.scene.isPaused();this.focusBefore=document.activeElement;
   if(scene.controls){scene.controls.stick.axis=0;scene.controls.stick.vertical=0;scene.controls.stick.active=null;scene.controls.pressed={};scene.controls.pointerButtons.clear();scene.controls.drawStick()}
   scene.input.keyboard?.resetKeys();scene.input.enabled=false;scene.physics?.world.pause();if(!this.scenePaused)scene.scene.manager.pause(scene.scene.key);
@@ -40,7 +40,7 @@ export class PuzzleOverlay{
   if(m.mode==='pairs')this.renderPairs(body);
   if(m.mode==='word'||m.mode==='detect'||m.mode==='repair')this.renderWords(body);
   this.status=el('p',this.message,this.dialog,'puzzle-status');this.status.setAttribute('role','status');this.status.setAttribute('aria-live','polite');
-  const footer=el('footer',undefined,this.dialog);const k=button(footer,t.kancilHint,()=>this.hint(true));k.disabled=!this.session.kancil||this.session.kancilUsed||Boolean(this.result);
+  const footer=el('footer',undefined,this.dialog);const k=button(footer,t.kancilHint,()=>this.hint(true));k.disabled=!this.session.kancil||this.session.kancilUsed>=this.session.freeHintLimit||Boolean(this.result);
   const price=cfg.hintCosts[this.session.hints];const paid=button(footer,t.hint+(price===undefined?'':` · ${price} ${t.kata}`),()=>this.hint());paid.disabled=price===undefined||Boolean(this.result);
   if(this.result)button(footer,t.next,()=>this.close(true));
  }
@@ -50,9 +50,9 @@ export class PuzzleOverlay{
  renderPairs(body){const m=this.model;this.rightOrder??=shuffle(m.pairs.map((pair,i)=>i));const grid=el('div',undefined,body,'puzzle-pairs');const left=el('div',undefined,grid),right=el('div',undefined,grid);m.pairs.forEach((pair,i)=>{const b=button(left,pair.left,()=>{this.selected=i;this.render()});b.disabled=this.completed.has(i);b.setAttribute('aria-pressed',String(this.selected===i))});for(const i of this.rightOrder){const pair=m.pairs[i];const b=button(right,pair.right,()=>{if(this.selected===null)return;const row=m.pairs[this.selected];if(!this.session.answer(pair.right,row.answers)){this.fail();return}this.completed.add(this.selected);this.selected=null;if(this.completed.size===m.pairs.length)this.success();else this.render()});b.disabled=this.completed.has(i)||this.forbiddenPairs.has(`${this.selected}|${i}`)}}
  renderWords(body){const m=this.model;if(m.source)el('h3',m.source,body);const words=el('div',undefined,body,'puzzle-words');m.tokens.forEach((word,i)=>{const b=button(words,word,()=>{if(m.mode==='word'){this.submit(word);return}if(!this.session.answer(String(i),[String(m.wrongIndex)])){this.fail();return}if(m.mode==='detect'){this.success();return}this.detected=true;this.render()});b.disabled=Boolean(this.result)||this.disabledWords.has(i);b.setAttribute('aria-pressed',String(this.detected&&i===m.wrongIndex))});if(m.mode==='repair'&&this.detected)this.renderChoices(body,m.options,[m.replacement]);if(m.mode==='detect'&&this.result)el('p',m.tokens.filter((_,i)=>i!==m.wrongIndex).join(' '),body)}
  submit(value,answers){if(this.result)return;const m=this.model;if(!this.session.answer(value,answers)){this.fail();return}if(m.mode==='chain'&&this.step<m.steps.length-1){this.step++;this.removed.clear();this.message=this.t.correct;this.render();return}this.success()}
- fail(){if(this.model.boss){this.announce(this.t.bossWrong);this.close(false);return}this.announce(this.t.wrong)}
+ fail(){this.options.onMistake?.(this.model);if(this.model.boss){this.announce(this.t.bossWrong);this.close(false);return}this.announce(this.t.wrong)}
  success(){this.result=true;this.message=this.t.correct;this.render();this.dialog.querySelectorAll('.puzzle-body button').forEach(b=>b.disabled=true);this.persist()}
- hint(free=false){const outcome=this.session.hint(free);if(!outcome.ok){this.announce(this.t[outcome.reason]);return}const m=this.model;let options=[],answers=m.acceptedAnswers;
+ hint(free=false){const outcome=this.session.hint(free);if(outcome.ok&&free&&this.session.kancilUsed>1){const effects=this.scene.game.settings.companionEffects;if(effects)effects.kancilHintBarrage=Math.max(0,effects.kancilHintBarrage-1)}if(!outcome.ok){this.announce(this.t[outcome.reason]);return}const m=this.model;let options=[],answers=m.acceptedAnswers;
   if(m.mode==='order'){options=m.extra;answers=m.tokens}
   else if(m.mode==='choice')options=m.options;
   else if(m.mode==='chain'){options=m.steps[this.step].options;answers=m.steps[this.step].acceptedAnswers}

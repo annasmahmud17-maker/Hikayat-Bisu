@@ -1,8 +1,10 @@
-import cfg from '../config/combat.json?v=17' with {type:'json'};
-import {heroFrames} from './HeroArt.js?v=17';
+import cfg from '../config/combat.json?v=18' with {type:'json'};
+import {consumeCharm} from '../systems/CompanionState.js';
+import economy from '../config/economy.json' with {type:'json'};
+import {heroFrames} from './HeroArt.js?v=18';
 export class Hero{
   constructor(scene,x,y,look,skin){this.scene=scene;this.key=heroFrames(scene,look,skin);this.sprite=scene.physics.add.sprite(x,y,`${this.key}-idle-0`).setDepth(8);this.sprite.body.setSize(24,39).setOffset(23,17).setMaxVelocity(500,700);this.hp=cfg.hero.health;this.ink=0;this.facing=1;this.lastGround=-Infinity;this.jumpQueued=-Infinity;this.lastJumpPress=-Infinity;this.jumpsUsed=0;this.invincible=0;this.action='idle';this.actionUntil=0;this.dead=false;this.flags={wallJump:scene.settings.abilities.wallJump,doubleJump:scene.settings.abilities.doubleJump,dash:false,glide:false}}
-  update(dt,axis,aim,now){if(this.dead)return;const b=this.sprite.body,ground=b.blocked.down||b.touching.down;if(ground){this.lastGround=now;this.jumpsUsed=0}if(Math.abs(axis)>cfg.input.deadzone)this.facing=Math.sign(axis);this.sprite.setFlipX(this.facing<0);b.setVelocityX(axis*cfg.movement.run);
+  update(dt,axis,aim,now){if(this.dead)return;const b=this.sprite.body,ground=b.blocked.down||b.touching.down;if(ground){this.lastGround=now;this.jumpsUsed=0}if(Math.abs(axis)>cfg.input.deadzone)this.facing=Math.sign(axis);this.sprite.setFlipX(this.facing<0);b.setVelocityX(axis*cfg.movement.run*(this.scene.lajuUntil>now?economy.charms.laju.speedMultiplier:1));
     if(this.jumpQueued+cfg.movement.bufferMs>=now){const wall=!ground&&(b.blocked.left||b.blocked.right||b.touching.left||b.touching.right);if(wall&&this.flags.wallJump){const direction=b.blocked.left||b.touching.left?1:-1;b.setVelocity(direction*cfg.movement.wallJumpX,-cfg.movement.wallJumpY);this.facing=direction;this.jumpsUsed=1;this.jumpQueued=-Infinity;this.scene.soundFx.play('jump')}
       else if(ground||now-this.lastGround<cfg.movement.coyoteMs){b.setVelocityY(-cfg.movement.jump);this.jumpsUsed=1;this.jumpQueued=-Infinity;this.scene.soundFx.play('jump')}
       else if(this.flags.doubleJump&&this.jumpsUsed===1&&now-this.lastJumpPress<=cfg.movement.jumpTapWindowMs){b.setVelocityY(-cfg.movement.doubleJumpVelocity);this.jumpsUsed=2;this.jumpQueued=-Infinity;this.scene.soundFx.play('jump')}}
@@ -10,6 +12,6 @@ export class Hero{
     this.action=now<this.actionUntil?this.action:ground?Math.abs(axis)>0.1?'run':'idle':b.velocity.y<0?'jump':'fall';const frame=Math.floor(now/(1000/cfg.graphics.animationFps))%4;this.sprite.setTexture(`${this.key}-${this.action}-${frame}`);this.sprite.setAlpha(this.invincible>now&&Math.floor(now/80)%2?0.4:1);if(this.sprite.y>580)this.die()}
   jump(){if(this.dead)return;const now=this.scene.time.now;this.jumpQueued=now;if(this.jumpsUsed===0)this.lastJumpPress=now}
   stomp(){this.sprite.body.setVelocityY(-cfg.hero.stompBounce);this.jumpsUsed=0;this.jumpQueued=-Infinity;this.ink=Math.min(cfg.hero.inkMax,this.ink+cfg.hero.inkPerHit);this.scene.soundFx.play('jump')}
-  hurt(damage,from){const now=this.scene.time.now;if(this.dead||now<this.invincible)return;this.hp-=damage;this.invincible=now+cfg.hero.hurtInvincibleMs;this.action='hurt';this.actionUntil=now+260;this.sprite.body.setVelocity((this.sprite.x<from?-1:1)*cfg.hero.knockbackX,-cfg.hero.knockbackY);this.scene.soundFx.play('hurt');this.scene.shake();if(this.hp<=0)this.die()}
+  hurt(damage,from){const now=this.scene.time.now;if(this.dead||now<this.invincible)return;if(consumeCharm(this.scene.settings,'kebal')){this.invincible=now+cfg.hero.hurtInvincibleMs;this.scene.soundFx.play('parry');this.scene.save();return}this.hp-=damage;this.invincible=now+cfg.hero.hurtInvincibleMs;this.action='hurt';this.actionUntil=now+260;this.sprite.body.setVelocity((this.sprite.x<from?-1:1)*cfg.hero.knockbackX,-cfg.hero.knockbackY);this.scene.soundFx.play('hurt');this.scene.shake();if(this.hp<=0)this.die()}
   die(){if(this.dead)return;this.dead=true;this.sprite.body.setVelocity(0);this.sprite.body.enable=false;this.scene.burstLetters(this.sprite.x,this.sprite.y,false);this.sprite.setVisible(false);this.scene.onHeroDeath()}
 }

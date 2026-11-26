@@ -1,4 +1,4 @@
-import cfg from '../config/puzzles.json?v=17' with {type:'json'};
+import cfg from '../config/puzzles.json?v=18' with {type:'json'};
 export const normalize=value=>String(value??'').normalize('NFC').trim().replace(/\s+/gu,' ').toLocaleLowerCase();
 export const accepts=(value,answers)=>answers.some(answer=>normalize(answer)===normalize(value));
 export function shuffle(list,random=Math.random){const out=[...list];for(let i=out.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[out[i],out[j]]=[out[j],out[i]]}return out}
@@ -39,7 +39,7 @@ export class WordBanks{
   }
 }
 export class PuzzleSession{
-  constructor(model,wallet,{kancil=false}={}){this.model=model;this.wallet=wallet;this.kancil=kancil;this.kancilUsed=false;this.hints=0;this.wrong=0}
+  constructor(model,wallet,{kancil=false,freeHintLimit=1}={}){this.model=model;this.wallet=wallet;this.kancil=kancil;this.kancilUsed=0;this.freeHintLimit=freeHintLimit;this.hints=0;this.wrong=0}
   answer(value,answers=this.model.acceptedAnswers){const correct=accepts(value,answers);if(!correct){this.wrong++;if(!this.model.boss)this.wallet.hp=Math.max(cfg.minimumHealth,this.wallet.hp-cfg.damage)}return correct}
-  hint(free=false){if(free){if(!this.kancil||this.kancilUsed)return {ok:false,reason:'noHint'};this.kancilUsed=true;return {ok:true,free:true}}const cost=cfg.hintCosts[this.hints];if(cost===undefined)return {ok:false,reason:'noHint'};if(this.wallet.kata<cost)return {ok:false,reason:'noKata'};this.wallet.kata-=cost;this.hints++;return {ok:true,cost}}
+  hint(free=false){if(free){if(!this.kancil||this.kancilUsed>=this.freeHintLimit)return {ok:false,reason:'noHint'};this.kancilUsed++;return {ok:true,free:true}}const cost=cfg.hintCosts[this.hints];if(cost===undefined)return {ok:false,reason:'noHint'};if(this.wallet.kata<cost)return {ok:false,reason:'noKata'};this.wallet.kata-=cost;this.hints++;return {ok:true,cost}}
 }
