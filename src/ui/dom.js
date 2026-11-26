@@ -1,4 +1,4 @@
-import {palette} from '../theme/palette.js';
+import {palette} from '../theme/palette.js?v=z1-3';
 export function el(tag,text,parent,cls){const node=document.createElement(tag);if(text!==undefined&&text!==null)node.textContent=text;if(cls)node.className=cls;parent?.append(node);return node}
 export function button(parent,text,fn){const b=el('button',text,parent);b.type='button';b.addEventListener('click',fn);return b}
 export function theme(node){for(const [key,value] of Object.entries(palette))if(typeof value==='string')node.style.setProperty('--'+key,value)}

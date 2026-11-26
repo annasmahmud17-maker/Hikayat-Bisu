@@ -1,10 +1,10 @@
 import * as Phaser from 'https://cdn.jsdelivr.net/npm/phaser@3.90.0/dist/phaser.esm.js';
-import {stringsFor} from '../systems/Strings.js';
-import {findCompanion,recordBoss,companionIds} from '../systems/CompanionState.js';
-import {Save} from '../systems/Save.js';
-import {el,button,theme} from '../ui/dom.js';
-import cfg from '../config/combat.json' with {type:'json'};
-import sayings from '../../content/boss_peribahasa.json' with {type:'json'};
+import {stringsFor} from '../systems/Strings.js?v=z1-3';
+import {findCompanion,recordBoss,companionIds} from '../systems/CompanionState.js?v=z1-3';
+import {Save} from '../systems/Save.js?v=z1-3';
+import {el,button,theme} from '../ui/dom.js?v=z1-3';
+import cfg from '../config/combat.json?v=z1-3' with {type:'json'};
+import sayings from '../../content/boss_peribahasa.json?v=z1-3' with {type:'json'};
 export class Debug extends Phaser.Scene{
  constructor(){super('debug')}
  create(){

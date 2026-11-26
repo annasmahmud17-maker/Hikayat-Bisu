@@ -1,4 +1,4 @@
-import cfg from '../config/foundation.json' with {type:'json'};
+import cfg from '../config/foundation.json?v=z1-3' with {type:'json'};
 export function stageState(s,id){return s.progress.stages[id]??={room:'r1',visited:[],seals:[],pondok:{room:'r1',x:2,y:5},shortcuts:[],chests:[],bossRounds:{}}}
 export function solveSeal(s,id,puzzle){const state=stageState(s,id);if(!state.seals.includes(puzzle))state.seals.push(puzzle);return state.seals.length}
 export function gateOpen(s,id){return stageState(s,id).seals.length===cfg.sealsPerStage}

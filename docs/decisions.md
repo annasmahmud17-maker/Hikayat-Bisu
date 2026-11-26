@@ -76,3 +76,10 @@
 - Content validation checks every implemented stage listed in the 40-entry catalog. Unimplemented map entries have no playable file yet, keeping this phase limited to Chapter 1 Stage 1. The Crossy Syntax prototype is not in this repository; porting its six authored entries belongs with the later puzzle-content phase.
 
 - Use Phaser's native timeout loop for a predictable mobile power toggle. PowerMode keeps the cached target and public timer delay together; low power was checked around 28 fps in the remote browser with the configured 30 fps target.
+
+## Startup cache migration fix (2026-11-26)
+
+- A screenshot after the rework merge showed the legacy loading error and old background, while a fresh live session booted normally. Version the complete module/JSON graph so an older cache-first worker cannot supply incompatible modules to the new page.
+- Register/update the worker in a classic script before module loading. This update can proceed even if an old cached module fails. Existing controlled clients reload after a new worker takes control. Keep localStorage and saves untouched.
+- Use the `?update=z1-3` entry link to bypass a cached legacy navigation once. Cache both canonical and versioned source/content URLs, including dynamically loaded Stage 1, for offline use. Keep diagnostic details on the startup error if another problem occurs.
+- Browser upgrade check: load the legacy snapshot under a worker scope, replace its served files with the fixed rework, then open the recovery entry. Title, saved name, camp and Stage 1 open without application console errors.

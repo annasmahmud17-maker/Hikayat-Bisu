@@ -2,7 +2,7 @@
   "saveKey": "hikayat-bisu-topdown",
   "legacyKey": "hikayat-bisu-phase1",
   "schema": 2,
-  "build": "z1-1",
+  "build": "z1-3",
   "chapters": 4,
   "stagesPerChapter": 10,
   "sealsPerStage": 5,
