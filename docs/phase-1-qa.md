@@ -1,3 +1,5 @@
+> Historical sidescroller checklist. Superseded by [top-down Phase 1 QA](rework-phase-1-qa.md).
+
 # Phase 1 phone QA
 
 Open landscape. Cycle Look through boy, Girl A and Girl B; cycle all four skin tones. Check outline, trim and dagger against dark floor. Move with left thumb and attack with right. Test stick plus jump plus slash plus parry simultaneously. Reposition and resize every button, reload, and reset. Step off a platform and press jump near its edge. Press jump before landing. Aim up and down while slashing; bounce off enemies with down slash. Try Langkah through a strike, manual Tangkis, and Auto-Tangkis. Earn Ink and heal. Fall into the pit with Kata, return to the Bayang. Defeat enemies and watch their letters drift and disappear. Turn shake and low-power mode on and off. Test a controller. Profile ten enemies on a mid-range phone; target 60 fps, 30 in low power.

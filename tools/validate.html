@@ -1,9 +1,8 @@
-<!doctype html><html lang="ms"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Hikayat Bisu</title><link rel="stylesheet" href="../src/ui/puzzles.css?v=17"></head><body class="validator"><h1 id="title"></h1><button id="run"></button> <button id="broken"></button> <a href="../index.html" id="home"></a><pre id="report" role="status"></pre><script type="module">
-import {WordBanks} from '../src/systems/PuzzleContent.js?v=17';
-import {validateBanks} from '../src/systems/ValidateContent.js?v=17';
-import {stringsFor} from '../src/systems/Strings.js?v=17';
-import {themeElement} from '../src/ui/PuzzleOverlay.js?v=17';
-const t=stringsFor('ms').puzzle;themeElement(document.body);document.querySelector('#title').textContent=t.validator;document.querySelector('#run').textContent=t.validate;document.querySelector('#broken').textContent=t.broken;document.querySelector('#home').textContent=t.home;
-async function run(broken=false){const report=document.querySelector('#report');report.textContent=t.loading;try{const {banks}=await WordBanks.load();if(broken){const bad=structuredClone(banks.sentences[0]);delete bad.acceptedAnswers;bad.reviewStatus='invalid';bad.tokens=42;banks.sentences.push(bad)}const result=validateBanks(banks);report.textContent=`${t.checked}: ${result.count}\n${t.errors}: ${result.errors.length}\n${t.warnings}: ${result.warnings.length}\n${result.ok?t.passed:result.errors.join('\n')}\n\n${result.warnings.join('\n')}`}catch{report.textContent=t.error}}
-document.querySelector('#run').onclick=()=>run();document.querySelector('#broken').onclick=()=>run(true);run();
+<!doctype html><html lang="ms"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="../src/ui/game.css"><title>Hikayat Bisu</title></head><body><section id="validator" class="panel wide"></section><script type="module">
+import {theme,el,button} from '../src/ui/dom.js';
+import {stringsFor} from '../src/systems/Strings.js';
+import {loadContent} from '../src/systems/Content.js';
+import {validateBanks,validateStage} from '../src/systems/ValidateContent.js';
+import cfg from '../src/config/puzzles.json' with {type:'json'};
+const root=document.getElementById('validator'),t=stringsFor('ms');theme(root);el('h1',t.validator,root);button(root,t.validate,async()=>{const output=el('pre',t.loading,root);try{const entries=await Promise.all(cfg.files.map(async name=>[name,await loadContent(name+'.json')])),result=validateBanks(Object.fromEntries(entries)),catalog=await loadContent('stage_catalog.json'),temp=await loadContent('temp_shrines.json');for(const entry of catalog.filter(x=>x.implemented)){const report=validateStage(await loadContent(entry.file),new Set(temp.map(x=>x.id)));result.errors.push(...report.errors.map(error=>entry.id+': '+error))}output.textContent=`${result.errors.length?t.errors:t.valid}: ${result.errors.length}\n${t.warnings}: ${result.warnings.length}\n`+result.errors.join('\n')}catch(error){output.textContent=t.loadError+' '+error.message}});
 </script></body></html>

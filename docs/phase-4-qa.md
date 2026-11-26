@@ -1,3 +1,5 @@
+> Historical sidescroller checklist. Superseded by [top-down Phase 1 QA](rework-phase-1-qa.md).
+
 # Phase 4 QA — Rimba Aksara
 
 ## Verified

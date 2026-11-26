@@ -1,67 +1,42 @@
 {
-  "schema": 4,
+  "schema": 2,
+  "format": "topdown",
   "heroName": "",
   "look": "boy",
   "skin": 0,
   "language": "ms",
   "difficulty": "biasa",
-  "abilities": {
-    "wallJump": false,
-    "dash": false,
-    "glide": false,
-    "doubleJump": false,
-    "rangedAttack": false
-  },
-  "companions": {
-    "kancil": {
-      "unlocked": false,
-      "setia": false,
-      "quest": {
-        "attempts": 0,
-        "replaysUsed": 0,
-        "closed": false,
-        "active": false,
-        "step": 0,
-        "mistakes": 0
-      }
-    }
-  },
-  "autoParry": false,
+  "kata": 0,
+  "hearts": 10,
+  "maxHearts": 10,
+  "hitStop": true,
   "shake": true,
   "lowPower": false,
   "masterVolume": 0.5,
   "effectsVolume": 0.7,
   "musicVolume": 0.4,
   "layout": null,
-  "layoutVersion": 4,
+  "layoutVersion": 1,
   "party": [],
   "activeCompanion": null,
-  "companionEffects": {
-    "kancilHintBarrage": 0
-  },
-  "repository": {
-    "collected": [],
-    "achievement": false
-  },
-  "charms": {
-    "laju": {
-      "owned": false,
-      "notches": 0,
-      "equipped": false
-    },
-    "kebal": {
-      "owned": false,
-      "notches": 0,
-      "equipped": false
-    }
-  },
+  "companions": {},
   "purchases": {
     "adFree": false
   },
-  "benches": {
-    "discovered": [
-      "entrance"
+  "repository": {
+    "collected": []
+  },
+  "progress": {
+    "current": "ch1_s1",
+    "unlocked": [
+      "ch1_s1"
     ],
-    "selected": "entrance"
-  }
+    "cleared": [],
+    "stages": {},
+    "lesserKeys": []
+  },
+  "abilities": {
+    "inkArrow": false
+  },
+  "bayang": null
 }

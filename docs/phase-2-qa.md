@@ -1,3 +1,5 @@
+> Historical sidescroller checklist. Superseded by [top-down Phase 1 QA](rework-phase-1-qa.md).
+
 # Phase 2 — Puzzle engine and word banks
 
 Scope: reusable puzzles and the test room only. No stage, companion quest, economy shop or later-phase content is implemented. Phase 1's boy/girl selection and simplified controls are retained.

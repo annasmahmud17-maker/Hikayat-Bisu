@@ -18,7 +18,10 @@
       "meja",
       "kerusi",
       "berlari"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "id": "exercise-2d-01",
@@ -35,7 +38,10 @@
     "notes": "Draf untuk semakan editor bahasa.",
     "variant": "2d",
     "root": "makan",
-    "form": "makanan"
+    "form": "makanan",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "id": "exercise-3c-01",
@@ -75,7 +81,10 @@
           "rapuh"
         ]
       }
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "id": "exercise-3d-01",
@@ -114,7 +123,10 @@
           "Bagai isi dengan kuku"
         ]
       }
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "id": "exercise-4c-01",
@@ -144,7 +156,10 @@
       "cold",
       "green",
       "silent"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "id": "exercise-2c-02",
@@ -165,7 +180,10 @@
       "pelita",
       "gerbang",
       "meneliti"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "id": "exercise-2d-02",
@@ -182,7 +200,10 @@
     "notes": "Draf untuk semakan editor bahasa.",
     "variant": "2d",
     "root": "baca",
-    "form": "bacaan"
+    "form": "bacaan",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "id": "exercise-3c-02",
@@ -222,7 +243,10 @@
           "rapuh"
         ]
       }
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "id": "exercise-3d-02",
@@ -261,7 +285,10 @@
           "Buah tangan"
         ]
       }
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "id": "exercise-4c-02",
@@ -291,7 +318,10 @@
       "closed",
       "green",
       "silent"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "id": "exercise-2c-03",
@@ -312,7 +342,10 @@
       "warisan",
       "hikayat",
       "memulihkan"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "id": "exercise-2d-03",
@@ -329,7 +362,10 @@
     "notes": "Draf untuk semakan editor bahasa.",
     "variant": "2d",
     "root": "tulis",
-    "form": "tulisan"
+    "form": "tulisan",
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "id": "exercise-3c-03",
@@ -369,7 +405,10 @@
           "rapuh"
         ]
       }
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "id": "exercise-3d-03",
@@ -408,7 +447,10 @@
           "Atas pagar"
         ]
       }
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "id": "exercise-4c-03",
@@ -438,7 +480,10 @@
       "ancient",
       "green",
       "silent"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "id": "setia-kancil-mudah-1",
@@ -477,7 +522,10 @@
           "Bagai mencencang air"
         ]
       }
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "id": "setia-kancil-mudah-2",
@@ -516,7 +564,10 @@
           "Ayam tambatan"
         ]
       }
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "id": "setia-kancil-biasa-1",
@@ -555,7 +606,10 @@
           "Cakar ayam"
         ]
       }
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "id": "setia-kancil-biasa-2",
@@ -594,7 +648,10 @@
           "Bagai isi dengan kuku"
         ]
       }
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "id": "setia-kancil-mahir-1",
@@ -633,7 +690,10 @@
           "Buah tangan"
         ]
       }
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "id": "setia-kancil-mahir-2",
@@ -672,7 +732,10 @@
           "Buah tangan"
         ]
       }
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mudah",
@@ -697,7 +760,10 @@
     "correctedSentence": "Kancil menulis pada batu",
     "acceptedAnswers": [
       "1"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mudah",
@@ -725,7 +791,10 @@
     "acceptedAnswers": [
       "Kancil membaca dan burung berkicau",
       "burung berkicau dan Kancil membaca"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mudah",
@@ -751,7 +820,10 @@
     "correctedSentence": "Burung itu terbang ke sarang",
     "acceptedAnswers": [
       "2"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mudah",
@@ -779,7 +851,10 @@
     "acceptedAnswers": [
       "Hujan turun dan kami berteduh",
       "kami berteduh dan Hujan turun"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mudah",
@@ -804,7 +879,10 @@
     "correctedSentence": "Kami berjalan ke pondok",
     "acceptedAnswers": [
       "1"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mudah",
@@ -831,7 +909,10 @@
     "conjunction": "tetapi",
     "acceptedAnswers": [
       "Daun kecil tetapi akar besar"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mudah",
@@ -856,7 +937,10 @@
     "correctedSentence": "Daun itu dibawa angin",
     "acceptedAnswers": [
       "2"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mudah",
@@ -883,7 +967,10 @@
     "conjunction": "kerana",
     "acceptedAnswers": [
       "Kami berehat kerana kami letih"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mudah",
@@ -907,7 +994,10 @@
     "correctedSentence": "Penulis membaca tulisan",
     "acceptedAnswers": [
       "1"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mudah",
@@ -935,7 +1025,10 @@
     "conjunction": "supaya",
     "acceptedAnswers": [
       "Kancil berlari supaya dia tiba awal"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mudah",
@@ -960,7 +1053,10 @@
     "correctedSentence": "Katak melompat ke kolam",
     "acceptedAnswers": [
       "1"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mudah",
@@ -988,7 +1084,10 @@
     "acceptedAnswers": [
       "Angin bertiup dan daun bergoyang",
       "daun bergoyang dan Angin bertiup"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mudah",
@@ -1013,7 +1112,10 @@
     "correctedSentence": "Akar itu mencengkam tanah",
     "acceptedAnswers": [
       "2"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mudah",
@@ -1041,7 +1143,10 @@
     "conjunction": "tetapi",
     "acceptedAnswers": [
       "Jalan sempit tetapi kami terus berjalan"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mudah",
@@ -1066,7 +1171,10 @@
     "correctedSentence": "Air mengalir ke sungai",
     "acceptedAnswers": [
       "1"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mudah",
@@ -1093,7 +1201,10 @@
     "conjunction": "kerana",
     "acceptedAnswers": [
       "Burung terbang kerana sayapnya kuat"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mudah",
@@ -1117,7 +1228,10 @@
     "correctedSentence": "Kancil mencari jalan",
     "acceptedAnswers": [
       "1"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mudah",
@@ -1144,7 +1258,10 @@
     "conjunction": "supaya",
     "acceptedAnswers": [
       "Kami membaca supaya kami faham"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mudah",
@@ -1169,7 +1286,10 @@
     "correctedSentence": "Mereka bermain di rimba",
     "acceptedAnswers": [
       "1"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mudah",
@@ -1197,7 +1317,10 @@
     "acceptedAnswers": [
       "Embun menitis dan katak melompat",
       "katak melompat dan Embun menitis"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "biasa",
@@ -1223,7 +1346,10 @@
     "correctedSentence": "Tulisan itu disusun oleh penulis",
     "acceptedAnswers": [
       "2"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "biasa",
@@ -1252,7 +1378,10 @@
     "conjunction": "tetapi",
     "acceptedAnswers": [
       "Kancil mahu menyeberang tetapi sungai terlalu deras"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "biasa",
@@ -1278,7 +1407,10 @@
     "correctedSentence": "Benih itu ditanam oleh Kancil",
     "acceptedAnswers": [
       "2"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "biasa",
@@ -1307,7 +1439,10 @@
     "conjunction": "supaya",
     "acceptedAnswers": [
       "Kami menyusun huruf supaya pintu dapat dibuka"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "biasa",
@@ -1332,7 +1467,10 @@
     "correctedSentence": "Kancil menyapu daun kering",
     "acceptedAnswers": [
       "1"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "biasa",
@@ -1361,7 +1499,10 @@
     "conjunction": "kerana",
     "acceptedAnswers": [
       "Penulis menyalakan pelita kerana pondok itu gelap"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "biasa",
@@ -1386,7 +1527,10 @@
     "correctedSentence": "Kami mendengar suara burung",
     "acceptedAnswers": [
       "1"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "biasa",
@@ -1418,7 +1562,10 @@
     "acceptedAnswers": [
       "Akar menjalar di tanah dan daun tumbuh di dahan",
       "daun tumbuh di dahan dan Akar menjalar di tanah"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "biasa",
@@ -1443,7 +1590,10 @@
     "correctedSentence": "Penulis memegang Keris Pena",
     "acceptedAnswers": [
       "1"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "biasa",
@@ -1472,7 +1622,10 @@
     "conjunction": "tetapi",
     "acceptedAnswers": [
       "Batu itu berat tetapi Kancil tetap mencuba"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "biasa",
@@ -1498,7 +1651,10 @@
     "correctedSentence": "Pintu itu dibuka oleh penulis",
     "acceptedAnswers": [
       "2"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "biasa",
@@ -1528,7 +1684,10 @@
     "acceptedAnswers": [
       "Kami menjaga rimba dan rimba melindungi kami",
       "rimba melindungi kami dan Kami menjaga rimba"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "biasa",
@@ -1553,7 +1712,10 @@
     "correctedSentence": "Kancil belajar membaca tulisan",
     "acceptedAnswers": [
       "1"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "biasa",
@@ -1582,7 +1744,10 @@
     "conjunction": "kerana",
     "acceptedAnswers": [
       "Kancil berhenti berlari kerana dia terdengar suara"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "biasa",
@@ -1608,7 +1773,10 @@
     "correctedSentence": "Kami bekerja bersama di pondok",
     "acceptedAnswers": [
       "1"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "biasa",
@@ -1637,7 +1805,10 @@
     "conjunction": "supaya",
     "acceptedAnswers": [
       "Penulis bercakap perlahan supaya burung tidak terkejut"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "biasa",
@@ -1662,7 +1833,10 @@
     "correctedSentence": "Penulis mengecat tiang pondok",
     "acceptedAnswers": [
       "1"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "biasa",
@@ -1690,7 +1864,10 @@
     "conjunction": "tetapi",
     "acceptedAnswers": [
       "Langit cerah tetapi kabus masih tebal"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "biasa",
@@ -1716,7 +1893,10 @@
     "correctedSentence": "Kancil mengira daun yang gugur",
     "acceptedAnswers": [
       "1"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "biasa",
@@ -1745,7 +1925,10 @@
     "conjunction": "kerana",
     "acceptedAnswers": [
       "Daun itu layu kerana pokok kekurangan air"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mahir",
@@ -1771,7 +1954,10 @@
     "correctedSentence": "Peribahasa itu ditafsir oleh penulis",
     "acceptedAnswers": [
       "2"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mahir",
@@ -1802,7 +1988,10 @@
     "conjunction": "tetapi",
     "acceptedAnswers": [
       "Tulisan itu hampir terpadam tetapi penulis masih dapat membacanya"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mahir",
@@ -1828,7 +2017,10 @@
     "correctedSentence": "Akar yang menjalar merentangi laluan",
     "acceptedAnswers": [
       "3"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mahir",
@@ -1860,7 +2052,10 @@
     "conjunction": "supaya",
     "acceptedAnswers": [
       "Kami memulihkan kata yang hilang supaya rimba kembali mengingati namanya"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mahir",
@@ -1887,7 +2082,10 @@
     "correctedSentence": "Daun yang gugur dikumpulkan oleh Kancil",
     "acceptedAnswers": [
       "3"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mahir",
@@ -1919,7 +2117,10 @@
     "conjunction": "kerana",
     "acceptedAnswers": [
       "Kancil menyembunyikan rasa takutnya kerana dia tidak mahu merisaukan sahabatnya"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mahir",
@@ -1946,7 +2147,10 @@
     "correctedSentence": "Kata yang hilang dipulihkan oleh penulis",
     "acceptedAnswers": [
       "3"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mahir",
@@ -1978,7 +2182,10 @@
     "acceptedAnswers": [
       "Akar tua mencengkam tanah dan dahan mudanya menjangkau cahaya",
       "dahan mudanya menjangkau cahaya dan Akar tua mencengkam tanah"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mahir",
@@ -2004,7 +2211,10 @@
     "correctedSentence": "Kancil menyelidik tulisan yang terpadam",
     "acceptedAnswers": [
       "1"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mahir",
@@ -2034,7 +2244,10 @@
     "conjunction": "tetapi",
     "acceptedAnswers": [
       "Perjalanan itu memenatkan tetapi kami enggan meninggalkan sahabat"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mahir",
@@ -2061,7 +2274,10 @@
     "correctedSentence": "Penulis memelihara pokok di tepi pondok",
     "acceptedAnswers": [
       "1"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mahir",
@@ -2092,7 +2308,10 @@
     "conjunction": "supaya",
     "acceptedAnswers": [
       "Penulis mengulangi kata itu supaya maknanya tidak lagi dilupakan"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mahir",
@@ -2118,7 +2337,10 @@
     "correctedSentence": "Mereka membincangkan makna peribahasa itu",
     "acceptedAnswers": [
       "1"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mahir",
@@ -2150,7 +2372,10 @@
     "conjunction": "kerana",
     "acceptedAnswers": [
       "Suara rimba semakin jelas kerana tulisan pada batu telah dipulihkan"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mahir",
@@ -2177,7 +2402,10 @@
     "correctedSentence": "Sahabat itu berdiri di bawah beringin",
     "acceptedAnswers": [
       "2"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mahir",
@@ -2207,7 +2435,10 @@
     "acceptedAnswers": [
       "Kabus menyelubungi lembah dan embun membasahi dedaunan",
       "embun membasahi dedaunan dan Kabus menyelubungi lembah"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mahir",
@@ -2233,7 +2464,10 @@
     "correctedSentence": "Penulis mengkaji tulisan yang ditemukan",
     "acceptedAnswers": [
       "1"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mahir",
@@ -2263,7 +2497,10 @@
     "conjunction": "tetapi",
     "acceptedAnswers": [
       "Pondok itu kelihatan usang tetapi tiangnya masih kukuh"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mahir",
@@ -2288,7 +2525,10 @@
     "correctedSentence": "Kancil mentafsir isyarat sahabatnya",
     "acceptedAnswers": [
       "1"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   },
   {
     "tier": "mahir",
@@ -2320,6 +2560,9 @@
     "conjunction": "kerana",
     "acceptedAnswers": [
       "Kami berhenti di bawah beringin kerana hujan turun dengan lebat"
-    ]
+    ],
+    "chapter": 1,
+    "note_ms": "Draf: semak susunan dan makna perkataan.",
+    "note_en": "Draft: check word order and meaning."
   }
 ]
