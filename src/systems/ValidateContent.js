@@ -1,5 +1,5 @@
-import cfg from '../config/puzzles.json?v=18' with {type:'json'};
-import {normalize} from './PuzzleContent.js?v=18';
+import cfg from '../config/puzzles.json?v=21' with {type:'json'};
+import {normalize} from './PuzzleContent.js?v=21';
 const required=['id','tier','topic','stage','domain','acceptedAnswers','hint','syllabusRef','reviewStatus','notes'];
 const schemas={sentences:{tokens:'array',validOrders:'array'},affixes:{root:'string',affix:'string',correctForm:'string',wrongForms:'array',ruleNote:'string'},parts_of_speech:{word:'string',wordClass:'string',example:'string',classShift:'object'},synonyms:{word:'string',synonyms:'array',register:'string'},antonyms:{word:'string',antonyms:'array',effect:'string'},translations:{ms:'string',en:'string',alternatives:'object'},peribahasa:{text:'string',kind:'string',meaning:'object',theme:'string'},jawi:{rumi:'string',jawi:'string'},dialects:{standard:'string',dialect:'string',region:'string'},names:{word:'string',kind:'string'},distractors:{variant:'string',options:'array'},puzzles:{variant:'string'}};
 export function validateBanks(banks){const errors=[],warnings=[],ids=new Set();let count=0;const error=(label,msg)=>errors.push(`${label}: ${msg}`);

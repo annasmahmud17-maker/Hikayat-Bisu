@@ -1,10 +1,10 @@
 import * as Phaser from 'https://cdn.jsdelivr.net/npm/phaser@3.90.0/dist/phaser.esm.js';
-import cfg from '../config/puzzles.json?v=18' with {type:'json'};
-import {palette as p,color} from '../theme/palette.js?v=18';
-import {stringsFor} from '../systems/Strings.js?v=18';
-import {WordBanks} from '../systems/PuzzleContent.js?v=18';
-import {PuzzleOverlay,el,button,themeElement} from '../ui/PuzzleOverlay.js?v=18';
-import {kataKunci} from '../systems/KataKunci.js?v=18';
+import cfg from '../config/puzzles.json?v=21' with {type:'json'};
+import {palette as p,color} from '../theme/palette.js?v=21';
+import {stringsFor} from '../systems/Strings.js?v=21';
+import {WordBanks} from '../systems/PuzzleContent.js?v=21';
+import {PuzzleOverlay,el,button,themeElement} from '../ui/PuzzleOverlay.js?v=21';
+import {kataKunci} from '../systems/KataKunci.js?v=21';
 export class PuzzleRoom extends Phaser.Scene{
  constructor(){super('puzzle-room')}
  create(){this.t=stringsFor(this.game.settings.language).puzzle;this.cameras.main.setBackgroundColor(p.stage1.far);this.pulses=0;this.buffs=0;this.stuns=0;this.wallet={hp:cfg.testHealth,kata:cfg.testKata};this.pulseText=this.add.text(24,500,'',{font:'18px sans-serif',color:p.kata});this.orb=this.add.circle(900,505,12,color(p.gold));this.time.addEvent({delay:cfg.testPulseMs,loop:true,callback:()=>{this.pulses++;this.pulseText.setText(`${this.t.pulse}: ${this.pulses} · ${this.t.buff}: ${this.buffs} · ${this.t.correct}: ${this.stuns}`);this.orb.setX(this.orb.x===900?850:900)}});this.panel=el('section',undefined,document.body,'puzzle-room');themeElement(this.panel);this.panel.setAttribute('aria-label',this.t.room);this.events.once('shutdown',()=>{this.panel.remove();this.overlay?.close(null,true)});this.loadBanks()}

@@ -1,1 +1,193 @@
-{"resolution":{"width":960,"height":540},"input":{"pointers":4,"minimumTarget":56,"deadzone":0.15,"stickRadius":52},"movement":{"run":205,"jump":470,"gravity":950,"coyoteMs":120,"bufferMs":120,"wallSlideSpeed":95,"wallJumpX":270,"wallJumpY":400,"dashSpeed":410,"dashMs":180,"glideGravity":220,"doubleJumpVelocity":430,"jumpTapWindowMs":500},"hero":{"health":5,"maxHealth":5,"inkMax":100,"inkPerHit":12,"inkPerParry":22,"healCost":55,"healAmount":1,"healMs":600,"hurtInvincibleMs":900,"langkahSpeed":390,"langkahMs":170,"langkahInvincibleMs":200,"parryMs":330,"parryCooldownMs":400,"autoParryInkFactor":0.4,"slashCooldownMs":230,"slashMs":125,"slashDamage":1,"slashRange":68,"slashWidth":40,"pogoAssistRadius":88,"pogoBounce":315,"hitStopMs":55,"shakeMs":95,"shakeIntensity":0.003,"knockbackX":175,"knockbackY":175,"deathRespawnMs":1250,"stompBounce":345,"stompTopTolerance":13,"stompMinVelocity":75},"enemy":{"tellWhiteMs":220,"tellEmberMs":380,"attackMs":180,"cooldownMs":900,"range":72,"speed":46,"health":1,"damage":1,"kataChance":0.45,"kataValue":1,"dropSpeed":24,"dropLifetimeMs":1250,"collectRadius":25},"difficulties":{"mudah":{"tellMultiplier":1.35,"enemyDamage":1,"enemyHealthMultiplier":0.75,"autoParryWindowMultiplier":1.5},"biasa":{"tellMultiplier":1,"enemyDamage":1,"enemyHealthMultiplier":1,"autoParryWindowMultiplier":1},"mahir":{"tellMultiplier":0.85,"enemyDamage":1,"enemyHealthMultiplier":1.4,"autoParryWindowMultiplier":0.75}},"arena":{"worldWidth":1580,"groundY":472,"pitStart":490,"pitEnd":590,"benchX":220,"spawnX":270,"spawnY":400,"enemyCount":4,"platforms":[[650,394,160,17],[990,398,160,17],[1330,390,160,17]],"wall":[1170,428,24,88],"enemyStartX":390,"enemySpacing":350,"wallPieces":[[1170,407,24,46],[1170,463,24,18]],"tinyGap":{"x":1170,"y":442,"height":24,"targetX":1210}},"ui":{"buttonRadius":32,"minRadius":28,"maxRadius":50,"stickX":110,"stickY":418,"buttons":{"jump":[852,428,58],"attack":[762,344,35]},"hudY":18,"layoutVersion":4},"graphics":{"heroSize":64,"heroHeight":44,"rimWidth":2,"animationFps":10,"particlesNormal":11,"particlesLow":4},"performance":{"lowFps":30,"normalFps":60},"camera":{"zoom":1.22,"followLerp":0.11,"deadzoneWidth":100,"deadzoneHeight":80}}
+{
+  "resolution": {
+    "width": 960,
+    "height": 540
+  },
+  "input": {
+    "pointers": 4,
+    "minimumTarget": 56,
+    "deadzone": 0.15,
+    "stickRadius": 52
+  },
+  "movement": {
+    "run": 205,
+    "jump": 470,
+    "gravity": 950,
+    "coyoteMs": 120,
+    "bufferMs": 120,
+    "wallSlideSpeed": 95,
+    "wallJumpX": 270,
+    "wallJumpY": 400,
+    "dashSpeed": 410,
+    "dashMs": 180,
+    "glideGravity": 220,
+    "doubleJumpVelocity": 430,
+    "jumpTapWindowMs": 500,
+    "wallPushMs": 210
+  },
+  "hero": {
+    "health": 5,
+    "maxHealth": 5,
+    "inkMax": 100,
+    "inkPerHit": 12,
+    "inkPerParry": 22,
+    "healCost": 55,
+    "healAmount": 1,
+    "healMs": 600,
+    "hurtInvincibleMs": 900,
+    "langkahSpeed": 390,
+    "langkahMs": 170,
+    "langkahInvincibleMs": 200,
+    "parryMs": 330,
+    "parryCooldownMs": 400,
+    "autoParryInkFactor": 0.4,
+    "slashCooldownMs": 230,
+    "slashMs": 125,
+    "slashDamage": 1,
+    "slashRange": 68,
+    "slashWidth": 40,
+    "pogoAssistRadius": 88,
+    "pogoBounce": 315,
+    "hitStopMs": 55,
+    "shakeMs": 95,
+    "shakeIntensity": 0.003,
+    "knockbackX": 175,
+    "knockbackY": 175,
+    "deathRespawnMs": 1250,
+    "stompBounce": 345,
+    "stompTopTolerance": 13,
+    "stompMinVelocity": 75
+  },
+  "enemy": {
+    "tellWhiteMs": 220,
+    "tellEmberMs": 380,
+    "attackMs": 180,
+    "cooldownMs": 900,
+    "range": 72,
+    "speed": 46,
+    "health": 1,
+    "damage": 1,
+    "kataChance": 0.45,
+    "kataValue": 1,
+    "dropSpeed": 24,
+    "dropLifetimeMs": 1250,
+    "collectRadius": 25
+  },
+  "difficulties": {
+    "mudah": {
+      "tellMultiplier": 1.35,
+      "enemyDamage": 1,
+      "enemyHealthMultiplier": 0.75,
+      "autoParryWindowMultiplier": 1.5
+    },
+    "biasa": {
+      "tellMultiplier": 1,
+      "enemyDamage": 1,
+      "enemyHealthMultiplier": 1,
+      "autoParryWindowMultiplier": 1
+    },
+    "mahir": {
+      "tellMultiplier": 0.85,
+      "enemyDamage": 1,
+      "enemyHealthMultiplier": 1.4,
+      "autoParryWindowMultiplier": 0.75
+    }
+  },
+  "arena": {
+    "worldWidth": 1580,
+    "groundY": 472,
+    "pitStart": 490,
+    "pitEnd": 590,
+    "benchX": 220,
+    "spawnX": 270,
+    "spawnY": 400,
+    "enemyCount": 4,
+    "platforms": [
+      [
+        650,
+        394,
+        160,
+        17
+      ],
+      [
+        990,
+        398,
+        160,
+        17
+      ],
+      [
+        1330,
+        390,
+        160,
+        17
+      ]
+    ],
+    "wall": [
+      1170,
+      428,
+      24,
+      88
+    ],
+    "enemyStartX": 390,
+    "enemySpacing": 350,
+    "wallPieces": [
+      [
+        1170,
+        407,
+        24,
+        46
+      ],
+      [
+        1170,
+        463,
+        24,
+        18
+      ]
+    ],
+    "tinyGap": {
+      "x": 1170,
+      "y": 442,
+      "height": 24,
+      "targetX": 1210
+    }
+  },
+  "ui": {
+    "buttonRadius": 32,
+    "minRadius": 28,
+    "maxRadius": 50,
+    "stickX": 110,
+    "stickY": 418,
+    "buttons": {
+      "jump": [
+        852,
+        428,
+        58
+      ],
+      "attack": [
+        762,
+        344,
+        35
+      ]
+    },
+    "hudY": 18,
+    "layoutVersion": 4
+  },
+  "graphics": {
+    "heroSize": 64,
+    "heroHeight": 44,
+    "rimWidth": 2,
+    "animationFps": 10,
+    "particlesNormal": 11,
+    "particlesLow": 4
+  },
+  "performance": {
+    "lowFps": 30,
+    "normalFps": 60
+  },
+  "camera": {
+    "zoom": 1.22,
+    "followLerp": 0.11,
+    "deadzoneWidth": 100,
+    "deadzoneHeight": 80
+  }
+}

@@ -1,1 +1,67 @@
-{"schema":3,"heroName":"","look":"boy","skin":0,"language":"ms","difficulty":"biasa","abilities":{"wallJump":true,"dash":false,"glide":false,"doubleJump":true,"rangedAttack":false},"companions":{"kancil":{"unlocked":true,"setia":false,"quest":{"attempts":0,"replaysUsed":0,"closed":false,"active":false,"step":0,"mistakes":0}}},"autoParry":false,"shake":true,"lowPower":false,"masterVolume":0.5,"effectsVolume":0.7,"musicVolume":0.4,"layout":null,"layoutVersion":4,"party":["kancil"],"activeCompanion":"kancil","companionEffects":{"kancilHintBarrage":0},"repository":{"collected":[],"achievement":false},"charms":{"laju":{"owned":false,"notches":0,"equipped":false},"kebal":{"owned":false,"notches":0,"equipped":false}},"purchases":{"adFree":false},"benches":{"discovered":["entrance"],"selected":"entrance"}}
+{
+  "schema": 4,
+  "heroName": "",
+  "look": "boy",
+  "skin": 0,
+  "language": "ms",
+  "difficulty": "biasa",
+  "abilities": {
+    "wallJump": false,
+    "dash": false,
+    "glide": false,
+    "doubleJump": false,
+    "rangedAttack": false
+  },
+  "companions": {
+    "kancil": {
+      "unlocked": false,
+      "setia": false,
+      "quest": {
+        "attempts": 0,
+        "replaysUsed": 0,
+        "closed": false,
+        "active": false,
+        "step": 0,
+        "mistakes": 0
+      }
+    }
+  },
+  "autoParry": false,
+  "shake": true,
+  "lowPower": false,
+  "masterVolume": 0.5,
+  "effectsVolume": 0.7,
+  "musicVolume": 0.4,
+  "layout": null,
+  "layoutVersion": 4,
+  "party": [],
+  "activeCompanion": null,
+  "companionEffects": {
+    "kancilHintBarrage": 0
+  },
+  "repository": {
+    "collected": [],
+    "achievement": false
+  },
+  "charms": {
+    "laju": {
+      "owned": false,
+      "notches": 0,
+      "equipped": false
+    },
+    "kebal": {
+      "owned": false,
+      "notches": 0,
+      "equipped": false
+    }
+  },
+  "purchases": {
+    "adFree": false
+  },
+  "benches": {
+    "discovered": [
+      "entrance"
+    ],
+    "selected": "entrance"
+  }
+}

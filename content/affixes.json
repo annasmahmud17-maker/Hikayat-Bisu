@@ -1,462 +1,677 @@
 [
   {
-    "id": "affix-01",
     "tier": "mudah",
-    "topic": "affix",
+    "topic": "rimba-aksara",
     "stage": 1,
-    "domain": "general",
-    "acceptedAnswers": [
-      "menulis"
-    ],
-    "hint": "Bentuk yang betul bermula dengan men.",
+    "domain": "sky-nature",
+    "hint": "",
     "syllabusRef": "",
     "reviewStatus": "draft",
     "notes": "Draf untuk semakan editor bahasa.",
+    "id": "rimba-1b-mudah-1",
     "root": "tulis",
     "affix": "meN-",
     "correctForm": "menulis",
+    "acceptedAnswers": [
+      "menulis"
+    ],
     "wrongForms": [
-      "tulis",
-      "tulisi",
+      "metulis",
+      "tulisan",
       "tulisnya"
     ],
     "ruleNote": "meN- + tulis → menulis"
   },
   {
-    "id": "affix-02",
     "tier": "mudah",
-    "topic": "affix",
+    "topic": "rimba-aksara",
     "stage": 1,
-    "domain": "general",
-    "acceptedAnswers": [
-      "membaca"
-    ],
-    "hint": "Bentuk yang betul bermula dengan mem.",
+    "domain": "sky-nature",
+    "hint": "",
     "syllabusRef": "",
     "reviewStatus": "draft",
     "notes": "Draf untuk semakan editor bahasa.",
+    "id": "rimba-1b-mudah-2",
     "root": "baca",
     "affix": "meN-",
     "correctForm": "membaca",
+    "acceptedAnswers": [
+      "membaca"
+    ],
     "wrongForms": [
-      "baca",
-      "bacai",
+      "mebaca",
+      "bacaan",
       "bacanya"
     ],
     "ruleNote": "meN- + baca → membaca"
   },
   {
-    "id": "affix-03",
     "tier": "mudah",
-    "topic": "affix",
+    "topic": "rimba-aksara",
     "stage": 1,
-    "domain": "general",
-    "acceptedAnswers": [
-      "berjalan"
-    ],
-    "hint": "Bentuk yang betul bermula dengan ber.",
+    "domain": "sky-nature",
+    "hint": "",
     "syllabusRef": "",
     "reviewStatus": "draft",
     "notes": "Draf untuk semakan editor bahasa.",
-    "root": "jalan",
-    "affix": "ber-",
-    "correctForm": "berjalan",
-    "wrongForms": [
-      "jalan",
-      "jalani",
-      "jalannya"
-    ],
-    "ruleNote": "ber- + jalan → berjalan"
-  },
-  {
-    "id": "affix-04",
-    "tier": "mudah",
-    "topic": "affix",
-    "stage": 1,
-    "domain": "general",
-    "acceptedAnswers": [
-      "dibuka"
-    ],
-    "hint": "Bentuk yang betul bermula dengan dib.",
-    "syllabusRef": "",
-    "reviewStatus": "draft",
-    "notes": "Draf untuk semakan editor bahasa.",
-    "root": "buka",
-    "affix": "di-",
-    "correctForm": "dibuka",
-    "wrongForms": [
-      "buka",
-      "bukai",
-      "bukanya"
-    ],
-    "ruleNote": "di- + buka → dibuka"
-  },
-  {
-    "id": "affix-05",
-    "tier": "mudah",
-    "topic": "affix",
-    "stage": 1,
-    "domain": "general",
-    "acceptedAnswers": [
-      "terjatuh"
-    ],
-    "hint": "Bentuk yang betul bermula dengan ter.",
-    "syllabusRef": "",
-    "reviewStatus": "draft",
-    "notes": "Draf untuk semakan editor bahasa.",
-    "root": "jatuh",
-    "affix": "ter-",
-    "correctForm": "terjatuh",
-    "wrongForms": [
-      "jatuh",
-      "jatuhi",
-      "jatuhnya"
-    ],
-    "ruleNote": "ter- + jatuh → terjatuh"
-  },
-  {
-    "id": "affix-06",
-    "tier": "mudah",
-    "topic": "affix",
-    "stage": 1,
-    "domain": "general",
-    "acceptedAnswers": [
-      "pelajar"
-    ],
-    "hint": "Bentuk yang betul bermula dengan pel.",
-    "syllabusRef": "",
-    "reviewStatus": "draft",
-    "notes": "Draf untuk semakan editor bahasa.",
-    "root": "ajar",
-    "affix": "pe-",
-    "correctForm": "pelajar",
-    "wrongForms": [
-      "ajar",
-      "ajari",
-      "ajarnya"
-    ],
-    "ruleNote": "pe- + ajar → pelajar"
-  },
-  {
-    "id": "affix-07",
-    "tier": "mudah",
-    "topic": "affix",
-    "stage": 1,
-    "domain": "general",
-    "acceptedAnswers": [
-      "makanan"
-    ],
-    "hint": "Bentuk yang betul bermula dengan mak.",
-    "syllabusRef": "",
-    "reviewStatus": "draft",
-    "notes": "Draf untuk semakan editor bahasa.",
-    "root": "makan",
-    "affix": "-an",
-    "correctForm": "makanan",
-    "wrongForms": [
-      "makan",
-      "makani",
-      "makannya"
-    ],
-    "ruleNote": "-an + makan → makanan"
-  },
-  {
-    "id": "affix-08",
-    "tier": "biasa",
-    "topic": "affix",
-    "stage": 1,
-    "domain": "general",
-    "acceptedAnswers": [
-      "menyapu"
-    ],
-    "hint": "Bentuk yang betul bermula dengan men.",
-    "syllabusRef": "",
-    "reviewStatus": "draft",
-    "notes": "Draf untuk semakan editor bahasa.",
+    "id": "rimba-1b-mudah-3",
     "root": "sapu",
     "affix": "meN-",
     "correctForm": "menyapu",
+    "acceptedAnswers": [
+      "menyapu"
+    ],
     "wrongForms": [
-      "sapu",
-      "sapui",
+      "mesapu",
+      "sapuan",
       "sapunya"
     ],
     "ruleNote": "meN- + sapu → menyapu"
   },
   {
-    "id": "affix-09",
-    "tier": "biasa",
-    "topic": "affix",
+    "tier": "mudah",
+    "topic": "rimba-aksara",
     "stage": 1,
-    "domain": "general",
-    "acceptedAnswers": [
-      "memukul"
-    ],
-    "hint": "Bentuk yang betul bermula dengan mem.",
+    "domain": "sky-nature",
+    "hint": "",
     "syllabusRef": "",
     "reviewStatus": "draft",
     "notes": "Draf untuk semakan editor bahasa.",
+    "id": "rimba-1b-mudah-4",
+    "root": "jalan",
+    "affix": "ber-",
+    "correctForm": "berjalan",
+    "acceptedAnswers": [
+      "berjalan"
+    ],
+    "wrongForms": [
+      "jalanan",
+      "jalannya"
+    ],
+    "ruleNote": "ber- + jalan → berjalan"
+  },
+  {
+    "tier": "mudah",
+    "topic": "rimba-aksara",
+    "stage": 1,
+    "domain": "sky-nature",
+    "hint": "",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "id": "rimba-1b-mudah-5",
+    "root": "main",
+    "affix": "ber-",
+    "correctForm": "bermain",
+    "acceptedAnswers": [
+      "bermain"
+    ],
+    "wrongForms": [
+      "mainan",
+      "mainnya"
+    ],
+    "ruleNote": "ber- + main → bermain"
+  },
+  {
+    "tier": "mudah",
+    "topic": "rimba-aksara",
+    "stage": 1,
+    "domain": "sky-nature",
+    "hint": "",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "id": "rimba-1b-mudah-6",
+    "root": "lari",
+    "affix": "ber-",
+    "correctForm": "berlari",
+    "acceptedAnswers": [
+      "berlari"
+    ],
+    "wrongForms": [
+      "larian",
+      "larinya"
+    ],
+    "ruleNote": "ber- + lari → berlari"
+  },
+  {
+    "tier": "mudah",
+    "topic": "rimba-aksara",
+    "stage": 1,
+    "domain": "sky-nature",
+    "hint": "",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "id": "rimba-1b-mudah-7",
+    "root": "baca",
+    "affix": "di-",
+    "correctForm": "dibaca",
+    "acceptedAnswers": [
+      "dibaca"
+    ],
+    "wrongForms": [
+      "bacaan",
+      "bacanya"
+    ],
+    "ruleNote": "di- + baca → dibaca"
+  },
+  {
+    "tier": "mudah",
+    "topic": "rimba-aksara",
+    "stage": 1,
+    "domain": "sky-nature",
+    "hint": "",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "id": "rimba-1b-mudah-8",
+    "root": "tulis",
+    "affix": "di-",
+    "correctForm": "ditulis",
+    "acceptedAnswers": [
+      "ditulis"
+    ],
+    "wrongForms": [
+      "tulisan",
+      "tulisnya"
+    ],
+    "ruleNote": "di- + tulis → ditulis"
+  },
+  {
+    "tier": "mudah",
+    "topic": "rimba-aksara",
+    "stage": 1,
+    "domain": "sky-nature",
+    "hint": "",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "id": "rimba-1b-mudah-9",
+    "root": "buka",
+    "affix": "di-",
+    "correctForm": "dibuka",
+    "acceptedAnswers": [
+      "dibuka"
+    ],
+    "wrongForms": [
+      "bukaan",
+      "bukanya"
+    ],
+    "ruleNote": "di- + buka → dibuka"
+  },
+  {
+    "tier": "mudah",
+    "topic": "rimba-aksara",
+    "stage": 1,
+    "domain": "sky-nature",
+    "hint": "",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "id": "rimba-1b-mudah-10",
     "root": "pukul",
     "affix": "meN-",
     "correctForm": "memukul",
+    "acceptedAnswers": [
+      "memukul"
+    ],
     "wrongForms": [
-      "pukul",
-      "pukuli",
+      "mepukul",
+      "pukulan",
       "pukulnya"
     ],
     "ruleNote": "meN- + pukul → memukul"
   },
   {
-    "id": "affix-10",
     "tier": "biasa",
-    "topic": "affix",
+    "topic": "rimba-aksara",
     "stage": 1,
-    "domain": "general",
-    "acceptedAnswers": [
-      "mengira"
-    ],
-    "hint": "Bentuk yang betul bermula dengan men.",
+    "domain": "sky-nature",
+    "hint": "",
     "syllabusRef": "",
     "reviewStatus": "draft",
     "notes": "Draf untuk semakan editor bahasa.",
+    "id": "rimba-1b-biasa-1",
+    "root": "tanam",
+    "affix": "meN-",
+    "correctForm": "menanam",
+    "acceptedAnswers": [
+      "menanam"
+    ],
+    "wrongForms": [
+      "metanam",
+      "tanaman",
+      "tanamnya"
+    ],
+    "ruleNote": "meN- + tanam → menanam"
+  },
+  {
+    "tier": "biasa",
+    "topic": "rimba-aksara",
+    "stage": 1,
+    "domain": "sky-nature",
+    "hint": "",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "id": "rimba-1b-biasa-2",
     "root": "kira",
     "affix": "meN-",
     "correctForm": "mengira",
+    "acceptedAnswers": [
+      "mengira"
+    ],
     "wrongForms": [
-      "kira",
-      "kirai",
+      "mekira",
+      "kiraan",
       "kiranya"
     ],
     "ruleNote": "meN- + kira → mengira"
   },
   {
-    "id": "affix-11",
     "tier": "biasa",
-    "topic": "affix",
+    "topic": "rimba-aksara",
     "stage": 1,
-    "domain": "general",
-    "acceptedAnswers": [
-      "hantarkan"
-    ],
-    "hint": "Bentuk yang betul bermula dengan han.",
+    "domain": "sky-nature",
+    "hint": "",
     "syllabusRef": "",
     "reviewStatus": "draft",
     "notes": "Draf untuk semakan editor bahasa.",
-    "root": "hantar",
-    "affix": "-kan",
-    "correctForm": "hantarkan",
-    "wrongForms": [
-      "hantar",
-      "hantari",
-      "hantarnya"
-    ],
-    "ruleNote": "-kan + hantar → hantarkan"
-  },
-  {
-    "id": "affix-12",
-    "tier": "biasa",
-    "topic": "affix",
-    "stage": 1,
-    "domain": "general",
-    "acceptedAnswers": [
-      "bacaan"
-    ],
-    "hint": "Bentuk yang betul bermula dengan bac.",
-    "syllabusRef": "",
-    "reviewStatus": "draft",
-    "notes": "Draf untuk semakan editor bahasa.",
-    "root": "baca",
-    "affix": "-an",
-    "correctForm": "bacaan",
-    "wrongForms": [
-      "baca",
-      "bacai",
-      "bacanya"
-    ],
-    "ruleNote": "-an + baca → bacaan"
-  },
-  {
-    "id": "affix-13",
-    "tier": "biasa",
-    "topic": "affix",
-    "stage": 1,
-    "domain": "general",
-    "acceptedAnswers": [
-      "keindahan"
-    ],
-    "hint": "Bentuk yang betul bermula dengan kei.",
-    "syllabusRef": "",
-    "reviewStatus": "draft",
-    "notes": "Draf untuk semakan editor bahasa.",
-    "root": "indah",
-    "affix": "ke-an",
-    "correctForm": "keindahan",
-    "wrongForms": [
-      "indah",
-      "indahi",
-      "indahnya"
-    ],
-    "ruleNote": "ke-an + indah → keindahan"
-  },
-  {
-    "id": "affix-14",
-    "tier": "biasa",
-    "topic": "affix",
-    "stage": 1,
-    "domain": "general",
-    "acceptedAnswers": [
-      "kekecilan"
-    ],
-    "hint": "Bentuk yang betul bermula dengan kek.",
-    "syllabusRef": "",
-    "reviewStatus": "draft",
-    "notes": "Draf untuk semakan editor bahasa.",
-    "root": "kecil",
-    "affix": "ke-an",
-    "correctForm": "kekecilan",
-    "wrongForms": [
-      "kecil",
-      "kecili",
-      "kecilnya"
-    ],
-    "ruleNote": "ke-an + kecil → kekecilan"
-  },
-  {
-    "id": "affix-15",
-    "tier": "mahir",
-    "topic": "affix",
-    "stage": 1,
-    "domain": "general",
-    "acceptedAnswers": [
-      "menterjemah"
-    ],
-    "hint": "Bentuk yang betul bermula dengan men.",
-    "syllabusRef": "",
-    "reviewStatus": "draft",
-    "notes": "Draf untuk semakan editor bahasa.",
-    "root": "terjemah",
+    "id": "rimba-1b-biasa-3",
+    "root": "ajar",
     "affix": "meN-",
-    "correctForm": "menterjemah",
-    "wrongForms": [
-      "terjemah",
-      "terjemahi",
-      "terjemahnya"
+    "correctForm": "mengajar",
+    "acceptedAnswers": [
+      "mengajar"
     ],
-    "ruleNote": "meN- + terjemah → menterjemah"
+    "wrongForms": [
+      "meajar",
+      "ajaran",
+      "ajarnya"
+    ],
+    "ruleNote": "meN- + ajar → mengajar"
   },
   {
-    "id": "affix-16",
-    "tier": "mahir",
-    "topic": "affix",
+    "tier": "biasa",
+    "topic": "rimba-aksara",
     "stage": 1,
-    "domain": "general",
-    "acceptedAnswers": [
-      "perancang"
-    ],
-    "hint": "Bentuk yang betul bermula dengan per.",
+    "domain": "sky-nature",
+    "hint": "",
     "syllabusRef": "",
     "reviewStatus": "draft",
     "notes": "Draf untuk semakan editor bahasa.",
-    "root": "rancang",
-    "affix": "pe-",
-    "correctForm": "perancang",
-    "wrongForms": [
-      "rancang",
-      "rancangi",
-      "rancangnya"
-    ],
-    "ruleNote": "pe- + rancang → perancang"
-  },
-  {
-    "id": "affix-17",
-    "tier": "mahir",
-    "topic": "affix",
-    "stage": 1,
-    "domain": "general",
-    "acceptedAnswers": [
-      "bersatu"
-    ],
-    "hint": "Bentuk yang betul bermula dengan ber.",
-    "syllabusRef": "",
-    "reviewStatus": "draft",
-    "notes": "Draf untuk semakan editor bahasa.",
-    "root": "satu",
+    "id": "rimba-1b-biasa-4",
+    "root": "kerja",
     "affix": "ber-",
-    "correctForm": "bersatu",
-    "wrongForms": [
-      "satu",
-      "satui",
-      "satunya"
+    "correctForm": "bekerja",
+    "acceptedAnswers": [
+      "bekerja"
     ],
-    "ruleNote": "ber- + satu → bersatu"
+    "wrongForms": [
+      "berkerja",
+      "kerjaan",
+      "kerjanya"
+    ],
+    "ruleNote": "ber- + kerja → bekerja"
   },
   {
-    "id": "affix-18",
-    "tier": "mahir",
-    "topic": "affix",
+    "tier": "biasa",
+    "topic": "rimba-aksara",
     "stage": 1,
-    "domain": "general",
-    "acceptedAnswers": [
-      "diletak"
-    ],
-    "hint": "Bentuk yang betul bermula dengan dil.",
+    "domain": "sky-nature",
+    "hint": "",
     "syllabusRef": "",
     "reviewStatus": "draft",
     "notes": "Draf untuk semakan editor bahasa.",
-    "root": "letak",
+    "id": "rimba-1b-biasa-5",
+    "root": "ajar",
+    "affix": "ber-",
+    "correctForm": "belajar",
+    "acceptedAnswers": [
+      "belajar"
+    ],
+    "wrongForms": [
+      "berajar",
+      "ajaran",
+      "ajarnya"
+    ],
+    "ruleNote": "ber- + ajar → belajar"
+  },
+  {
+    "tier": "biasa",
+    "topic": "rimba-aksara",
+    "stage": 1,
+    "domain": "sky-nature",
+    "hint": "",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "id": "rimba-1b-biasa-6",
+    "root": "kata",
+    "affix": "ber-",
+    "correctForm": "berkata",
+    "acceptedAnswers": [
+      "berkata"
+    ],
+    "wrongForms": [
+      "kataan",
+      "katanya"
+    ],
+    "ruleNote": "ber- + kata → berkata"
+  },
+  {
+    "tier": "biasa",
+    "topic": "rimba-aksara",
+    "stage": 1,
+    "domain": "sky-nature",
+    "hint": "",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "id": "rimba-1b-biasa-7",
+    "root": "susun",
     "affix": "di-",
-    "correctForm": "diletak",
-    "wrongForms": [
-      "letak",
-      "letaki",
-      "letaknya"
+    "correctForm": "disusun",
+    "acceptedAnswers": [
+      "disusun"
     ],
-    "ruleNote": "di- + letak → diletak"
+    "wrongForms": [
+      "susunan",
+      "susunnya"
+    ],
+    "ruleNote": "di- + susun → disusun"
   },
   {
-    "id": "affix-19",
-    "tier": "mahir",
-    "topic": "affix",
+    "tier": "biasa",
+    "topic": "rimba-aksara",
     "stage": 1,
-    "domain": "general",
-    "acceptedAnswers": [
-      "terlaksana"
-    ],
-    "hint": "Bentuk yang betul bermula dengan ter.",
+    "domain": "sky-nature",
+    "hint": "",
     "syllabusRef": "",
     "reviewStatus": "draft",
     "notes": "Draf untuk semakan editor bahasa.",
-    "root": "laksana",
-    "affix": "ter-",
-    "correctForm": "terlaksana",
-    "wrongForms": [
-      "laksana",
-      "laksanai",
-      "laksananya"
+    "id": "rimba-1b-biasa-8",
+    "root": "tanam",
+    "affix": "di-",
+    "correctForm": "ditanam",
+    "acceptedAnswers": [
+      "ditanam"
     ],
-    "ruleNote": "ter- + laksana → terlaksana"
+    "wrongForms": [
+      "tanaman",
+      "tanamnya"
+    ],
+    "ruleNote": "di- + tanam → ditanam"
   },
   {
-    "id": "affix-20",
-    "tier": "mahir",
-    "topic": "affix",
+    "tier": "biasa",
+    "topic": "rimba-aksara",
     "stage": 1,
-    "domain": "general",
-    "acceptedAnswers": [
-      "kesihatan"
-    ],
-    "hint": "Bentuk yang betul bermula dengan kes.",
+    "domain": "sky-nature",
+    "hint": "",
     "syllabusRef": "",
     "reviewStatus": "draft",
     "notes": "Draf untuk semakan editor bahasa.",
-    "root": "sihat",
-    "affix": "ke-an",
-    "correctForm": "kesihatan",
-    "wrongForms": [
-      "sihat",
-      "sihati",
-      "sihatnya"
+    "id": "rimba-1b-biasa-9",
+    "root": "jumpa",
+    "affix": "ber-",
+    "correctForm": "berjumpa",
+    "acceptedAnswers": [
+      "berjumpa"
     ],
-    "ruleNote": "ke-an + sihat → kesihatan"
+    "wrongForms": [
+      "jumpaan",
+      "jumpanya"
+    ],
+    "ruleNote": "ber- + jumpa → berjumpa"
+  },
+  {
+    "tier": "biasa",
+    "topic": "rimba-aksara",
+    "stage": 1,
+    "domain": "sky-nature",
+    "hint": "",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "id": "rimba-1b-biasa-10",
+    "root": "pilih",
+    "affix": "meN-",
+    "correctForm": "memilih",
+    "acceptedAnswers": [
+      "memilih"
+    ],
+    "wrongForms": [
+      "mepilih",
+      "pilihan",
+      "pilihnya"
+    ],
+    "ruleNote": "meN- + pilih → memilih"
+  },
+  {
+    "tier": "mahir",
+    "topic": "rimba-aksara",
+    "stage": 1,
+    "domain": "sky-nature",
+    "hint": "",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "id": "rimba-1b-mahir-1",
+    "root": "cat",
+    "affix": "meN-",
+    "correctForm": "mengecat",
+    "acceptedAnswers": [
+      "mengecat"
+    ],
+    "wrongForms": [
+      "mecat",
+      "catan",
+      "catnya"
+    ],
+    "ruleNote": "meN- + cat → mengecat"
+  },
+  {
+    "tier": "mahir",
+    "topic": "rimba-aksara",
+    "stage": 1,
+    "domain": "sky-nature",
+    "hint": "",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "id": "rimba-1b-mahir-2",
+    "root": "bom",
+    "affix": "meN-",
+    "correctForm": "mengebom",
+    "acceptedAnswers": [
+      "mengebom"
+    ],
+    "wrongForms": [
+      "mebom",
+      "boman",
+      "bomnya"
+    ],
+    "ruleNote": "meN- + bom → mengebom"
+  },
+  {
+    "tier": "mahir",
+    "topic": "rimba-aksara",
+    "stage": 1,
+    "domain": "sky-nature",
+    "hint": "",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "id": "rimba-1b-mahir-3",
+    "root": "siasat",
+    "affix": "meN-",
+    "correctForm": "menyiasat",
+    "acceptedAnswers": [
+      "menyiasat"
+    ],
+    "wrongForms": [
+      "mesiasat",
+      "siasatan",
+      "siasatnya"
+    ],
+    "ruleNote": "meN- + siasat → menyiasat"
+  },
+  {
+    "tier": "mahir",
+    "topic": "rimba-aksara",
+    "stage": 1,
+    "domain": "sky-nature",
+    "hint": "",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "id": "rimba-1b-mahir-4",
+    "root": "kaji",
+    "affix": "meN-",
+    "correctForm": "mengkaji",
+    "acceptedAnswers": [
+      "mengkaji"
+    ],
+    "wrongForms": [
+      "mekaji",
+      "kajian",
+      "kajinya"
+    ],
+    "ruleNote": "meN- + kaji → mengkaji"
+  },
+  {
+    "tier": "mahir",
+    "topic": "rimba-aksara",
+    "stage": 1,
+    "domain": "sky-nature",
+    "hint": "",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "id": "rimba-1b-mahir-5",
+    "root": "diri",
+    "affix": "ber-",
+    "correctForm": "berdiri",
+    "acceptedAnswers": [
+      "berdiri"
+    ],
+    "wrongForms": [
+      "dirian",
+      "dirinya"
+    ],
+    "ruleNote": "ber- + diri → berdiri"
+  },
+  {
+    "tier": "mahir",
+    "topic": "rimba-aksara",
+    "stage": 1,
+    "domain": "sky-nature",
+    "hint": "",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "id": "rimba-1b-mahir-6",
+    "root": "erti",
+    "affix": "ber-",
+    "correctForm": "bererti",
+    "acceptedAnswers": [
+      "bererti"
+    ],
+    "wrongForms": [
+      "ertian",
+      "ertinya"
+    ],
+    "ruleNote": "ber- + erti → bererti"
+  },
+  {
+    "tier": "mahir",
+    "topic": "rimba-aksara",
+    "stage": 1,
+    "domain": "sky-nature",
+    "hint": "",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "id": "rimba-1b-mahir-7",
+    "root": "bincang",
+    "affix": "ber-",
+    "correctForm": "berbincang",
+    "acceptedAnswers": [
+      "berbincang"
+    ],
+    "wrongForms": [
+      "bincangan",
+      "bincangnya"
+    ],
+    "ruleNote": "ber- + bincang → berbincang"
+  },
+  {
+    "tier": "mahir",
+    "topic": "rimba-aksara",
+    "stage": 1,
+    "domain": "sky-nature",
+    "hint": "",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "id": "rimba-1b-mahir-8",
+    "root": "pelihara",
+    "affix": "di-",
+    "correctForm": "dipelihara",
+    "acceptedAnswers": [
+      "dipelihara"
+    ],
+    "wrongForms": [
+      "peliharaan",
+      "peliharanya"
+    ],
+    "ruleNote": "di- + pelihara → dipelihara"
+  },
+  {
+    "tier": "mahir",
+    "topic": "rimba-aksara",
+    "stage": 1,
+    "domain": "sky-nature",
+    "hint": "",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "id": "rimba-1b-mahir-9",
+    "root": "selidik",
+    "affix": "di-",
+    "correctForm": "diselidik",
+    "acceptedAnswers": [
+      "diselidik"
+    ],
+    "wrongForms": [
+      "selidikan",
+      "selidiknya"
+    ],
+    "ruleNote": "di- + selidik → diselidik"
+  },
+  {
+    "tier": "mahir",
+    "topic": "rimba-aksara",
+    "stage": 1,
+    "domain": "sky-nature",
+    "hint": "",
+    "syllabusRef": "",
+    "reviewStatus": "draft",
+    "notes": "Draf untuk semakan editor bahasa.",
+    "id": "rimba-1b-mahir-10",
+    "root": "tafsir",
+    "affix": "meN-",
+    "correctForm": "mentafsir",
+    "acceptedAnswers": [
+      "mentafsir"
+    ],
+    "wrongForms": [
+      "metafsir",
+      "tafsiran",
+      "tafsirnya"
+    ],
+    "ruleNote": "meN- + tafsir → mentafsir"
   }
 ]

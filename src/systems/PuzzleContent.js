@@ -1,4 +1,4 @@
-import cfg from '../config/puzzles.json?v=18' with {type:'json'};
+import cfg from '../config/puzzles.json?v=21' with {type:'json'};
 export const normalize=value=>String(value??'').normalize('NFC').trim().replace(/\s+/gu,' ').toLocaleLowerCase();
 export const accepts=(value,answers)=>answers.some(answer=>normalize(answer)===normalize(value));
 export function shuffle(list,random=Math.random){const out=[...list];for(let i=out.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[out[i],out[j]]=[out[j],out[i]]}return out}
