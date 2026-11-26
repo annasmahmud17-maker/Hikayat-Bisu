@@ -14,8 +14,7 @@ jobs:
       - name: Create immutable legacy tag
         shell: bash
         run: |
-          existing=$(gh api "repos/$GITHUB_REPOSITORY/git/ref/tags/legacy-sidescroller" --jq .object.sha 2>/dev/null || true)
-          if [ -n "$existing" ]; then
+          if existing=$(gh api "repos/$GITHUB_REPOSITORY/git/ref/tags/legacy-sidescroller" --jq .object.sha 2>/dev/null); then
             test "$existing" = "$LEGACY_SHA"
           else
             gh api "repos/$GITHUB_REPOSITORY/git/refs" -f ref=refs/tags/legacy-sidescroller -f sha="$LEGACY_SHA"
