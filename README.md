@@ -19,3 +19,7 @@ Balai Cerita → **Bilik Ujian Teka-teki** opens the isolated puzzle test room. 
 Run engine/content checks with `node --test tests/puzzles.test.mjs` (Node 24+). See [`docs/phase-2-qa.md`](docs/phase-2-qa.md) for phone checks and remaining editorial/device review.
 
 To use in a stage, load `WordBanks`, construct one `PuzzleOverlay(scene, banks)`, then call `overlay.open('1a', {tier, onCorrect, onClose})`. It defaults to `scene.hero.hp`, `scene.kata` and the saved Kancil party flag. A custom `wallet: {hp, kata}` can be supplied. Import `kataKunci` and call `kataKunci(overlay, '3b', {boss: {stun(){…}, buff(){…}}})` for a boss. Callbacks run after the closing transition and action restoration. Keep the overlay instance per scene to prevent concurrent modals.
+
+### Phase 3 camp test
+
+Enter a hero name and open **Balai Cerita**. Use Pasukan to choose one or two companions (unlock a second through the three-finger debug panel), Setia for Kancil's three riddle chains, Azimat for the two-notch samples, and Peribahasa for collected boss sayings. The debug panel can add each draft peribahasa and toggle an ad-free test flag. Earn Kata by stomping enemies in the arena; discover the far Pondok to use fast travel from the camp map. A free Setia replay shows an opt-in five-second mock ad; the ad-free test flag skips it but still charges Kata. Reload to check persistence. The seven proverb meanings remain drafts pending Malay editorial review.
